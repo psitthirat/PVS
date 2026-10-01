@@ -1,0 +1,5 @@
+﻿Group,n (group),n with exact age,"<45 among exact-age, n (%)","<45 / whole group (the figure's implicit rule), %","Under 50 by age BAND, n (%) — fully observed"
+public primary care,634,565,207 (36.6),32.6,278 (43.8)
+public hospital OPD/ER,615,518,199 (38.4),32.4,286 (46.5)
+private clinic/pharmacy,142,107,71 (66.4),50.0,108 (76.1)
+private hospital OPD/ER,127,107,46 (43.0),36.2,82 (64.6)

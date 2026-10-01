@@ -1,0 +1,14 @@
+# Direct dependencies for the current September revision.
+# Verified in a fresh Python 3.13.2 environment on 2026-09-30.
+# For the complete resolved environment, use requirements-lock.txt.
+numpy==2.4.6
+pandas==3.0.3
+scipy==1.17.1
+scikit-learn==1.9.0
+statsmodels==0.14.6
+matplotlib==3.11.0
+openpyxl==3.1.5
+python-docx==1.2.0
+ipython==9.14.1
+tabulate==0.10.0
+tqdm==4.68.2

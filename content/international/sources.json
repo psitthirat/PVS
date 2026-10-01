@@ -1,0 +1,56 @@
+{
+  "kruk_2024": {
+    "citation": "Kruk ME, Kapoor NR, Lewis TP, et al. Population confidence in the health system in 15 countries: results from the first round of the People’s Voice Survey. Lancet Glob Health. 2024;12(1):e100–e111.",
+    "doi": "10.1016/S2214-109X(23)00499-0",
+    "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC10716625/",
+    "article_xml_url": "https://www.ebi.ac.uk/europepmc/webservices/rest/PMC10716625/fullTextXML",
+    "article_xml_sha256": "0806f89542182c8860dc371bf3d6648e6cfc0fae71a87bff2db5134ef7c3e767",
+    "figure_urls": {
+      "Figure 2": "https://cdn.ncbi.nlm.nih.gov/pmc/blobs/eed2/10716625/d2bfe21a82da/gr2.jpg",
+      "Figure 3": "https://cdn.ncbi.nlm.nih.gov/pmc/blobs/eed2/10716625/25ea46a45506/gr3.jpg"
+    },
+    "figure_sha256": {
+      "Figure 2": "7fbdb5c7d84b0dc609c0a28075b6ebd9caee296e4ce735d16e7f4167047b2bca",
+      "Figure 3": "951ff9334c6a6403db1fe4fde51d3beef238bcfe36f6314e08cb0c3b8d78414a"
+    },
+    "coverage": "15 country/region surveys; Argentina is Province of Mendoza only. Thai study is separate.",
+    "fieldwork": "2022–2023; the article describes most fieldwork May 9, 2022 to July 16, 2023.",
+    "eligibility": "18 years and older",
+    "weighting": "Descriptive analyses use sampling and post-stratification weights as applicable. Values are transcribed exactly from Figures 2 and 3, including their Total.",
+    "aggregate_note": "Retain Total as the reported 15-country aggregate; do not recompute an arithmetic mean from country labels or add Thailand into it.",
+    "verification": "All thirteen metric series were recovered from local legacy plotting dictionaries, then every foreign/Total value visually compared with the primary figure labels. No values inferred from bar lengths, colour, or map shading.",
+    "source_license": "Article CC BY 4.0. Only attributed numerical facts are redistributed in this dataset; original figure images are not bundled.",
+    "license_url": "https://creativecommons.org/licenses/by/4.0/"
+  },
+  "croke_2024": {
+    "citation": "Croke K, Moshabela M, Kapoor NR, et al. Primary health care in practice: usual source of care and health system performance across 14 countries. Lancet Glob Health. 2024;12(1):e134–e144.",
+    "doi": "10.1016/S2214-109X(23)00513-2",
+    "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC10716626/",
+    "article_xml_url": "https://www.ebi.ac.uk/europepmc/webservices/rest/PMC10716626/fullTextXML",
+    "article_xml_sha256": "beba6f4c53069390d288b832e5ca7ef5a6d96a2e133496c3f9b87bc71e7656c6",
+    "locator": "Table 1, Unmet health-care need row",
+    "coverage": "14 countries/regions; Greece absent, Argentina=Province of Mendoza only",
+    "fieldwork": "May 9, 2022 (Laos) to April 3, 2023 (India)",
+    "recall": "Unmet need for care in the past year, as specified in Measures and analyses",
+    "weighting": "The study describes post-stratification weights. The reproduced Table 1 is presented as descriptive n (%) and all unmet percentages agree with the displayed counts/sample N to one decimal; these are retained as published, without substituting weighted values from other PVS papers.",
+    "aggregate_note": "Total is 3296/23230=14.2% from this 14-country Table 1. It is not a 15-country average and does not include Thailand.",
+    "verification": "The 15 published values (14 countries plus Total), including numerators and sample Ns, were directly parsed and programmatically checked against the primary article XML Table 1.",
+    "source_license": "PMC XML has conflicting license metadata: copyright-statement says CC BY 4.0, license_ref/license-p says CC BY-NC-ND 4.0. This dataset redistributes attributed numerical facts only; it does not reproduce or adapt the article or its creative figures.",
+    "license_url": "https://creativecommons.org/licenses/by-nc-nd/4.0/"
+  },
+  "local_recovery": {
+    "file": "archive/legacy/main.ipynb",
+    "cells_zero_based": [
+      17,
+      27,
+      30
+    ],
+    "sha256": "a54b6aa02e1268fe57c1ec4676cdfd5839cd07b84548eddc5c1d1733e0d7ba1e",
+    "source_report": "output/reports/ผลการสำรวจ_20260801.docx",
+    "note": "Only literal public-country plotting dictionaries were extracted using ast.literal_eval. No code executed, no notebook outputs or respondent data copied. Old Thai values are intentionally not taken from these dictionaries."
+  },
+  "verified_at": "2026-09-30",
+  "values_sha256": "91d2fe5ba8bc722b4a20e3c91cdd2c66d342bf524c4232b3293c68f236be79bf",
+  "row_count": 223,
+  "country_count_note": "Kruk13metrics each15countries+Total; Crokeunmet14countries+Total. Thai values belong to the separate current national_summary.csv."
+}

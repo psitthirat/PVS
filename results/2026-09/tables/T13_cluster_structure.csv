@@ -1,0 +1,7 @@
+﻿Level,Distinct units,Median n per unit
+Health region (stratum),13,161
+Province (one per region),13,161
+District,37,53
+Subdistrict (PPS-selected PSU),107,18
+Provinces per region (single-PSU check),"min 1, max 1",
+Subdistricts per province,"min 5, max 13",

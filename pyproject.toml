@@ -1,0 +1,26 @@
+[build-system]
+requires = ["setuptools>=77"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "pvs-thailand"
+version = "2026.9"
+description = "People's Voice Survey Thailand analysis and reporting"
+readme = "README.md"
+requires-python = ">=3.13"
+license = "MIT"
+license-files = ["LICENSE"]
+authors = [{name = "Peerasit Sitthirat", email = "peerasit.sit@mahidol.ac.th"}]
+dynamic = ["dependencies"]
+
+[project.optional-dependencies]
+notebook = ["nbformat>=5.10,<6", "nbclient>=0.10,<1", "ipykernel>=6,<8"]
+
+[project.scripts]
+pvs = "pvs.__main__:main"
+
+[tool.setuptools.packages.find]
+where = ["src"]
+
+[tool.setuptools.dynamic]
+dependencies = {file = ["requirements.txt"]}

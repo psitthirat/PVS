@@ -1,0 +1,77 @@
+# Exact file set selected for this release.
+*
+!.gitignore
+!manifest.csv
+!report.docx
+!figures/
+!tables/
+!figures/Figure 1 - Profile by provider group.png
+!figures/Figure 2 - Reason for choosing provider.png
+!figures/Figure 3 - Access and utilisation.png
+!figures/Figure 4 - Preventive services by provider group.png
+!figures/Figure 5 - Visit experience by domain.png
+!figures/Figure 6 - Adjusted differences private hospital users.png
+!figures/Figure 7 - Thailand vs India health security.png
+!figures/Figure A1 - Planned vs achieved sample.png
+!figures/Figure A2 - Preventive services adjusted.png
+!tables/T01_cohort_flow.csv
+!tables/T02_classification_map.csv
+!tables/T03_usual_vs_last_visit.csv
+!tables/T04_health_coding_impact.csv
+!tables/T05_age_denominator_audit.csv
+!tables/T06_denominator_rules.csv
+!tables/T07_complete_case_audit.csv
+!tables/T07b_complete_cases_by_group.csv
+!tables/T10_planned_vs_achieved_region.csv
+!tables/T11_quota_audit.csv
+!tables/T12_quota_cells.csv
+!tables/T13_cluster_structure.csv
+!tables/T14_full_sample_descriptives.csv
+!tables/T20_profile_by_group.csv
+!tables/T21_utilisation_by_group.csv
+!tables/T22_access_by_group.csv
+!tables/T23_confidence_by_group.csv
+!tables/T24_profile_binary.csv
+!tables/T25_reasons_binary.csv
+!tables/T26_utilisation_binary.csv
+!tables/T30_preventive_descriptive.csv
+!tables/T30b_preventive_descriptive_women.csv
+!tables/T30c_screening_by_sex_all_respondents.csv
+!tables/T31_preventive_adjusted.csv
+!tables/T32_preventive_model_notes.csv
+!tables/T33_preventive_clinic_vs_pharmacy.csv
+!tables/T34_preventive_incl_no_usual_source.csv
+!tables/T40_activation_by_group.csv
+!tables/T40b_activation_components_full_sample.csv
+!tables/T41_activation_associations.csv
+!tables/T42_activation_adjustment_effect.csv
+!tables/T50_experience_by_usual_group.csv
+!tables/T51_experience_by_last_visit_provider.csv
+!tables/T52_experience_concordant_only.csv
+!tables/T52b_concordance_sample_sizes.csv
+!tables/T53_structural_not_applicable.csv
+!tables/T54_experience_adjusted.csv
+!tables/T54b_experience_model_notes.csv
+!tables/T55_security_decomposition.csv
+!tables/T56_own_provider_rating_x_health_security.csv
+!tables/T57_high_rating_but_insecure.csv
+!tables/T58_confidence_adjusted.csv
+!tables/T59_core_outcomes_adjusted.csv
+!tables/T59b_core_model_notes.csv
+!tables/T60_admission_sensitivity.csv
+!tables/T70_financing_items_available.csv
+!tables/T71_private_hospital_users_coverage_overlap.csv
+!tables/T72_private_hospital_observed_profiles.csv
+!tables/T73_private_user_population_boundary.csv
+!tables/T74_target_one_way.csv
+!tables/T75_target_two_way.csv
+!tables/T76_target_segments_age_area_scheme.csv
+!tables/T77_target_segments_with_income.csv
+!tables/T78_target_adjusted.csv
+!tables/T79_target_definitions_compared.csv
+!tables/T80_thailand_india_indicators.csv
+!tables/T81_comparability_checklist.csv
+!tables/T90_all_adjusted_combined.csv
+!tables/framework_matrix.csv
+!tables/framework_sought_constructs.csv
+!tables/questionnaire_inventory.csv

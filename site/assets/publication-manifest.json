@@ -1,0 +1,210 @@
+{
+  "project": "PVS",
+  "status": "ready_for_publication",
+  "report": null,
+  "report_delivery": "email_request",
+  "report_request_url": "mailto:peerasit.sit@mahidol.ac.th?subject=%E0%B8%82%E0%B8%AD%E0%B8%A3%E0%B8%B1%E0%B8%9A%E0%B8%A3%E0%B8%B2%E0%B8%A2%E0%B8%87%E0%B8%B2%E0%B8%99%E0%B8%9C%E0%B8%A5%E0%B8%81%E0%B8%B2%E0%B8%A3%E0%B8%A8%E0%B8%B6%E0%B8%81%E0%B8%A9%E0%B8%B2%20People%E2%80%99s%20Voice%20Survey%20%E0%B8%9B%E0%B8%A3%E0%B8%B0%E0%B9%80%E0%B8%97%E0%B8%A8%E0%B9%84%E0%B8%97%E0%B8%A2&body=%E0%B9%80%E0%B8%A3%E0%B8%B5%E0%B8%A2%E0%B8%99%20%E0%B8%84%E0%B8%B8%E0%B8%93%E0%B8%9E%E0%B8%B5%E0%B8%A3%E0%B8%AA%E0%B8%B4%E0%B8%8A%E0%B8%8C%E0%B9%8C%20%E0%B8%AA%E0%B8%B4%E0%B8%97%E0%B8%98%E0%B8%B4%E0%B8%A3%E0%B8%B1%E0%B8%95%E0%B8%99%E0%B9%8C%0D%0A%0D%0A%E0%B8%82%E0%B8%AD%E0%B8%A3%E0%B8%B1%E0%B8%9A%E0%B8%A3%E0%B8%B2%E0%B8%A2%E0%B8%87%E0%B8%B2%E0%B8%99%E0%B8%9C%E0%B8%A5%E0%B8%81%E0%B8%B2%E0%B8%A3%E0%B8%A8%E0%B8%B6%E0%B8%81%E0%B8%A9%E0%B8%B2%20People%E2%80%99s%20Voice%20Survey%20%E0%B8%9B%E0%B8%A3%E0%B8%B0%E0%B9%80%E0%B8%97%E0%B8%A8%E0%B9%84%E0%B8%97%E0%B8%A2%E0%B8%89%E0%B8%9A%E0%B8%B1%E0%B8%9A%E0%B9%80%E0%B8%95%E0%B9%87%E0%B8%A1%0D%0A%0D%0A%E0%B8%8A%E0%B8%B7%E0%B9%88%E0%B8%AD%E0%B8%9C%E0%B8%B9%E0%B9%89%E0%B8%95%E0%B8%B4%E0%B8%94%E0%B8%95%E0%B9%88%E0%B8%AD%3A%0D%0A%E0%B8%AB%E0%B8%99%E0%B9%88%E0%B8%A7%E0%B8%A2%E0%B8%87%E0%B8%B2%E0%B8%99%20%28%E0%B8%96%E0%B9%89%E0%B8%B2%E0%B8%A1%E0%B8%B5%29%3A%0D%0A%E0%B8%A7%E0%B8%B1%E0%B8%95%E0%B8%96%E0%B8%B8%E0%B8%9B%E0%B8%A3%E0%B8%B0%E0%B8%AA%E0%B8%87%E0%B8%84%E0%B9%8C%E0%B9%83%E0%B8%99%E0%B8%81%E0%B8%B2%E0%B8%A3%E0%B9%83%E0%B8%8A%E0%B9%89%E0%B8%A3%E0%B8%B2%E0%B8%A2%E0%B8%87%E0%B8%B2%E0%B8%99%3A%0D%0A%0D%0A%E0%B8%82%E0%B8%AD%E0%B8%9A%E0%B8%84%E0%B8%B8%E0%B8%93%E0%B8%84%E0%B8%A3%E0%B8%B1%E0%B8%9A%2F%E0%B8%84%E0%B9%88%E0%B8%B0",
+  "local_report": "output/reports/ผลการสำรวจ_20261001.docx",
+  "report_sha256": "a64ab8f1f51007c0a09866c04935667f59a15ebfb588407d1c18af7369a03727",
+  "report_release_record": "content/report-release.json",
+  "source_report_hashes": {
+    "output/reports/ผลการสำรวจ_20261001.docx": "a64ab8f1f51007c0a09866c04935667f59a15ebfb588407d1c18af7369a03727"
+  },
+  "source_reports_unchanged_during_build": true,
+  "charts": [
+    {
+      "id": "national-profile",
+      "png": "assets/figures/national-profile.png",
+      "sha256": "72692a7e522960ed8bf8aba3d5d2efe4dfdd0b92bf4cd079e3ea78c9d869db94",
+      "embedded_unchanged_in_report": false
+    },
+    {
+      "id": "national-health",
+      "png": "assets/figures/national-health.png",
+      "sha256": "9abb6c3a287de44fb8eb098a44338801c4e7ce5ea69402936afedd2777430e8d",
+      "embedded_unchanged_in_report": false
+    },
+    {
+      "id": "national-use",
+      "png": "assets/figures/national-use.png",
+      "sha256": "cfe97517bf1d46a296a7ed1b521ec72f26563d05a0c6be9b4b90d2c7b26ce380",
+      "embedded_unchanged_in_report": false
+    },
+    {
+      "id": "national-confidence",
+      "png": "assets/figures/national-confidence.png",
+      "sha256": "71aa89dab63b6e14be9b909186215e85e3105f319e04ca05db20f3b0713d6223",
+      "embedded_unchanged_in_report": false
+    },
+    {
+      "id": "national-system-ratings",
+      "png": "assets/figures/national-system-ratings.png",
+      "sha256": "83cce37ce32560d4fb5445f30d0e9c9da126a55a81312019795f98cc80caa435",
+      "embedded_unchanged_in_report": false
+    },
+    {
+      "id": "usual-source",
+      "png": "assets/figures/usual-source.png",
+      "sha256": "5cee50373674223034ceed3cb85bd8b76b5f3013e11292bfe54e9ff92a126c1b",
+      "embedded_unchanged_in_report": false
+    },
+    {
+      "id": "national-prevention",
+      "png": "assets/figures/national-prevention.png",
+      "sha256": "39ec2f93deb37d0b479fec87fe06040750087a5bd365186872694f20816ee69c",
+      "embedded_unchanged_in_report": false
+    },
+    {
+      "id": "usual-prevention",
+      "png": "assets/figures/usual-prevention.png",
+      "sha256": "b18d355b70feac891ce09224cd60444629c06bb52f500d1a22316200d46d8c63",
+      "embedded_unchanged_in_report": false
+    },
+    {
+      "id": "usual-confidence",
+      "png": "assets/figures/usual-confidence.png",
+      "sha256": "c3066925d140951e574bdb87aaa6a9fa614ce25176911a1e7e6af187ddc7da9e",
+      "embedded_unchanged_in_report": false
+    },
+    {
+      "id": "international-unmet",
+      "png": "assets/figures/international-unmet.png",
+      "sha256": "fd7a465180e170c128f30e48cfc81d4f0d05bba602690c796f3bba077a5b8b7b",
+      "embedded_unchanged_in_report": false
+    },
+    {
+      "id": "international-confidence",
+      "png": "assets/figures/international-confidence.png",
+      "sha256": "9333b049d32e1edf643475424c8993914c95eedb0e85c3bb9cd4890087dc9872",
+      "embedded_unchanged_in_report": false
+    },
+    {
+      "id": "international-system",
+      "png": "assets/figures/international-system.png",
+      "sha256": "b23983deec47fd39ffbb4cc8800b8265aa64930be75af0c65b8ba536fd327077",
+      "embedded_unchanged_in_report": false
+    },
+    {
+      "id": "international-quality",
+      "png": "assets/figures/international-quality.png",
+      "sha256": "c5c0f2f4c1b0c447e33b263cb743589696f815cb7c384bf825c1b45e9c128ae5",
+      "embedded_unchanged_in_report": false
+    },
+    {
+      "id": "international-primary",
+      "png": "assets/figures/international-primary.png",
+      "sha256": "1c181484cc486edff44dc1d147ef449189b8c7a56fad1ba169d8daa04a12a811",
+      "embedded_unchanged_in_report": false
+    },
+    {
+      "id": "international-governance",
+      "png": "assets/figures/international-governance.png",
+      "sha256": "9516899be18f4a6e2a5c3a18d8ad0f08bba978ce867c731b097facb1b00d9991",
+      "embedded_unchanged_in_report": false
+    },
+    {
+      "id": "map-unmet",
+      "png": "assets/figures/map-unmet.png",
+      "sha256": "009ab8e6fa485a13b513fbcb3ef53a87d11a2cde7c644f38124cf20fce753b3d",
+      "embedded_unchanged_in_report": false
+    },
+    {
+      "id": "map-confidence",
+      "png": "assets/figures/map-confidence.png",
+      "sha256": "e89fa604bb9597dccb8b8e2f26fdad8317d27292b27685d0b8cf10f833020cb3",
+      "embedded_unchanged_in_report": false
+    },
+    {
+      "id": "map-system-quality",
+      "png": "assets/figures/map-system-quality.png",
+      "sha256": "42d97bd0b1d25a8ee30833012d539e6e32f33f351b655608b96a1f80f298d1fb",
+      "embedded_unchanged_in_report": false
+    },
+    {
+      "id": "report-figure-04",
+      "png": "assets/figures/report-figure-04.png",
+      "sha256": "dd7e62f62fe5d8e53e38eafc4de9a491c56c084bef1213cc6792c4cb56837cfc",
+      "embedded_unchanged_in_report": true
+    },
+    {
+      "id": "report-figure-05",
+      "png": "assets/figures/report-figure-05.png",
+      "sha256": "7f7329194c6a1ee48c0963afd92b30fa8998c1f322e9eaf0522046f3c01782ea",
+      "embedded_unchanged_in_report": true
+    },
+    {
+      "id": "report-figure-06",
+      "png": "assets/figures/report-figure-06.png",
+      "sha256": "610cdda65aeab3a007366438d475875ec4f10c33dac0031d48cf674db3d2c7bc",
+      "embedded_unchanged_in_report": true
+    },
+    {
+      "id": "private-routes",
+      "png": "assets/figures/private-routes.png",
+      "sha256": "d1e5b7164649dc2998b4ef1667ab345b0c86c31443b030175787888e9280003a",
+      "embedded_unchanged_in_report": false
+    },
+    {
+      "id": "map-thailand",
+      "png": "assets/figures/map-thailand.png",
+      "sha256": "01959f858c1fa436a74de246bc64ddc41a67b727ee9e4af8ee788111c286642f",
+      "embedded_unchanged_in_report": true
+    },
+    {
+      "id": "figure-a1",
+      "png": "assets/figures/figure-a1.png",
+      "sha256": "3a13ef12ac323565e1c6039825c80d04e03bd34fc705febf9b9abd31c96e2b86",
+      "embedded_unchanged_in_report": true
+    },
+    {
+      "id": "figure-1",
+      "png": "assets/figures/figure-1.png",
+      "sha256": "f3a38abc3eacf6e0dc8d38d4ade8c2f0243fea345bf6a3ed9ad65c45345f380b",
+      "embedded_unchanged_in_report": true
+    },
+    {
+      "id": "figure-2",
+      "png": "assets/figures/figure-2.png",
+      "sha256": "6699ab847bb860e49a1801fb7f2a0edb89593eecb5543a62cadf627313dc4faa",
+      "embedded_unchanged_in_report": true
+    },
+    {
+      "id": "figure-3",
+      "png": "assets/figures/figure-3.png",
+      "sha256": "699310f0df9a8fa87a5035d9e3da9e4394b97cd7293b842503b12205f068ed20",
+      "embedded_unchanged_in_report": false
+    },
+    {
+      "id": "figure-4",
+      "png": "assets/figures/figure-4.png",
+      "sha256": "05eb8004a4143814b313f01d4d61df73179697c10524dd265f1a27acea3f6e16",
+      "embedded_unchanged_in_report": true
+    },
+    {
+      "id": "figure-5",
+      "png": "assets/figures/figure-5.png",
+      "sha256": "7250e555405b51f0436a8085186edcde48ced7af9e174a6c86f54b89fef401b8",
+      "embedded_unchanged_in_report": true
+    },
+    {
+      "id": "figure-6",
+      "png": "assets/figures/figure-6.png",
+      "sha256": "a5f1d244ae058b4207122b947d878de85065d2979efbadb1aae68bd4569a5e94",
+      "embedded_unchanged_in_report": false
+    },
+    {
+      "id": "figure-a2",
+      "png": "assets/figures/figure-a2.png",
+      "sha256": "f6b1533bfe7050d7219aeacd1bf1fa888c873c16c164d348fe3bc75b59d96546",
+      "embedded_unchanged_in_report": true
+    },
+    {
+      "id": "security-states",
+      "png": "assets/figures/security-states.png",
+      "sha256": "9a5038007c869c20c0e19c3a0e95605ca9828d42da1cbcaf86db8cc9d8bee2a5",
+      "embedded_unchanged_in_report": true
+    }
+  ],
+  "report_note": "Author corrections rechecked with no remaining findings. The full Thai report is supplied on email request; no DOCX is included in the site or chart bundle. Embedded image checks use the local author report when available.",
+  "data_source": "Verified national/international aggregates, approved September estimates and rechecked private-user route aggregates"
+}

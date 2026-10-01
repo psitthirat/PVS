@@ -1,0 +1,5 @@
+﻿Provider group,n,"Rates own facility very good/excellent, %","Health-insecure, %","Rates provider highly BUT health-insecure, n (%)"
+public primary care,634,42.0,32.2,58 (9.1)
+public hospital OPD/ER,615,34.0,36.9,71 (11.5)
+private clinic/pharmacy,142,46.5,38.0,19 (13.4)
+private hospital OPD/ER,127,58.3,28.3,18 (14.2)

@@ -1,0 +1,9 @@
+﻿Dimension,Thailand (this survey),India (PVS round 1),Verified?
+Indicator definition,"Q41a/Q41b, ""if you were seriously ill""; somewhat or very confident","Same two-item PVS construct, per Kruk et al. Figure 2A",Yes — item wording checked against the fielded Thai instrument and the PVS paper
+Age eligibility,18+ (Q3 screens out under-18s),Not verified from the paper text available here,NO
+Geographic coverage,"13 health regions, ONE province sampled per region",Not verified,NO
+Fieldwork dates,See survey start/end fields in the raw export,Not verified,NO
+Survey mode,In-person interview,PVS permits phone/online/in-person; country mode not verified,NO
+Weighting,None — unweighted achieved sample,PVS country estimates are described as population-representative,NO
+Language / translation,Thai,Not verified,NO
+Uncertainty,Wilson 95% CI reported here,No CI available from the figure,NO

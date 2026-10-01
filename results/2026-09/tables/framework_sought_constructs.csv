@@ -1,0 +1,15 @@
+﻿Construct the reviewer asked about,Status in the fielded instrument,Evidence
+Population expectations,PARTIAL,Q48/Q49 vignettes were fielded but never analysed; Q16 captures stated reason for provider choice. No direct expectation scale.
+Health literacy,NOT MEASURED,"No health-literacy, digital-literacy or health-knowledge item exists. Q12a/Q12b measure patient activation; Q8 measures education. These are three different constructs."
+Coordination / referral,NOT MEASURED,"No referral, follow-up or care-transition item."
+Continuity,PARTIAL,Q20 (same facility for all visits) and Q38e (provider knew previous results) are proxies; no provider-continuity or relationship-duration item.
+Confidentiality,PARTIAL,Named only as an example inside the Q28a medical-error stem; no standalone item.
+Discrimination,MEASURED,"Q28b, lifetime recall, no facility attribution."
+Medical errors,MEASURED,"Q28a, lifetime recall, no facility attribution; patient perception, not adjudicated events."
+Financial barriers / hardship,PARTIAL,"Q30 reason ""cost"" and Q31 borrowing (lifetime). No out-of-pocket amount, no catastrophic-expenditure measure."
+Reasons for unmet need,MEASURED,"Q30, conditional on Q29."
+Participation / voice,MEASURED,Q41c (government listens) and Q38g (involved in decisions).
+Actual payer / payment at an encounter,NOT MEASURED,"No question asks who paid for any specific visit or admission, nor any amount. Q7 records coverage OWNERSHIP only."
+Employment status,NOT MEASURED,Not asked. SSS membership is not a substitute.
+Registered / contracted provider,NOT MEASURED,"Not asked. Q14/Q15 record where the respondent usually goes, not where they are registered."
+Facility of overnight admission,NOT MEASURED,"Q26 records that an admission happened, never where."

@@ -1,0 +1,5 @@
+﻿Usual source group,n,"Last visit: same SECTOR, n (%)","Last visit: same SETTING TYPE, n (%)","Last visit: same SECTOR *and* SETTING, n (%)"
+public primary care,634,578 (91.2),511 (80.6),470 (74.1)
+public hospital OPD/ER,615,582 (94.6),533 (86.7),516 (83.9)
+private clinic/pharmacy,142,112 (78.9),110 (77.5),91 (64.1)
+private hospital OPD/ER,127,118 (92.9),112 (88.2),107 (84.3)

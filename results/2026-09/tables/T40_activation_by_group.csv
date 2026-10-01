@@ -1,0 +1,5 @@
+﻿Measure,public primary care,public hospital OPD/ER,private clinic/pharmacy,private hospital OPD/ER,p,Denominator
+Q12a: confident managing own health,511/634 (80.6; 77.3-83.5),480/615 (78.0; 74.6-81.1),126/142 (88.7; 82.5-92.9),115/127 (90.6; 84.2-94.5),<0.001,all in group
+Q12b: confident voicing concerns unprompted,528/634 (83.3; 80.2-86.0),467/615 (75.9; 72.4-79.1),128/142 (90.1; 84.1-94.0),114/127 (89.8; 83.3-93.9),<0.001,all in group
+Activation indicator (project rule: confident on both),492/634 (77.6; 74.2-80.7),443/615 (72.0; 68.4-75.4),120/142 (84.5; 77.7-89.5),112/127 (88.2; 81.4-92.7),<0.001,all in group
+"Activation, strict (very confident on both)",115/634 (18.1; 15.3-21.3),97/615 (15.8; 13.1-18.9),45/142 (31.7; 24.6-39.7),25/127 (19.7; 13.7-27.4),<0.001,all in group

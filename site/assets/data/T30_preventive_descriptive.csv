@@ -1,0 +1,7 @@
+﻿Measure,public primary care,public hospital OPD/ER,private clinic/pharmacy,private hospital OPD/ER,p,Denominator
+Blood pressure measured (Q27A),624/634 (98.4; 97.1-99.1),601/615 (97.7; 96.2-98.6),122/142 (85.9; 79.2-90.7),123/127 (96.9; 92.2-98.8),<0.001 †,all respondents
+Blood sugar tested (Q27F),435/634 (68.6; 64.9-72.1),426/615 (69.3; 65.5-72.8),67/142 (47.2; 39.2-55.4),89/127 (70.1; 61.6-77.4),<0.001,all respondents
+Blood lipids tested (Q27G),411/634 (64.8; 61.0-68.4),402/615 (65.4; 61.5-69.0),61/142 (43.0; 35.1-51.2),87/127 (68.5; 60.0-75.9),<0.001,all respondents
+Dental examination (Q27E),321/634 (50.6; 46.7-54.5),325/615 (52.8; 48.9-56.8),65/142 (45.8; 37.8-54.0),68/127 (53.5; 44.9-62.0),0.441,all respondents
+Vision check (Q27D),280/634 (44.2; 40.3-48.1),263/615 (42.8; 38.9-46.7),55/142 (38.7; 31.1-46.9),55/127 (43.3; 35.0-52.0),0.700,all respondents
+Mental-health service received (Q27H),168/634 (26.5; 23.2-30.1),133/615 (21.6; 18.6-25.1),25/142 (17.6; 12.2-24.7),37/127 (29.1; 21.9-37.6),0.028,all respondents

@@ -1,0 +1,48 @@
+﻿Rank,Segment,Age,Area,Scheme,Income,People (N),Private-hospital users (n),Rate %,Rate 95% CI low,Rate 95% CI high,Share of all users %,Index (100 = average),Small cell (N < 30),Cumulative share of users %,Cumulative share of population %
+1,50 and over + Non-municipal (rural) + Other / don't know + 30k and over,50 and over,Non-municipal (rural),Other / don't know,30k and over,1,1,100.0,20.7,100.0,0.8,1588,yes,0.8,0.0
+2,50 and over + Municipal (urban) + Social Security + 30k and over,50 and over,Municipal (urban),Social Security,30k and over,24,12,50.0,31.4,68.6,9.4,794,yes,10.2,1.2
+3,Under 50 + Non-municipal (rural) + Social Security + 30k and over,Under 50,Non-municipal (rural),Social Security,30k and over,75,20,26.7,18.0,37.6,15.7,424,,25.9,5.0
+4,Under 50 + Non-municipal (rural) + Social Security + Under 10k,Under 50,Non-municipal (rural),Social Security,Under 10k,4,1,25.0,4.6,69.9,0.8,397,yes,26.7,5.2
+5,Under 50 + Municipal (urban) + Social Security + 10k-30k,Under 50,Municipal (urban),Social Security,10k-30k,76,17,22.4,14.5,32.9,13.4,355,,40.1,8.9
+6,50 and over + Non-municipal (rural) + Social Security + 10k-30k,50 and over,Non-municipal (rural),Social Security,10k-30k,23,5,21.7,9.7,41.9,3.9,345,yes,44.0,10.1
+7,Under 50 + Municipal (urban) + Civil servant + 30k and over,Under 50,Municipal (urban),Civil servant,30k and over,19,4,21.1,8.5,43.3,3.1,334,yes,47.1,11.0
+8,50 and over + Non-municipal (rural) + Social Security + 30k and over,50 and over,Non-municipal (rural),Social Security,30k and over,21,4,19.0,7.7,40.0,3.1,303,yes,50.2,12.0
+9,Under 50 + Municipal (urban) + Social Security + 30k and over,Under 50,Municipal (urban),Social Security,30k and over,52,8,15.4,8.0,27.5,6.3,244,,56.5,14.6
+10,50 and over + Municipal (urban) + Social Security + 10k-30k,50 and over,Municipal (urban),Social Security,10k-30k,26,4,15.4,6.2,33.5,3.1,244,yes,59.6,15.9
+11,Under 50 + Non-municipal (rural) + Social Security + 10k-30k,Under 50,Non-municipal (rural),Social Security,10k-30k,163,17,10.4,6.6,16.1,13.4,166,,73.0,24.0
+12,50 and over + Non-municipal (rural) + Universal Coverage + 30k and over,50 and over,Non-municipal (rural),Universal Coverage,30k and over,61,6,9.8,4.6,19.8,4.7,156,,77.7,27.0
+13,50 and over + Municipal (urban) + Universal Coverage + 10k-30k,50 and over,Municipal (urban),Universal Coverage,10k-30k,100,7,7.0,3.4,13.7,5.5,111,,83.2,32.0
+14,50 and over + Municipal (urban) + Civil servant + 30k and over,50 and over,Municipal (urban),Civil servant,30k and over,19,1,5.3,0.9,24.6,0.8,84,yes,84.0,32.9
+15,Under 50 + Municipal (urban) + Universal Coverage + Under 10k,Under 50,Municipal (urban),Universal Coverage,Under 10k,39,2,5.1,1.4,16.9,1.6,81,,85.6,34.9
+16,Under 50 + Non-municipal (rural) + Universal Coverage + 30k and over,Under 50,Non-municipal (rural),Universal Coverage,30k and over,108,5,4.6,2.0,10.4,3.9,74,,89.5,40.2
+17,50 and over + Municipal (urban) + Universal Coverage + 30k and over,50 and over,Municipal (urban),Universal Coverage,30k and over,46,2,4.3,1.2,14.5,1.6,69,,91.1,42.5
+18,Under 50 + Municipal (urban) + Universal Coverage + 10k-30k,Under 50,Municipal (urban),Universal Coverage,10k-30k,122,4,3.3,1.3,8.1,3.1,52,,94.2,48.5
+19,Under 50 + Municipal (urban) + Universal Coverage + 30k and over,Under 50,Municipal (urban),Universal Coverage,30k and over,62,2,3.2,0.9,11.0,1.6,51,,95.8,51.6
+20,50 and over + Non-municipal (rural) + Universal Coverage + 10k-30k,50 and over,Non-municipal (rural),Universal Coverage,10k-30k,264,3,1.1,0.4,3.3,2.4,18,,98.2,64.7
+21,Under 50 + Non-municipal (rural) + Universal Coverage + 10k-30k,Under 50,Non-municipal (rural),Universal Coverage,10k-30k,244,2,0.8,0.2,2.9,1.6,13,,99.8,76.8
+22,50 and over + Non-municipal (rural) + Universal Coverage + Under 10k,50 and over,Non-municipal (rural),Universal Coverage,Under 10k,157,0,0.0,0.0,2.4,0.0,0,,99.8,84.6
+23,Under 50 + Non-municipal (rural) + Civil servant + 10k-30k,Under 50,Non-municipal (rural),Civil servant,10k-30k,32,0,0.0,0.0,10.7,0.0,0,,99.8,86.2
+24,Under 50 + Non-municipal (rural) + Civil servant + 30k and over,Under 50,Non-municipal (rural),Civil servant,30k and over,33,0,0.0,0.0,10.4,0.0,0,,99.8,87.8
+25,Under 50 + Non-municipal (rural) + Universal Coverage + Under 10k,Under 50,Non-municipal (rural),Universal Coverage,Under 10k,46,0,0.0,0.0,7.7,0.0,0,,99.8,90.1
+26,50 and over + Non-municipal (rural) + Civil servant + 10k-30k,50 and over,Non-municipal (rural),Civil servant,10k-30k,34,0,0.0,0.0,10.2,0.0,0,,99.8,91.8
+27,Under 50 + Non-municipal (rural) + Other / don't know + 30k and over,Under 50,Non-municipal (rural),Other / don't know,30k and over,3,0,0.0,0.0,56.1,0.0,0,yes,99.8,91.9
+28,Under 50 + Non-municipal (rural) + Other / don't know + 10k-30k,Under 50,Non-municipal (rural),Other / don't know,10k-30k,4,0,0.0,0.0,49.0,0.0,0,yes,99.8,92.1
+29,50 and over + Municipal (urban) + Universal Coverage + Under 10k,50 and over,Municipal (urban),Universal Coverage,Under 10k,68,0,0.0,0.0,5.3,0.0,0,,99.8,95.5
+30,50 and over + Non-municipal (rural) + Other / don't know + 10k-30k,50 and over,Non-municipal (rural),Other / don't know,10k-30k,2,0,0.0,0.0,65.8,0.0,0,yes,99.8,95.6
+31,Under 50 + Municipal (urban) + Civil servant + 10k-30k,Under 50,Municipal (urban),Civil servant,10k-30k,13,0,0.0,0.0,22.8,0.0,0,yes,99.8,96.2
+32,Under 50 + Municipal (urban) + Other / don't know + 10k-30k,Under 50,Municipal (urban),Other / don't know,10k-30k,2,0,0.0,0.0,65.8,0.0,0,yes,99.8,96.3
+33,50 and over + Non-municipal (rural) + Civil servant + 30k and over,50 and over,Non-municipal (rural),Civil servant,30k and over,27,0,0.0,0.0,12.5,0.0,0,yes,99.8,97.7
+34,50 and over + Municipal (urban) + Other / don't know + Under 10k,50 and over,Municipal (urban),Other / don't know,Under 10k,2,0,0.0,0.0,65.8,0.0,0,yes,99.8,97.8
+35,50 and over + Non-municipal (rural) + Social Security + Under 10k,50 and over,Non-municipal (rural),Social Security,Under 10k,3,0,0.0,0.0,56.1,0.0,0,yes,99.8,97.9
+36,50 and over + Municipal (urban) + Civil servant + 10k-30k,50 and over,Municipal (urban),Civil servant,10k-30k,15,0,0.0,0.0,20.4,0.0,0,yes,99.8,98.7
+37,50 and over + Municipal (urban) + Other / don't know + 10k-30k,50 and over,Municipal (urban),Other / don't know,10k-30k,1,0,0.0,0.0,79.3,0.0,0,yes,99.8,98.7
+38,50 and over + Non-municipal (rural) + Civil servant + Under 10k,50 and over,Non-municipal (rural),Civil servant,Under 10k,10,0,0.0,0.0,27.8,0.0,0,yes,99.8,99.2
+39,Under 50 + Municipal (urban) + Social Security + Under 10k,Under 50,Municipal (urban),Social Security,Under 10k,5,0,0.0,0.0,43.4,0.0,0,yes,99.8,99.5
+40,50 and over + Municipal (urban) + Social Security + Under 10k,50 and over,Municipal (urban),Social Security,Under 10k,2,0,0.0,0.0,65.8,0.0,0,yes,99.8,99.6
+41,50 and over + Non-municipal (rural) + Other / don't know + Under 10k,50 and over,Non-municipal (rural),Other / don't know,Under 10k,1,0,0.0,0.0,79.3,0.0,0,yes,99.8,99.6
+42,Under 50 + Non-municipal (rural) + Other / don't know + Under 10k,Under 50,Non-municipal (rural),Other / don't know,Under 10k,3,0,0.0,0.0,56.1,0.0,0,yes,99.8,99.8
+43,Under 50 + Municipal (urban) + Other / don't know + Under 10k,Under 50,Municipal (urban),Other / don't know,Under 10k,1,0,0.0,0.0,79.3,0.0,0,yes,99.8,99.8
+44,Under 50 + Municipal (urban) + Other / don't know + 30k and over,Under 50,Municipal (urban),Other / don't know,30k and over,1,0,0.0,0.0,79.3,0.0,0,yes,99.8,99.9
+45,Under 50 + Non-municipal (rural) + Civil servant + Under 10k,Under 50,Non-municipal (rural),Civil servant,Under 10k,1,0,0.0,0.0,79.3,0.0,0,yes,99.8,99.9
+46,Under 50 + Municipal (urban) + Civil servant + Under 10k,Under 50,Municipal (urban),Civil servant,Under 10k,1,0,0.0,0.0,79.3,0.0,0,yes,99.8,100.0
+47,50 and over + Municipal (urban) + Civil servant + Under 10k,50 and over,Municipal (urban),Civil servant,Under 10k,1,0,0.0,0.0,79.3,0.0,0,yes,99.8,100.0

@@ -1,0 +1,41 @@
+{
+  "default": {
+    "unit_level": "country",
+    "render": "country_polygon",
+    "note": "Published PVS country estimates; country selection does not represent the world."
+  },
+  "ARG": {
+    "unit_level": "province_Mendoza_only",
+    "label_th": "อาร์เจนตินา: เมนโดซาเท่านั้น",
+    "render": "point_at_provincial_capital",
+    "shade_country": false,
+    "point": {
+      "type": "Point",
+      "coordinates": [
+        -68.818557,
+        -32.881384
+      ]
+    },
+    "point_represents": "Mendoza provincial capital for cartographic location only; survey inference is Province of Mendoza, not the city, and marker is not a respondent location.",
+    "source": "Natural Earth 1:10m populated places simple; name=Mendoza,adm1name=Mendoza,adm0_a3=ARG,ne_id=1159151093",
+    "source_url": "https://raw.githubusercontent.com/nvkelso/natural-earth-vector/master/geojson/ne_10m_populated_places_simple.geojson",
+    "source_sha256": "fd3fa867a320cbd5c5b6bb5bc550afeec2939fb2cef688e508007282a55ac42f",
+    "license": "Public domain",
+    "license_url": "https://www.naturalearthdata.com/about/terms-of-use/"
+  },
+  "THA": {
+    "unit_level": "sample_13_selected_provinces",
+    "label_th": "ไทย: กลุ่มตัวอย่าง 13 จังหวัด",
+    "render": "distinct_hatching_or_marker",
+    "note": "Unweighted Thai achieved sample; cannot be interpreted as a country-wide probability-sample estimate. Render as a distinct reference, not a ranked national result."
+  },
+  "TOTAL": {
+    "unit_level": "reported_multicountry_aggregate",
+    "render": "do_not_map",
+    "note": "A published benchmark, not a geographic feature."
+  },
+  "missing_values": {
+    "render": "neutral_grey",
+    "meaning": "No value in the cited dataset for this metric; never zero."
+  }
+}

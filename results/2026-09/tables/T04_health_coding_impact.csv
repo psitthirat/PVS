@@ -1,0 +1,5 @@
+﻿Definition,"""good"" n","% of 2,017"
+Project map as used in Thai report / Sections 4-6 (map_health_level.csv: ดี + ดีเยี่ยม = good),1108,54.9
+"Corrected top-3 (ดี, ดีมาก, ดีเยี่ยม) — matches map_mental_level.csv",1589,78.8
+"Top-2 box (ดีมาก, ดีเยี่ยม) — matches how quality items are dichotomised",647,32.1
+"Mental health, top-3 (for comparison; unchanged)",1788,88.6

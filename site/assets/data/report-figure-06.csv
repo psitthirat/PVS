@@ -1,0 +1,137 @@
+﻿ตัวชี้วัด,รหัสพื้นที่,country_en,ประเทศ,ร้อยละ,แหล่งข้อมูล,source_locator,ขอบเขตพื้นที่,verification,origin_local
+public_quality,ETH,Ethiopia,เอธิโอเปีย,34.9,kruk_2024,Figure 3A,country,verified_primary_figure,archive/legacy/main.ipynb cell 30 panel_a_pvs
+public_quality,KEN,Kenya,เคนยา,25.8,kruk_2024,Figure 3A,country,verified_primary_figure,archive/legacy/main.ipynb cell 30 panel_a_pvs
+public_quality,ZAF,South Africa,แอฟริกาใต้,28.1,kruk_2024,Figure 3A,country,verified_primary_figure,archive/legacy/main.ipynb cell 30 panel_a_pvs
+public_quality,PER,Peru,เปรู,14.9,kruk_2024,Figure 3A,country,verified_primary_figure,archive/legacy/main.ipynb cell 30 panel_a_pvs
+public_quality,COL,Colombia,โคลอมเบีย,15.0,kruk_2024,Figure 3A,country,verified_primary_figure,archive/legacy/main.ipynb cell 30 panel_a_pvs
+public_quality,MEX,Mexico,เม็กซิโก,18.9,kruk_2024,Figure 3A,country,verified_primary_figure,archive/legacy/main.ipynb cell 30 panel_a_pvs
+public_quality,URY,Uruguay,อุรุกวัย,27.3,kruk_2024,Figure 3A,country,verified_primary_figure,archive/legacy/main.ipynb cell 30 panel_a_pvs
+public_quality,ARG,Argentina,อาร์เจนตินา (เมนโดซา),29.7,kruk_2024,Figure 3A,province_Mendoza_only,verified_primary_figure,archive/legacy/main.ipynb cell 30 panel_a_pvs
+public_quality,LAO,Laos,ลาว,25.6,kruk_2024,Figure 3A,country,verified_primary_figure,archive/legacy/main.ipynb cell 30 panel_a_pvs
+public_quality,IND,India,อินเดีย,21.9,kruk_2024,Figure 3A,country,verified_primary_figure,archive/legacy/main.ipynb cell 30 panel_a_pvs
+public_quality,KOR,South Korea,เกาหลีใต้,42.4,kruk_2024,Figure 3A,country,verified_primary_figure,archive/legacy/main.ipynb cell 30 panel_a_pvs
+public_quality,GRC,Greece,กรีซ,8.6,kruk_2024,Figure 3A,country,verified_primary_figure,archive/legacy/main.ipynb cell 30 panel_a_pvs
+public_quality,ITA,Italy,อิตาลี,20.9,kruk_2024,Figure 3A,country,verified_primary_figure,archive/legacy/main.ipynb cell 30 panel_a_pvs
+public_quality,GBR,UK,สหราชอาณาจักร,42.3,kruk_2024,Figure 3A,country,verified_primary_figure,archive/legacy/main.ipynb cell 30 panel_a_pvs
+public_quality,USA,USA,สหรัฐอเมริกา,18.9,kruk_2024,Figure 3A,country,verified_primary_figure,archive/legacy/main.ipynb cell 30 panel_a_pvs
+public_quality,TOTAL,Total,รวมตามรายงานต้นทาง,26.1,kruk_2024,Figure 3A,pooled_reported_total,verified_primary_figure,archive/legacy/main.ipynb cell 30 panel_a_pvs
+private_quality,ETH,Ethiopia,เอธิโอเปีย,33.1,kruk_2024,Figure 3A,country,verified_primary_figure,archive/legacy/main.ipynb cell 30 panel_a_pvs
+private_quality,KEN,Kenya,เคนยา,59.0,kruk_2024,Figure 3A,country,verified_primary_figure,archive/legacy/main.ipynb cell 30 panel_a_pvs
+private_quality,ZAF,South Africa,แอฟริกาใต้,54.4,kruk_2024,Figure 3A,country,verified_primary_figure,archive/legacy/main.ipynb cell 30 panel_a_pvs
+private_quality,PER,Peru,เปรู,18.5,kruk_2024,Figure 3A,country,verified_primary_figure,archive/legacy/main.ipynb cell 30 panel_a_pvs
+private_quality,COL,Colombia,โคลอมเบีย,22.5,kruk_2024,Figure 3A,country,verified_primary_figure,archive/legacy/main.ipynb cell 30 panel_a_pvs
+private_quality,MEX,Mexico,เม็กซิโก,25.7,kruk_2024,Figure 3A,country,verified_primary_figure,archive/legacy/main.ipynb cell 30 panel_a_pvs
+private_quality,URY,Uruguay,อุรุกวัย,35.7,kruk_2024,Figure 3A,country,verified_primary_figure,archive/legacy/main.ipynb cell 30 panel_a_pvs
+private_quality,ARG,Argentina,อาร์เจนตินา (เมนโดซา),30.2,kruk_2024,Figure 3A,province_Mendoza_only,verified_primary_figure,archive/legacy/main.ipynb cell 30 panel_a_pvs
+private_quality,LAO,Laos,ลาว,26.1,kruk_2024,Figure 3A,country,verified_primary_figure,archive/legacy/main.ipynb cell 30 panel_a_pvs
+private_quality,IND,India,อินเดีย,27.6,kruk_2024,Figure 3A,country,verified_primary_figure,archive/legacy/main.ipynb cell 30 panel_a_pvs
+private_quality,KOR,South Korea,เกาหลีใต้,32.5,kruk_2024,Figure 3A,country,verified_primary_figure,archive/legacy/main.ipynb cell 30 panel_a_pvs
+private_quality,GRC,Greece,กรีซ,31.3,kruk_2024,Figure 3A,country,verified_primary_figure,archive/legacy/main.ipynb cell 30 panel_a_pvs
+private_quality,ITA,Italy,อิตาลี,33.7,kruk_2024,Figure 3A,country,verified_primary_figure,archive/legacy/main.ipynb cell 30 panel_a_pvs
+private_quality,GBR,UK,สหราชอาณาจักร,54.3,kruk_2024,Figure 3A,country,verified_primary_figure,archive/legacy/main.ipynb cell 30 panel_a_pvs
+private_quality,USA,USA,สหรัฐอเมริกา,41.1,kruk_2024,Figure 3A,country,verified_primary_figure,archive/legacy/main.ipynb cell 30 panel_a_pvs
+private_quality,TOTAL,Total,รวมตามรายงานต้นทาง,36.2,kruk_2024,Figure 3A,pooled_reported_total,verified_primary_figure,archive/legacy/main.ipynb cell 30 panel_a_pvs
+maternal_quality,ETH,Ethiopia,เอธิโอเปีย,46.8,kruk_2024,Figure 3B,country,verified_primary_figure,archive/legacy/main.ipynb cell 30 panel_b_pvs
+maternal_quality,KEN,Kenya,เคนยา,37.9,kruk_2024,Figure 3B,country,verified_primary_figure,archive/legacy/main.ipynb cell 30 panel_b_pvs
+maternal_quality,ZAF,South Africa,แอฟริกาใต้,33.7,kruk_2024,Figure 3B,country,verified_primary_figure,archive/legacy/main.ipynb cell 30 panel_b_pvs
+maternal_quality,PER,Peru,เปรู,16.5,kruk_2024,Figure 3B,country,verified_primary_figure,archive/legacy/main.ipynb cell 30 panel_b_pvs
+maternal_quality,COL,Colombia,โคลอมเบีย,25.9,kruk_2024,Figure 3B,country,verified_primary_figure,archive/legacy/main.ipynb cell 30 panel_b_pvs
+maternal_quality,MEX,Mexico,เม็กซิโก,26.9,kruk_2024,Figure 3B,country,verified_primary_figure,archive/legacy/main.ipynb cell 30 panel_b_pvs
+maternal_quality,URY,Uruguay,อุรุกวัย,34.4,kruk_2024,Figure 3B,country,verified_primary_figure,archive/legacy/main.ipynb cell 30 panel_b_pvs
+maternal_quality,ARG,Argentina,อาร์เจนตินา (เมนโดซา),37.1,kruk_2024,Figure 3B,province_Mendoza_only,verified_primary_figure,archive/legacy/main.ipynb cell 30 panel_b_pvs
+maternal_quality,LAO,Laos,ลาว,25.5,kruk_2024,Figure 3B,country,verified_primary_figure,archive/legacy/main.ipynb cell 30 panel_b_pvs
+maternal_quality,IND,India,อินเดีย,36.5,kruk_2024,Figure 3B,country,verified_primary_figure,archive/legacy/main.ipynb cell 30 panel_b_pvs
+maternal_quality,KOR,South Korea,เกาหลีใต้,24.2,kruk_2024,Figure 3B,country,verified_primary_figure,archive/legacy/main.ipynb cell 30 panel_b_pvs
+maternal_quality,GRC,Greece,กรีซ,22.2,kruk_2024,Figure 3B,country,verified_primary_figure,archive/legacy/main.ipynb cell 30 panel_b_pvs
+maternal_quality,ITA,Italy,อิตาลี,35.1,kruk_2024,Figure 3B,country,verified_primary_figure,archive/legacy/main.ipynb cell 30 panel_b_pvs
+maternal_quality,GBR,UK,สหราชอาณาจักร,47.5,kruk_2024,Figure 3B,country,verified_primary_figure,archive/legacy/main.ipynb cell 30 panel_b_pvs
+maternal_quality,USA,USA,สหรัฐอเมริกา,45.6,kruk_2024,Figure 3B,country,verified_primary_figure,archive/legacy/main.ipynb cell 30 panel_b_pvs
+maternal_quality,TOTAL,Total,รวมตามรายงานต้นทาง,33.4,kruk_2024,Figure 3B,pooled_reported_total,verified_primary_figure,archive/legacy/main.ipynb cell 30 panel_b_pvs
+child_quality,ETH,Ethiopia,เอธิโอเปีย,38.9,kruk_2024,Figure 3B,country,verified_primary_figure,archive/legacy/main.ipynb cell 30 panel_b_pvs
+child_quality,KEN,Kenya,เคนยา,38.7,kruk_2024,Figure 3B,country,verified_primary_figure,archive/legacy/main.ipynb cell 30 panel_b_pvs
+child_quality,ZAF,South Africa,แอฟริกาใต้,36.2,kruk_2024,Figure 3B,country,verified_primary_figure,archive/legacy/main.ipynb cell 30 panel_b_pvs
+child_quality,PER,Peru,เปรู,16.7,kruk_2024,Figure 3B,country,verified_primary_figure,archive/legacy/main.ipynb cell 30 panel_b_pvs
+child_quality,COL,Colombia,โคลอมเบีย,26.5,kruk_2024,Figure 3B,country,verified_primary_figure,archive/legacy/main.ipynb cell 30 panel_b_pvs
+child_quality,MEX,Mexico,เม็กซิโก,28.0,kruk_2024,Figure 3B,country,verified_primary_figure,archive/legacy/main.ipynb cell 30 panel_b_pvs
+child_quality,URY,Uruguay,อุรุกวัย,36.6,kruk_2024,Figure 3B,country,verified_primary_figure,archive/legacy/main.ipynb cell 30 panel_b_pvs
+child_quality,ARG,Argentina,อาร์เจนตินา (เมนโดซา),38.8,kruk_2024,Figure 3B,province_Mendoza_only,verified_primary_figure,archive/legacy/main.ipynb cell 30 panel_b_pvs
+child_quality,LAO,Laos,ลาว,26.0,kruk_2024,Figure 3B,country,verified_primary_figure,archive/legacy/main.ipynb cell 30 panel_b_pvs
+child_quality,IND,India,อินเดีย,33.5,kruk_2024,Figure 3B,country,verified_primary_figure,archive/legacy/main.ipynb cell 30 panel_b_pvs
+child_quality,KOR,South Korea,เกาหลีใต้,32.8,kruk_2024,Figure 3B,country,verified_primary_figure,archive/legacy/main.ipynb cell 30 panel_b_pvs
+child_quality,GRC,Greece,กรีซ,27.4,kruk_2024,Figure 3B,country,verified_primary_figure,archive/legacy/main.ipynb cell 30 panel_b_pvs
+child_quality,ITA,Italy,อิตาลี,38.0,kruk_2024,Figure 3B,country,verified_primary_figure,archive/legacy/main.ipynb cell 30 panel_b_pvs
+child_quality,GBR,UK,สหราชอาณาจักร,49.8,kruk_2024,Figure 3B,country,verified_primary_figure,archive/legacy/main.ipynb cell 30 panel_b_pvs
+child_quality,USA,USA,สหรัฐอเมริกา,47.1,kruk_2024,Figure 3B,country,verified_primary_figure,archive/legacy/main.ipynb cell 30 panel_b_pvs
+child_quality,TOTAL,Total,รวมตามรายงานต้นทาง,34.3,kruk_2024,Figure 3B,pooled_reported_total,verified_primary_figure,archive/legacy/main.ipynb cell 30 panel_b_pvs
+chronic_quality,ETH,Ethiopia,เอธิโอเปีย,23.9,kruk_2024,Figure 3B,country,verified_primary_figure,archive/legacy/main.ipynb cell 30 panel_b_pvs
+chronic_quality,KEN,Kenya,เคนยา,28.2,kruk_2024,Figure 3B,country,verified_primary_figure,archive/legacy/main.ipynb cell 30 panel_b_pvs
+chronic_quality,ZAF,South Africa,แอฟริกาใต้,35.1,kruk_2024,Figure 3B,country,verified_primary_figure,archive/legacy/main.ipynb cell 30 panel_b_pvs
+chronic_quality,PER,Peru,เปรู,9.6,kruk_2024,Figure 3B,country,verified_primary_figure,archive/legacy/main.ipynb cell 30 panel_b_pvs
+chronic_quality,COL,Colombia,โคลอมเบีย,20.6,kruk_2024,Figure 3B,country,verified_primary_figure,archive/legacy/main.ipynb cell 30 panel_b_pvs
+chronic_quality,MEX,Mexico,เม็กซิโก,21.2,kruk_2024,Figure 3B,country,verified_primary_figure,archive/legacy/main.ipynb cell 30 panel_b_pvs
+chronic_quality,URY,Uruguay,อุรุกวัย,27.5,kruk_2024,Figure 3B,country,verified_primary_figure,archive/legacy/main.ipynb cell 30 panel_b_pvs
+chronic_quality,ARG,Argentina,อาร์เจนตินา (เมนโดซา),31.7,kruk_2024,Figure 3B,province_Mendoza_only,verified_primary_figure,archive/legacy/main.ipynb cell 30 panel_b_pvs
+chronic_quality,LAO,Laos,ลาว,11.8,kruk_2024,Figure 3B,country,verified_primary_figure,archive/legacy/main.ipynb cell 30 panel_b_pvs
+chronic_quality,IND,India,อินเดีย,27.6,kruk_2024,Figure 3B,country,verified_primary_figure,archive/legacy/main.ipynb cell 30 panel_b_pvs
+chronic_quality,KOR,South Korea,เกาหลีใต้,34.6,kruk_2024,Figure 3B,country,verified_primary_figure,archive/legacy/main.ipynb cell 30 panel_b_pvs
+chronic_quality,GRC,Greece,กรีซ,21.9,kruk_2024,Figure 3B,country,verified_primary_figure,archive/legacy/main.ipynb cell 30 panel_b_pvs
+chronic_quality,ITA,Italy,อิตาลี,27.9,kruk_2024,Figure 3B,country,verified_primary_figure,archive/legacy/main.ipynb cell 30 panel_b_pvs
+chronic_quality,GBR,UK,สหราชอาณาจักร,37.7,kruk_2024,Figure 3B,country,verified_primary_figure,archive/legacy/main.ipynb cell 30 panel_b_pvs
+chronic_quality,USA,USA,สหรัฐอเมริกา,40.4,kruk_2024,Figure 3B,country,verified_primary_figure,archive/legacy/main.ipynb cell 30 panel_b_pvs
+chronic_quality,TOTAL,Total,รวมตามรายงานต้นทาง,26.6,kruk_2024,Figure 3B,pooled_reported_total,verified_primary_figure,archive/legacy/main.ipynb cell 30 panel_b_pvs
+mental_quality,ETH,Ethiopia,เอธิโอเปีย,19.8,kruk_2024,Figure 3B,country,verified_primary_figure,archive/legacy/main.ipynb cell 30 panel_b_pvs
+mental_quality,KEN,Kenya,เคนยา,26.3,kruk_2024,Figure 3B,country,verified_primary_figure,archive/legacy/main.ipynb cell 30 panel_b_pvs
+mental_quality,ZAF,South Africa,แอฟริกาใต้,30.1,kruk_2024,Figure 3B,country,verified_primary_figure,archive/legacy/main.ipynb cell 30 panel_b_pvs
+mental_quality,PER,Peru,เปรู,10.1,kruk_2024,Figure 3B,country,verified_primary_figure,archive/legacy/main.ipynb cell 30 panel_b_pvs
+mental_quality,COL,Colombia,โคลอมเบีย,16.9,kruk_2024,Figure 3B,country,verified_primary_figure,archive/legacy/main.ipynb cell 30 panel_b_pvs
+mental_quality,MEX,Mexico,เม็กซิโก,15.2,kruk_2024,Figure 3B,country,verified_primary_figure,archive/legacy/main.ipynb cell 30 panel_b_pvs
+mental_quality,URY,Uruguay,อุรุกวัย,15.9,kruk_2024,Figure 3B,country,verified_primary_figure,archive/legacy/main.ipynb cell 30 panel_b_pvs
+mental_quality,ARG,Argentina,อาร์เจนตินา (เมนโดซา),19.6,kruk_2024,Figure 3B,province_Mendoza_only,verified_primary_figure,archive/legacy/main.ipynb cell 30 panel_b_pvs
+mental_quality,LAO,Laos,ลาว,10.9,kruk_2024,Figure 3B,country,verified_primary_figure,archive/legacy/main.ipynb cell 30 panel_b_pvs
+mental_quality,IND,India,อินเดีย,27.3,kruk_2024,Figure 3B,country,verified_primary_figure,archive/legacy/main.ipynb cell 30 panel_b_pvs
+mental_quality,KOR,South Korea,เกาหลีใต้,21.7,kruk_2024,Figure 3B,country,verified_primary_figure,archive/legacy/main.ipynb cell 30 panel_b_pvs
+mental_quality,GRC,Greece,กรีซ,12.3,kruk_2024,Figure 3B,country,verified_primary_figure,archive/legacy/main.ipynb cell 30 panel_b_pvs
+mental_quality,ITA,Italy,อิตาลี,14.3,kruk_2024,Figure 3B,country,verified_primary_figure,archive/legacy/main.ipynb cell 30 panel_b_pvs
+mental_quality,GBR,UK,สหราชอาณาจักร,18.2,kruk_2024,Figure 3B,country,verified_primary_figure,archive/legacy/main.ipynb cell 30 panel_b_pvs
+mental_quality,USA,USA,สหรัฐอเมริกา,25.2,kruk_2024,Figure 3B,country,verified_primary_figure,archive/legacy/main.ipynb cell 30 panel_b_pvs
+mental_quality,TOTAL,Total,รวมตามรายงานต้นทาง,19.7,kruk_2024,Figure 3B,pooled_reported_total,verified_primary_figure,archive/legacy/main.ipynb cell 30 panel_b_pvs
+government_listens,ETH,Ethiopia,เอธิโอเปีย,79.6,kruk_2024,Figure 3C,country,verified_primary_figure,archive/legacy/main.ipynb cell 30 panel_c_pvs
+government_listens,KEN,Kenya,เคนยา,62.5,kruk_2024,Figure 3C,country,verified_primary_figure,archive/legacy/main.ipynb cell 30 panel_c_pvs
+government_listens,ZAF,South Africa,แอฟริกาใต้,51.6,kruk_2024,Figure 3C,country,verified_primary_figure,archive/legacy/main.ipynb cell 30 panel_c_pvs
+government_listens,PER,Peru,เปรู,39.5,kruk_2024,Figure 3C,country,verified_primary_figure,archive/legacy/main.ipynb cell 30 panel_c_pvs
+government_listens,COL,Colombia,โคลอมเบีย,38.7,kruk_2024,Figure 3C,country,verified_primary_figure,archive/legacy/main.ipynb cell 30 panel_c_pvs
+government_listens,MEX,Mexico,เม็กซิโก,73.7,kruk_2024,Figure 3C,country,verified_primary_figure,archive/legacy/main.ipynb cell 30 panel_c_pvs
+government_listens,URY,Uruguay,อุรุกวัย,37.0,kruk_2024,Figure 3C,country,verified_primary_figure,archive/legacy/main.ipynb cell 30 panel_c_pvs
+government_listens,ARG,Argentina,อาร์เจนตินา (เมนโดซา),27.2,kruk_2024,Figure 3C,province_Mendoza_only,verified_primary_figure,archive/legacy/main.ipynb cell 30 panel_c_pvs
+government_listens,LAO,Laos,ลาว,79.0,kruk_2024,Figure 3C,country,verified_primary_figure,archive/legacy/main.ipynb cell 30 panel_c_pvs
+government_listens,IND,India,อินเดีย,76.5,kruk_2024,Figure 3C,country,verified_primary_figure,archive/legacy/main.ipynb cell 30 panel_c_pvs
+government_listens,KOR,South Korea,เกาหลีใต้,52.9,kruk_2024,Figure 3C,country,verified_primary_figure,archive/legacy/main.ipynb cell 30 panel_c_pvs
+government_listens,GRC,Greece,กรีซ,26.3,kruk_2024,Figure 3C,country,verified_primary_figure,archive/legacy/main.ipynb cell 30 panel_c_pvs
+government_listens,ITA,Italy,อิตาลี,40.8,kruk_2024,Figure 3C,country,verified_primary_figure,archive/legacy/main.ipynb cell 30 panel_c_pvs
+government_listens,GBR,UK,สหราชอาณาจักร,25.9,kruk_2024,Figure 3C,country,verified_primary_figure,archive/legacy/main.ipynb cell 30 panel_c_pvs
+government_listens,USA,USA,สหรัฐอเมริกา,35.7,kruk_2024,Figure 3C,country,verified_primary_figure,archive/legacy/main.ipynb cell 30 panel_c_pvs
+government_listens,TOTAL,Total,รวมตามรายงานต้นทาง,52.6,kruk_2024,Figure 3C,pooled_reported_total,verified_primary_figure,archive/legacy/main.ipynb cell 30 panel_c_pvs
+covid_management,ETH,Ethiopia,เอธิโอเปีย,53.9,kruk_2024,Figure 3D,country,verified_primary_figure,archive/legacy/main.ipynb cell 30 panel_d_pvs
+covid_management,KEN,Kenya,เคนยา,49.6,kruk_2024,Figure 3D,country,verified_primary_figure,archive/legacy/main.ipynb cell 30 panel_d_pvs
+covid_management,ZAF,South Africa,แอฟริกาใต้,39.4,kruk_2024,Figure 3D,country,verified_primary_figure,archive/legacy/main.ipynb cell 30 panel_d_pvs
+covid_management,PER,Peru,เปรู,13.0,kruk_2024,Figure 3D,country,verified_primary_figure,archive/legacy/main.ipynb cell 30 panel_d_pvs
+covid_management,COL,Colombia,โคลอมเบีย,24.2,kruk_2024,Figure 3D,country,verified_primary_figure,archive/legacy/main.ipynb cell 30 panel_d_pvs
+covid_management,MEX,Mexico,เม็กซิโก,25.6,kruk_2024,Figure 3D,country,verified_primary_figure,archive/legacy/main.ipynb cell 30 panel_d_pvs
+covid_management,URY,Uruguay,อุรุกวัย,54.9,kruk_2024,Figure 3D,country,verified_primary_figure,archive/legacy/main.ipynb cell 30 panel_d_pvs
+covid_management,ARG,Argentina,อาร์เจนตินา (เมนโดซา),39.0,kruk_2024,Figure 3D,province_Mendoza_only,verified_primary_figure,archive/legacy/main.ipynb cell 30 panel_d_pvs
+covid_management,LAO,Laos,ลาว,45.8,kruk_2024,Figure 3D,country,verified_primary_figure,archive/legacy/main.ipynb cell 30 panel_d_pvs
+covid_management,IND,India,อินเดีย,37.2,kruk_2024,Figure 3D,country,verified_primary_figure,archive/legacy/main.ipynb cell 30 panel_d_pvs
+covid_management,KOR,South Korea,เกาหลีใต้,30.8,kruk_2024,Figure 3D,country,verified_primary_figure,archive/legacy/main.ipynb cell 30 panel_d_pvs
+covid_management,GRC,Greece,กรีซ,22.9,kruk_2024,Figure 3D,country,verified_primary_figure,archive/legacy/main.ipynb cell 30 panel_d_pvs
+covid_management,ITA,Italy,อิตาลี,25.0,kruk_2024,Figure 3D,country,verified_primary_figure,archive/legacy/main.ipynb cell 30 panel_d_pvs
+covid_management,GBR,UK,สหราชอาณาจักร,23.0,kruk_2024,Figure 3D,country,verified_primary_figure,archive/legacy/main.ipynb cell 30 panel_d_pvs
+covid_management,USA,USA,สหรัฐอเมริกา,21.5,kruk_2024,Figure 3D,country,verified_primary_figure,archive/legacy/main.ipynb cell 30 panel_d_pvs
+covid_management,TOTAL,Total,รวมตามรายงานต้นทาง,35.7,kruk_2024,Figure 3D,pooled_reported_total,verified_primary_figure,archive/legacy/main.ipynb cell 30 panel_d_pvs
+public_quality,THA,Thailand,ไทย*,18.0,pvs_thailand,public_quality,unweighted_13_province_sample,canonical_aggregate,content/national/national_summary.csv
+private_quality,THA,Thailand,ไทย*,45.4,pvs_thailand,private_quality,unweighted_13_province_sample,canonical_aggregate,content/national/national_summary.csv
+government_listens,THA,Thailand,ไทย*,54.2,pvs_thailand,listens,unweighted_13_province_sample,canonical_aggregate,content/national/national_summary.csv
+covid_management,THA,Thailand,ไทย*,15.3,pvs_thailand,covid,unweighted_13_province_sample,canonical_aggregate,content/national/national_summary.csv
+maternal_quality,THA,Thailand,ไทย*,27.8,pvs_thailand,maternal,unweighted_13_province_sample,canonical_aggregate,content/national/national_summary.csv
+child_quality,THA,Thailand,ไทย*,25.0,pvs_thailand,child,unweighted_13_province_sample,canonical_aggregate,content/national/national_summary.csv
+chronic_quality,THA,Thailand,ไทย*,28.9,pvs_thailand,chronic_care,unweighted_13_province_sample,canonical_aggregate,content/national/national_summary.csv
+mental_quality,THA,Thailand,ไทย*,21.2,pvs_thailand,mental_care,unweighted_13_province_sample,canonical_aggregate,content/national/national_summary.csv

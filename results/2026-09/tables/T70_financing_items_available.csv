@@ -1,0 +1,10 @@
+﻿Concept,Measured?,Variable,Caveat
+Public scheme eligibility/ownership (Q6),YES,scheme,"Ownership of an entitlement, not use of it"
+Private insurance ownership (Q7.1),YES,priv_ins_owned,Ownership only; never linked to an encounter
+Employer-purchased insurance (Q7.2),YES,employer_ins_owned,Ownership only
+Pays out of pocket in some situations (Q7.4),PARTIAL,insr_oop,"General habit, not a specific encounter or amount"
+Registered / contracted provider,NO,--,Cannot establish that SSS members were assigned to their provider
+Payer at the most recent visit,NO,--,The reviewer's payment question is unanswerable with these data
+Out-of-pocket amount / copayment,NO,--,No expenditure item anywhere in the instrument
+Employment status,NO,--,SSS membership is not evidence of current salaried employment
+"Borrowed/sold assets for care, ever (Q31)",YES,borrowed_ever,Lifetime recall; not attributed to any provider

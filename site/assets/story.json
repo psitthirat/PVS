@@ -1,0 +1,1174 @@
+{
+  "charts": [
+    {
+      "id": "national-profile",
+      "label": "ผู้ตอบแบบสำรวจ",
+      "title": "ลักษณะผู้ตอบแบบสำรวจ 2,017 คน",
+      "caption": "การกระจายอายุ การศึกษา รายได้ครัวเรือน และสิทธิสุขภาพหลัก",
+      "note": "ลักษณะของกลุ่มตัวอย่างที่เก็บได้ ไม่ใช่การกระจายประชากรไทยที่ผ่านการถ่วงน้ำหนัก",
+      "category": "ภาพรวมประเทศไทย",
+      "source": "PVS Thailand",
+      "png": "assets/figures/national-profile.png",
+      "svg": "assets/figures/national-profile.svg",
+      "svg_dark": "assets/figures/national-profile-dark.svg",
+      "csv": "assets/data/national-profile.csv",
+      "source_tables": [],
+      "source_files": [
+        {
+          "path": "content/national/national_summary.csv",
+          "asset": "assets/data/national_summary.csv",
+          "sha256": "6ff95891acce1a8732efab8bcc8e9ce99b07bbfda10fbd0d9a6fbfe757ee2719"
+        }
+      ],
+      "alt": "ลักษณะผู้ตอบแบบสำรวจ 2,017 คน — การกระจายอายุ การศึกษา รายได้ครัวเรือน และสิทธิสุขภาพหลัก",
+      "sha256": "72692a7e522960ed8bf8aba3d5d2efe4dfdd0b92bf4cd079e3ea78c9d869db94"
+    },
+    {
+      "id": "national-health",
+      "label": "สุขภาพ",
+      "title": "สุขภาพและความพร้อมดูแลตนเองของผู้ตอบ",
+      "caption": "ผู้ตอบส่วนใหญ่ประเมินสุขภาพว่าดีขึ้นไป ขณะเดียวกันประมาณหนึ่งในสามมีภาวะเจ็บป่วยเรื้อรัง",
+      "note": "ใช้ผู้ตอบทั้งหมด 2,017 คน ความมั่นใจดูแลสุขภาพเชิงรุกสองข้อและเกณฑ์มั่นใจมากทั้งสองข้อเป็นคนละนิยาม",
+      "category": "ภาพรวมประเทศไทย",
+      "source": "PVS Thailand",
+      "png": "assets/figures/national-health.png",
+      "svg": "assets/figures/national-health.svg",
+      "svg_dark": "assets/figures/national-health-dark.svg",
+      "csv": "assets/data/national-health.csv",
+      "source_tables": [],
+      "source_files": [
+        {
+          "path": "content/national/national_summary.csv",
+          "asset": "assets/data/national_summary.csv",
+          "sha256": "6ff95891acce1a8732efab8bcc8e9ce99b07bbfda10fbd0d9a6fbfe757ee2719"
+        }
+      ],
+      "alt": "สุขภาพและความพร้อมดูแลตนเองของผู้ตอบ — ผู้ตอบส่วนใหญ่ประเมินสุขภาพว่าดีขึ้นไป ขณะเดียวกันประมาณหนึ่งในสามมีภาวะเจ็บป่วยเรื้อรัง",
+      "sha256": "9abb6c3a287de44fb8eb098a44338801c4e7ce5ea69402936afedd2777430e8d"
+    },
+    {
+      "id": "national-use",
+      "label": "การใช้บริการ",
+      "title": "การใช้บริการและความจำเป็นที่ยังไม่ได้รับบริการ",
+      "caption": "ผู้ตอบ 354 คนรายงานว่ามีความจำเป็นด้านสุขภาพแต่ไม่ได้รับบริการ และ 341 คนเคยนอนโรงพยาบาลในรอบปี",
+      "note": "นอนโรงพยาบาล เยี่ยมบ้าน และบริการทางไกลอ้างอิง 12 เดือน; ความจำเป็นที่ไม่ได้รับบริการ Q29 อ้างอิง 12 เดือนเช่นกัน; การกู้ยืมหรือขายทรัพย์สิน Q31 อ้างอิง 12 เดือนเช่นกัน",
+      "category": "ภาพรวมประเทศไทย",
+      "source": "PVS Thailand",
+      "png": "assets/figures/national-use.png",
+      "svg": "assets/figures/national-use.svg",
+      "svg_dark": "assets/figures/national-use-dark.svg",
+      "csv": "assets/data/national-use.csv",
+      "source_tables": [],
+      "source_files": [
+        {
+          "path": "content/national/national_summary.csv",
+          "asset": "assets/data/national_summary.csv",
+          "sha256": "6ff95891acce1a8732efab8bcc8e9ce99b07bbfda10fbd0d9a6fbfe757ee2719"
+        }
+      ],
+      "alt": "การใช้บริการและความจำเป็นที่ยังไม่ได้รับบริการ — ผู้ตอบ 354 คนรายงานว่ามีความจำเป็นด้านสุขภาพแต่ไม่ได้รับบริการ และ 341 คนเคยนอนโรงพยาบาลในรอบปี",
+      "sha256": "cfe97517bf1d46a296a7ed1b521ec72f26563d05a0c6be9b4b90d2c7b26ce380"
+    },
+    {
+      "id": "national-confidence",
+      "label": "ความมั่นใจ",
+      "title": "ความมั่นใจว่าจะรักษาได้และจ่ายไหว",
+      "caption": "มั่นใจคุณภาพ 78.9% มั่นใจว่าสามารถจ่ายได้ 66.5% และมั่นใจทั้งสองด้าน 64.4%",
+      "note": "เป็นการรับรู้เมื่อสมมติว่าเจ็บป่วยรุนแรง ไม่ใช่การวัดคุณภาพทางคลินิกหรือรายจ่ายที่เกิดขึ้นจริง",
+      "category": "ภาพรวมประเทศไทย",
+      "source": "PVS Thailand",
+      "png": "assets/figures/national-confidence.png",
+      "svg": "assets/figures/national-confidence.svg",
+      "svg_dark": "assets/figures/national-confidence-dark.svg",
+      "csv": "assets/data/national-confidence.csv",
+      "source_tables": [],
+      "source_files": [
+        {
+          "path": "content/national/national_summary.csv",
+          "asset": "assets/data/national_summary.csv",
+          "sha256": "6ff95891acce1a8732efab8bcc8e9ce99b07bbfda10fbd0d9a6fbfe757ee2719"
+        }
+      ],
+      "alt": "ความมั่นใจว่าจะรักษาได้และจ่ายไหว — มั่นใจคุณภาพ 78.9% มั่นใจว่าสามารถจ่ายได้ 66.5% และมั่นใจทั้งสองด้าน 64.4%",
+      "sha256": "71aa89dab63b6e14be9b909186215e85e3105f319e04ca05db20f3b0713d6223"
+    },
+    {
+      "id": "national-system-ratings",
+      "label": "คุณภาพระบบ",
+      "title": "เสียงสะท้อนต่อคุณภาพและการทำงานของระบบสุขภาพ",
+      "caption": "คะแนนคุณภาพที่ประชาชนรับรู้แตกต่างกันระหว่างภาครัฐ เอกชน และบริการเฉพาะด้าน",
+      "note": "คุณภาพบริการมารดา เด็ก โรคเรื้อรัง และสุขภาพจิต ใช้เฉพาะผู้ประเมินได้ ตัวหารตามลำดับ 1,650; 1,702; 1,787; 1,648 คน รายการอื่นใช้ 2,017 คน",
+      "category": "ภาพรวมประเทศไทย",
+      "source": "PVS Thailand",
+      "png": "assets/figures/national-system-ratings.png",
+      "svg": "assets/figures/national-system-ratings.svg",
+      "svg_dark": "assets/figures/national-system-ratings-dark.svg",
+      "csv": "assets/data/national-system-ratings.csv",
+      "source_tables": [],
+      "source_files": [
+        {
+          "path": "content/national/national_summary.csv",
+          "asset": "assets/data/national_summary.csv",
+          "sha256": "6ff95891acce1a8732efab8bcc8e9ce99b07bbfda10fbd0d9a6fbfe757ee2719"
+        }
+      ],
+      "alt": "เสียงสะท้อนต่อคุณภาพและการทำงานของระบบสุขภาพ — คะแนนคุณภาพที่ประชาชนรับรู้แตกต่างกันระหว่างภาครัฐ เอกชน และบริการเฉพาะด้าน",
+      "sha256": "83cce37ce32560d4fb5445f30d0e9c9da126a55a81312019795f98cc80caa435"
+    },
+    {
+      "id": "usual-source",
+      "label": "หน่วยบริการประจำ",
+      "title": "ใครมีหน่วยบริการประจำ และเลือกใช้ที่ใด",
+      "caption": "ผู้ตอบ 1,529 คนมีหน่วยบริการประจำ ขณะที่ 488 คนไม่มีหน่วยบริการประจำ",
+      "note": "หกกลุ่มไม่ซ้ำกันและรวมครบ 2,017 คน การมีหน่วยบริการประจำไม่เท่ากับการขึ้นทะเบียนตามสิทธิสุขภาพ",
+      "category": "ภาพรวมประเทศไทย",
+      "source": "PVS Thailand",
+      "png": "assets/figures/usual-source.png",
+      "svg": "assets/figures/usual-source.svg",
+      "svg_dark": "assets/figures/usual-source-dark.svg",
+      "csv": "assets/data/usual-source.csv",
+      "source_tables": [],
+      "source_files": [
+        {
+          "path": "content/national/national_summary.csv",
+          "asset": "assets/data/national_summary.csv",
+          "sha256": "6ff95891acce1a8732efab8bcc8e9ce99b07bbfda10fbd0d9a6fbfe757ee2719"
+        }
+      ],
+      "alt": "ใครมีหน่วยบริการประจำ และเลือกใช้ที่ใด — ผู้ตอบ 1,529 คนมีหน่วยบริการประจำ ขณะที่ 488 คนไม่มีหน่วยบริการประจำ",
+      "sha256": "5cee50373674223034ceed3cb85bd8b76b5f3013e11292bfe54e9ff92a126c1b"
+    },
+    {
+      "id": "national-prevention",
+      "label": "บริการป้องกัน",
+      "title": "บริการป้องกันและคัดกรองในผู้ตอบทั้งหมด",
+      "caption": "แสดงภาพรวมและความแตกต่างระหว่างผู้ตอบในเขตเทศบาลกับนอกเขตเทศบาล",
+      "note": "Q27 ถามการได้รับบริการในช่วง 12 เดือนที่ผ่านมา การตรวจเต้านมและปากมดลูกใช้ผู้ตอบหญิงเท่านั้น ข้อมูลไม่ระบุอายุเข้าเกณฑ์ ระยะห่างการตรวจ หรือสถานพยาบาลที่ให้บริการ",
+      "category": "ภาพรวมประเทศไทย",
+      "source": "PVS Thailand",
+      "png": "assets/figures/national-prevention.png",
+      "svg": "assets/figures/national-prevention.svg",
+      "svg_dark": "assets/figures/national-prevention-dark.svg",
+      "csv": "assets/data/national-prevention.csv",
+      "source_tables": [],
+      "source_files": [
+        {
+          "path": "content/national/national_summary.csv",
+          "asset": "assets/data/national_summary.csv",
+          "sha256": "6ff95891acce1a8732efab8bcc8e9ce99b07bbfda10fbd0d9a6fbfe757ee2719"
+        }
+      ],
+      "alt": "บริการป้องกันและคัดกรองในผู้ตอบทั้งหมด — แสดงภาพรวมและความแตกต่างระหว่างผู้ตอบในเขตเทศบาลกับนอกเขตเทศบาล",
+      "sha256": "39ec2f93deb37d0b479fec87fe06040750087a5bd365186872694f20816ee69c"
+    },
+    {
+      "id": "usual-prevention",
+      "label": "บริการป้องกัน",
+      "title": "ผู้มีหน่วยบริการประจำได้รับบริการป้องกันต่างจากผู้ไม่มีอย่างไร",
+      "caption": "เปรียบเทียบผู้มีหน่วยบริการประจำ 1,529 คนกับผู้ไม่มี 488 คน ด้วยร้อยละและช่วงความเชื่อมั่น 95%",
+      "note": "เป็นความสัมพันธ์พรรณนาที่ยังไม่ปรับปัจจัยร่วม ไม่ใช่ผลเชิงสาเหตุของการมีหน่วยบริการประจำ ฐานผู้ตอบของการคัดกรองเฉพาะหญิงต่างจากรายการทั่วไป",
+      "category": "ความต่อเนื่องของบริการ",
+      "source": "PVS Thailand",
+      "png": "assets/figures/usual-prevention.png",
+      "svg": "assets/figures/usual-prevention.svg",
+      "svg_dark": "assets/figures/usual-prevention-dark.svg",
+      "csv": "assets/data/usual-prevention.csv",
+      "source_tables": [],
+      "source_files": [
+        {
+          "path": "content/national/national_summary.csv",
+          "asset": "assets/data/national_summary.csv",
+          "sha256": "6ff95891acce1a8732efab8bcc8e9ce99b07bbfda10fbd0d9a6fbfe757ee2719"
+        }
+      ],
+      "alt": "ผู้มีหน่วยบริการประจำได้รับบริการป้องกันต่างจากผู้ไม่มีอย่างไร — เปรียบเทียบผู้มีหน่วยบริการประจำ 1,529 คนกับผู้ไม่มี 488 คน ด้วยร้อยละและช่วงความเชื่อมั่น 95%",
+      "sha256": "b18d355b70feac891ce09224cd60444629c06bb52f500d1a22316200d46d8c63"
+    },
+    {
+      "id": "usual-confidence",
+      "label": "ความมั่นใจ",
+      "title": "ความมั่นใจของผู้มีและไม่มีหน่วยบริการประจำ",
+      "caption": "เปรียบเทียบผู้มีหน่วยบริการประจำ 1,529 คนกับผู้ไม่มี 488 คน ด้วยร้อยละและช่วงความเชื่อมั่น 95%",
+      "note": "เป็นความสัมพันธ์พรรณนาที่ยังไม่ปรับปัจจัยร่วม ไม่ใช่ผลเชิงสาเหตุของการมีหน่วยบริการประจำ ฐานผู้ตอบของการคัดกรองเฉพาะหญิงต่างจากรายการทั่วไป",
+      "category": "ความต่อเนื่องของบริการ",
+      "source": "PVS Thailand",
+      "png": "assets/figures/usual-confidence.png",
+      "svg": "assets/figures/usual-confidence.svg",
+      "svg_dark": "assets/figures/usual-confidence-dark.svg",
+      "csv": "assets/data/usual-confidence.csv",
+      "source_tables": [],
+      "source_files": [
+        {
+          "path": "content/national/national_summary.csv",
+          "asset": "assets/data/national_summary.csv",
+          "sha256": "6ff95891acce1a8732efab8bcc8e9ce99b07bbfda10fbd0d9a6fbfe757ee2719"
+        }
+      ],
+      "alt": "ความมั่นใจของผู้มีและไม่มีหน่วยบริการประจำ — เปรียบเทียบผู้มีหน่วยบริการประจำ 1,529 คนกับผู้ไม่มี 488 คน ด้วยร้อยละและช่วงความเชื่อมั่น 95%",
+      "sha256": "c3066925d140951e574bdb87aaa6a9fa614ce25176911a1e7e6af187ddc7da9e"
+    },
+    {
+      "id": "international-unmet",
+      "label": "ความต้องการบริการ",
+      "title": "ความจำเป็นที่ไม่ได้รับบริการใน 14 ประเทศและกลุ่มตัวอย่างไทย",
+      "caption": "ค่าไทย 17.6% แสดงร่วมกับผล PVS ต่างประเทศ 14 ประเทศ ซึ่งรายงานค่ารวม 14.2%",
+      "note": "ทั้งไทยและต่างประเทศอ้างอิง 12 เดือนที่ผ่านมา แต่ต่างกันด้านแผนสุ่มตัวอย่าง การถ่วงน้ำหนัก และช่วงเก็บข้อมูล จึงใช้เปรียบเทียบเชิงพรรณนา ค่าต่างประเทศคงตามตารางหรือรูปที่ตีพิมพ์ ส่วนตัวอย่างไทยไม่ถ่วงน้ำหนัก วิธีเลือกตัวอย่าง การถ่วงน้ำหนัก และช่วงเวลาเก็บข้อมูลต่างกัน ตัวเลขใช้ประกอบบริบท โดยไม่ได้ทดสอบความแตกต่างระหว่างประเทศ อาร์เจนตินาเก็บเฉพาะจังหวัดเมนโดซา",
+      "category": "เปรียบเทียบระหว่างประเทศ",
+      "source": "PVS Thailand; Kruk et al. (2024) / Croke et al. (2024)",
+      "png": "assets/figures/international-unmet.png",
+      "svg": "assets/figures/international-unmet.svg",
+      "svg_dark": "assets/figures/international-unmet-dark.svg",
+      "csv": "assets/data/international-unmet.csv",
+      "source_tables": [],
+      "source_files": [
+        {
+          "path": "content/international/values.csv",
+          "asset": "assets/data/international_values.csv",
+          "sha256": "91d2fe5ba8bc722b4a20e3c91cdd2c66d342bf524c4232b3293c68f236be79bf"
+        },
+        {
+          "path": "content/national/national_summary.csv",
+          "asset": "assets/data/national_summary.csv",
+          "sha256": "6ff95891acce1a8732efab8bcc8e9ce99b07bbfda10fbd0d9a6fbfe757ee2719"
+        }
+      ],
+      "alt": "ความจำเป็นที่ไม่ได้รับบริการใน 14 ประเทศและกลุ่มตัวอย่างไทย — ค่าไทย 17.6% แสดงร่วมกับผล PVS ต่างประเทศ 14 ประเทศ ซึ่งรายงานค่ารวม 14.2%",
+      "sha256": "fd7a465180e170c128f30e48cfc81d4f0d05bba602690c796f3bba077a5b8b7b",
+      "metric_ids": [
+        "unmet_need"
+      ]
+    },
+    {
+      "id": "international-confidence",
+      "label": "ความเชื่อมั่น",
+      "title": "ความเชื่อมั่นต่อระบบสุขภาพใน 15 ประเทศและกลุ่มตัวอย่างไทย",
+      "caption": "ความมั่นใจด้านคุณภาพและความสามารถจ่ายเป็นคนละมิติในทุกบริบท",
+      "note": "ค่าต่างประเทศคงตามตารางหรือรูปที่ตีพิมพ์ ส่วนตัวอย่างไทยไม่ถ่วงน้ำหนัก วิธีเลือกตัวอย่าง การถ่วงน้ำหนัก และช่วงเวลาเก็บข้อมูลต่างกัน ตัวเลขใช้ประกอบบริบท โดยไม่ได้ทดสอบความแตกต่างระหว่างประเทศ อาร์เจนตินาเก็บเฉพาะจังหวัดเมนโดซา",
+      "category": "เปรียบเทียบระหว่างประเทศ",
+      "source": "PVS Thailand; Kruk et al. (2024) / Croke et al. (2024)",
+      "png": "assets/figures/international-confidence.png",
+      "svg": "assets/figures/international-confidence.svg",
+      "svg_dark": "assets/figures/international-confidence-dark.svg",
+      "csv": "assets/data/international-confidence.csv",
+      "source_tables": [],
+      "source_files": [
+        {
+          "path": "content/international/values.csv",
+          "asset": "assets/data/international_values.csv",
+          "sha256": "91d2fe5ba8bc722b4a20e3c91cdd2c66d342bf524c4232b3293c68f236be79bf"
+        },
+        {
+          "path": "content/national/national_summary.csv",
+          "asset": "assets/data/national_summary.csv",
+          "sha256": "6ff95891acce1a8732efab8bcc8e9ce99b07bbfda10fbd0d9a6fbfe757ee2719"
+        }
+      ],
+      "alt": "ความเชื่อมั่นต่อระบบสุขภาพใน 15 ประเทศและกลุ่มตัวอย่างไทย — ความมั่นใจด้านคุณภาพและความสามารถจ่ายเป็นคนละมิติในทุกบริบท",
+      "sha256": "9333b049d32e1edf643475424c8993914c95eedb0e85c3bb9cd4890087dc9872",
+      "metric_ids": [
+        "quality_confidence",
+        "affordability_confidence",
+        "health_security"
+      ]
+    },
+    {
+      "id": "international-system",
+      "label": "ทิศทางของระบบ",
+      "title": "ทิศทางและการยอมรับระบบสุขภาพในหลายประเทศ",
+      "caption": "ผู้ตอบไทย 30.1% เห็นว่าระบบดีขึ้นในสองปี และ 43.8% เห็นว่าระบบทำงานดีหรือต้องปรับเพียงเล็กน้อย",
+      "note": "ค่าต่างประเทศคงตามตารางหรือรูปที่ตีพิมพ์ ส่วนตัวอย่างไทยไม่ถ่วงน้ำหนัก วิธีเลือกตัวอย่าง การถ่วงน้ำหนัก และช่วงเวลาเก็บข้อมูลต่างกัน ตัวเลขใช้ประกอบบริบท โดยไม่ได้ทดสอบความแตกต่างระหว่างประเทศ อาร์เจนตินาเก็บเฉพาะจังหวัดเมนโดซา",
+      "category": "เปรียบเทียบระหว่างประเทศ",
+      "source": "PVS Thailand; Kruk et al. (2024) / Croke et al. (2024)",
+      "png": "assets/figures/international-system.png",
+      "svg": "assets/figures/international-system.svg",
+      "svg_dark": "assets/figures/international-system-dark.svg",
+      "csv": "assets/data/international-system.csv",
+      "source_tables": [],
+      "source_files": [
+        {
+          "path": "content/international/values.csv",
+          "asset": "assets/data/international_values.csv",
+          "sha256": "91d2fe5ba8bc722b4a20e3c91cdd2c66d342bf524c4232b3293c68f236be79bf"
+        },
+        {
+          "path": "content/national/national_summary.csv",
+          "asset": "assets/data/national_summary.csv",
+          "sha256": "6ff95891acce1a8732efab8bcc8e9ce99b07bbfda10fbd0d9a6fbfe757ee2719"
+        }
+      ],
+      "alt": "ทิศทางและการยอมรับระบบสุขภาพในหลายประเทศ — ผู้ตอบไทย 30.1% เห็นว่าระบบดีขึ้นในสองปี และ 43.8% เห็นว่าระบบทำงานดีหรือต้องปรับเพียงเล็กน้อย",
+      "sha256": "b23983deec47fd39ffbb4cc8800b8265aa64930be75af0c65b8ba536fd327077",
+      "metric_ids": [
+        "system_improved",
+        "system_works"
+      ]
+    },
+    {
+      "id": "international-quality",
+      "label": "คุณภาพรัฐ–เอกชน",
+      "title": "คุณภาพภาครัฐและเอกชนในมุมมองประชาชน",
+      "caption": "ร้อยละที่ประเมินว่าดีมากหรือดีเยี่ยม; ไทย 18.0% สำหรับภาครัฐ และ 45.4% สำหรับเอกชน",
+      "note": "เป็นการประเมินระบบโดยรวม ไม่ใช่คะแนนคุณภาพทางคลินิกหรือคะแนนของสถานพยาบาลครั้งล่าสุด ค่าต่างประเทศคงตามตารางหรือรูปที่ตีพิมพ์ ส่วนตัวอย่างไทยไม่ถ่วงน้ำหนัก วิธีเลือกตัวอย่าง การถ่วงน้ำหนัก และช่วงเวลาเก็บข้อมูลต่างกัน ตัวเลขใช้ประกอบบริบท โดยไม่ได้ทดสอบความแตกต่างระหว่างประเทศ อาร์เจนตินาเก็บเฉพาะจังหวัดเมนโดซา",
+      "category": "เปรียบเทียบระหว่างประเทศ",
+      "source": "PVS Thailand; Kruk et al. (2024) / Croke et al. (2024)",
+      "png": "assets/figures/international-quality.png",
+      "svg": "assets/figures/international-quality.svg",
+      "svg_dark": "assets/figures/international-quality-dark.svg",
+      "csv": "assets/data/international-quality.csv",
+      "source_tables": [],
+      "source_files": [
+        {
+          "path": "content/international/values.csv",
+          "asset": "assets/data/international_values.csv",
+          "sha256": "91d2fe5ba8bc722b4a20e3c91cdd2c66d342bf524c4232b3293c68f236be79bf"
+        },
+        {
+          "path": "content/national/national_summary.csv",
+          "asset": "assets/data/national_summary.csv",
+          "sha256": "6ff95891acce1a8732efab8bcc8e9ce99b07bbfda10fbd0d9a6fbfe757ee2719"
+        }
+      ],
+      "alt": "คุณภาพภาครัฐและเอกชนในมุมมองประชาชน — ร้อยละที่ประเมินว่าดีมากหรือดีเยี่ยม; ไทย 18.0% สำหรับภาครัฐ และ 45.4% สำหรับเอกชน",
+      "sha256": "c5c0f2f4c1b0c447e33b263cb743589696f815cb7c384bf825c1b45e9c128ae5",
+      "metric_ids": [
+        "public_quality",
+        "private_quality"
+      ]
+    },
+    {
+      "id": "international-primary",
+      "label": "บริการเฉพาะด้าน",
+      "title": "การรับรู้คุณภาพบริการปฐมภูมิเฉพาะด้านในหลายประเทศ",
+      "caption": "ร้อยละที่ประเมินว่าดีมากหรือดีเยี่ยม แยกบริการสี่ด้าน",
+      "note": "ค่าของไทยตัดผู้ที่ประเมินไม่ได้ออกจากตัวหารรายข้อ; ต้องพิจารณานิยามบริการและวิธีจัดการคำตอบไม่ทราบของแต่ละการสำรวจ ค่าต่างประเทศคงตามตารางหรือรูปที่ตีพิมพ์ ส่วนตัวอย่างไทยไม่ถ่วงน้ำหนัก วิธีเลือกตัวอย่าง การถ่วงน้ำหนัก และช่วงเวลาเก็บข้อมูลต่างกัน ตัวเลขใช้ประกอบบริบท โดยไม่ได้ทดสอบความแตกต่างระหว่างประเทศ อาร์เจนตินาเก็บเฉพาะจังหวัดเมนโดซา",
+      "category": "เปรียบเทียบระหว่างประเทศ",
+      "source": "PVS Thailand; Kruk et al. (2024) / Croke et al. (2024)",
+      "png": "assets/figures/international-primary.png",
+      "svg": "assets/figures/international-primary.svg",
+      "svg_dark": "assets/figures/international-primary-dark.svg",
+      "csv": "assets/data/international-primary.csv",
+      "source_tables": [],
+      "source_files": [
+        {
+          "path": "content/international/values.csv",
+          "asset": "assets/data/international_values.csv",
+          "sha256": "91d2fe5ba8bc722b4a20e3c91cdd2c66d342bf524c4232b3293c68f236be79bf"
+        },
+        {
+          "path": "content/national/national_summary.csv",
+          "asset": "assets/data/national_summary.csv",
+          "sha256": "6ff95891acce1a8732efab8bcc8e9ce99b07bbfda10fbd0d9a6fbfe757ee2719"
+        }
+      ],
+      "alt": "การรับรู้คุณภาพบริการปฐมภูมิเฉพาะด้านในหลายประเทศ — ร้อยละที่ประเมินว่าดีมากหรือดีเยี่ยม แยกบริการสี่ด้าน",
+      "sha256": "1c181484cc486edff44dc1d147ef449189b8c7a56fad1ba169d8daa04a12a811",
+      "metric_ids": [
+        "maternal_quality",
+        "child_quality",
+        "chronic_quality",
+        "mental_quality"
+      ]
+    },
+    {
+      "id": "international-governance",
+      "label": "การตอบสนองของรัฐ",
+      "title": "เสียงประชาชนต่อการตอบสนองของรัฐบาล",
+      "caption": "ไทย 54.2% มั่นใจว่ารัฐรับฟังประชาชน และ 15.3% ประเมินการจัดการโควิดว่าดีมากหรือดีเยี่ยม",
+      "note": "การประเมินโควิดเกิดในบริบทการระบาดและช่วงเวลาเก็บข้อมูลต่างกัน ค่าต่างประเทศคงตามตารางหรือรูปที่ตีพิมพ์ ส่วนตัวอย่างไทยไม่ถ่วงน้ำหนัก วิธีเลือกตัวอย่าง การถ่วงน้ำหนัก และช่วงเวลาเก็บข้อมูลต่างกัน ตัวเลขใช้ประกอบบริบท โดยไม่ได้ทดสอบความแตกต่างระหว่างประเทศ อาร์เจนตินาเก็บเฉพาะจังหวัดเมนโดซา",
+      "category": "เปรียบเทียบระหว่างประเทศ",
+      "source": "PVS Thailand; Kruk et al. (2024) / Croke et al. (2024)",
+      "png": "assets/figures/international-governance.png",
+      "svg": "assets/figures/international-governance.svg",
+      "svg_dark": "assets/figures/international-governance-dark.svg",
+      "csv": "assets/data/international-governance.csv",
+      "source_tables": [],
+      "source_files": [
+        {
+          "path": "content/international/values.csv",
+          "asset": "assets/data/international_values.csv",
+          "sha256": "91d2fe5ba8bc722b4a20e3c91cdd2c66d342bf524c4232b3293c68f236be79bf"
+        },
+        {
+          "path": "content/national/national_summary.csv",
+          "asset": "assets/data/national_summary.csv",
+          "sha256": "6ff95891acce1a8732efab8bcc8e9ce99b07bbfda10fbd0d9a6fbfe757ee2719"
+        }
+      ],
+      "alt": "เสียงประชาชนต่อการตอบสนองของรัฐบาล — ไทย 54.2% มั่นใจว่ารัฐรับฟังประชาชน และ 15.3% ประเมินการจัดการโควิดว่าดีมากหรือดีเยี่ยม",
+      "sha256": "9516899be18f4a6e2a5c3a18d8ad0f08bba978ce867c731b097facb1b00d9991",
+      "metric_ids": [
+        "government_listens",
+        "covid_management"
+      ]
+    },
+    {
+      "id": "map-unmet",
+      "label": "แผนที่ความต้องการบริการ",
+      "title": "ความจำเป็นที่ไม่ได้รับบริการในแต่ละพื้นที่ศึกษา",
+      "caption": "สีแสดงร้อยละตามคำตอบของผู้เข้าร่วมการสำรวจในพื้นที่นั้น",
+      "note": "ค่าต่างประเทศคงตามตารางหรือรูปที่ตีพิมพ์ ส่วนตัวอย่างไทยไม่ถ่วงน้ำหนัก วิธีเลือกตัวอย่าง การถ่วงน้ำหนัก และช่วงเวลาเก็บข้อมูลต่างกัน ตัวเลขใช้ประกอบบริบท โดยไม่ได้ทดสอบความแตกต่างระหว่างประเทศ อาร์เจนตินาเก็บเฉพาะจังหวัดเมนโดซา สีเทาหมายถึงไม่มีค่าประมาณในชุดเปรียบเทียบ ไม่ใช่ร้อยละศูนย์ ทั้งไทยและต่างประเทศอ้างอิง 12 เดือนที่ผ่านมา",
+      "category": "เปรียบเทียบระหว่างประเทศ",
+      "source": "PVS Thailand; Kruk et al. (2024) / Croke et al. (2024)",
+      "png": "assets/figures/map-unmet.png",
+      "svg": "assets/figures/map-unmet.svg",
+      "svg_dark": "assets/figures/map-unmet-dark.svg",
+      "csv": "assets/data/map-unmet.csv",
+      "source_tables": [],
+      "source_files": [
+        {
+          "path": "content/international/values.csv",
+          "asset": "assets/data/international_values.csv",
+          "sha256": "91d2fe5ba8bc722b4a20e3c91cdd2c66d342bf524c4232b3293c68f236be79bf"
+        },
+        {
+          "path": "content/national/national_summary.csv",
+          "asset": "assets/data/national_summary.csv",
+          "sha256": "6ff95891acce1a8732efab8bcc8e9ce99b07bbfda10fbd0d9a6fbfe757ee2719"
+        }
+      ],
+      "alt": "ความจำเป็นที่ไม่ได้รับบริการในแต่ละพื้นที่ศึกษา — สีแสดงร้อยละตามคำตอบของผู้เข้าร่วมการสำรวจในพื้นที่นั้น",
+      "sha256": "009ab8e6fa485a13b513fbcb3ef53a87d11a2cde7c644f38124cf20fce753b3d",
+      "metric_ids": [
+        "unmet_need"
+      ]
+    },
+    {
+      "id": "map-confidence",
+      "label": "แผนที่ความเชื่อมั่น",
+      "title": "ความมั่นใจทั้งคุณภาพและความสามารถจ่ายในแต่ละพื้นที่ศึกษา",
+      "caption": "สีแสดงร้อยละตามคำตอบของผู้เข้าร่วมการสำรวจในพื้นที่นั้น",
+      "note": "ค่าต่างประเทศคงตามตารางหรือรูปที่ตีพิมพ์ ส่วนตัวอย่างไทยไม่ถ่วงน้ำหนัก วิธีเลือกตัวอย่าง การถ่วงน้ำหนัก และช่วงเวลาเก็บข้อมูลต่างกัน ตัวเลขใช้ประกอบบริบท โดยไม่ได้ทดสอบความแตกต่างระหว่างประเทศ อาร์เจนตินาเก็บเฉพาะจังหวัดเมนโดซา สีเทาหมายถึงไม่มีค่าประมาณในชุดเปรียบเทียบ ไม่ใช่ร้อยละศูนย์",
+      "category": "เปรียบเทียบระหว่างประเทศ",
+      "source": "PVS Thailand; Kruk et al. (2024) / Croke et al. (2024)",
+      "png": "assets/figures/map-confidence.png",
+      "svg": "assets/figures/map-confidence.svg",
+      "svg_dark": "assets/figures/map-confidence-dark.svg",
+      "csv": "assets/data/map-confidence.csv",
+      "source_tables": [],
+      "source_files": [
+        {
+          "path": "content/international/values.csv",
+          "asset": "assets/data/international_values.csv",
+          "sha256": "91d2fe5ba8bc722b4a20e3c91cdd2c66d342bf524c4232b3293c68f236be79bf"
+        },
+        {
+          "path": "content/national/national_summary.csv",
+          "asset": "assets/data/national_summary.csv",
+          "sha256": "6ff95891acce1a8732efab8bcc8e9ce99b07bbfda10fbd0d9a6fbfe757ee2719"
+        }
+      ],
+      "alt": "ความมั่นใจทั้งคุณภาพและความสามารถจ่ายในแต่ละพื้นที่ศึกษา — สีแสดงร้อยละตามคำตอบของผู้เข้าร่วมการสำรวจในพื้นที่นั้น",
+      "sha256": "e89fa604bb9597dccb8b8e2f26fdad8317d27292b27685d0b8cf10f833020cb3",
+      "metric_ids": [
+        "health_security"
+      ]
+    },
+    {
+      "id": "map-system-quality",
+      "label": "แผนที่คุณภาพภาครัฐ",
+      "title": "การรับรู้คุณภาพระบบภาครัฐในแต่ละพื้นที่ศึกษา",
+      "caption": "สีแสดงร้อยละตามคำตอบของผู้เข้าร่วมการสำรวจในพื้นที่นั้น",
+      "note": "ค่าต่างประเทศคงตามตารางหรือรูปที่ตีพิมพ์ ส่วนตัวอย่างไทยไม่ถ่วงน้ำหนัก วิธีเลือกตัวอย่าง การถ่วงน้ำหนัก และช่วงเวลาเก็บข้อมูลต่างกัน ตัวเลขใช้ประกอบบริบท โดยไม่ได้ทดสอบความแตกต่างระหว่างประเทศ อาร์เจนตินาเก็บเฉพาะจังหวัดเมนโดซา สีเทาหมายถึงไม่มีค่าประมาณในชุดเปรียบเทียบ ไม่ใช่ร้อยละศูนย์",
+      "category": "เปรียบเทียบระหว่างประเทศ",
+      "source": "PVS Thailand; Kruk et al. (2024) / Croke et al. (2024)",
+      "png": "assets/figures/map-system-quality.png",
+      "svg": "assets/figures/map-system-quality.svg",
+      "svg_dark": "assets/figures/map-system-quality-dark.svg",
+      "csv": "assets/data/map-system-quality.csv",
+      "source_tables": [],
+      "source_files": [
+        {
+          "path": "content/international/values.csv",
+          "asset": "assets/data/international_values.csv",
+          "sha256": "91d2fe5ba8bc722b4a20e3c91cdd2c66d342bf524c4232b3293c68f236be79bf"
+        },
+        {
+          "path": "content/national/national_summary.csv",
+          "asset": "assets/data/national_summary.csv",
+          "sha256": "6ff95891acce1a8732efab8bcc8e9ce99b07bbfda10fbd0d9a6fbfe757ee2719"
+        }
+      ],
+      "alt": "การรับรู้คุณภาพระบบภาครัฐในแต่ละพื้นที่ศึกษา — สีแสดงร้อยละตามคำตอบของผู้เข้าร่วมการสำรวจในพื้นที่นั้น",
+      "sha256": "42d97bd0b1d25a8ee30833012d539e6e32f33f351b655608b96a1f80f298d1fb",
+      "metric_ids": [
+        "public_quality"
+      ]
+    },
+    {
+      "id": "report-figure-04",
+      "label": "ความต้องการที่ไม่ได้รับบริการ",
+      "title": "ความจำเป็นด้านสุขภาพที่ไม่ได้รับบริการในไทยและต่างประเทศ",
+      "caption": "ไทย 17.6% เทียบกับค่ารวม 14 ประเทศ 14.2%; แท่งลายเฉียงคือกลุ่มตัวอย่างไทย",
+      "note": "* ไทยเป็นกลุ่มตัวอย่าง 13 จังหวัด ไม่ถ่วงน้ำหนัก; † อาร์เจนตินาศึกษาเฉพาะจังหวัดเมนโดซา การศึกษาแต่ละพื้นที่ต่างกันด้านเวลาและวิธีสำรวจ ค่ารวมใช้ค่าที่ตีพิมพ์ ไม่ใช่ค่าเฉลี่ยที่คำนวณใหม่ ทั้งไทยและต่างประเทศถามช่วง 12 เดือนที่ผ่านมา แต่แผนสุ่มตัวอย่าง การถ่วงน้ำหนัก และช่วงเก็บข้อมูลต่างกัน จึงไม่ใช้จัดอันดับประเทศ",
+      "category": "บริบทระหว่างประเทศ",
+      "source": "PVS Thailand; Kruk et al. (2024) / Croke et al. (2024)",
+      "png": "assets/figures/report-figure-04.png",
+      "svg": "assets/figures/report-figure-04.svg",
+      "svg_dark": "assets/figures/report-figure-04-dark.svg",
+      "csv": "assets/data/report-figure-04.csv",
+      "source_tables": [],
+      "source_files": [
+        {
+          "path": "content/international/values.csv",
+          "asset": "assets/data/international_values.csv",
+          "sha256": "91d2fe5ba8bc722b4a20e3c91cdd2c66d342bf524c4232b3293c68f236be79bf"
+        },
+        {
+          "path": "content/national/national_summary.csv",
+          "asset": "assets/data/national_summary.csv",
+          "sha256": "6ff95891acce1a8732efab8bcc8e9ce99b07bbfda10fbd0d9a6fbfe757ee2719"
+        }
+      ],
+      "alt": "ความจำเป็นด้านสุขภาพที่ไม่ได้รับบริการในไทยและต่างประเทศ — ไทย 17.6% เทียบกับค่ารวม 14 ประเทศ 14.2%; แท่งลายเฉียงคือกลุ่มตัวอย่างไทย",
+      "sha256": "dd7e62f62fe5d8e53e38eafc4de9a491c56c084bef1213cc6792c4cb56837cfc",
+      "section": "international",
+      "original_palette": [
+        "#e34948"
+      ],
+      "report_figure": 4
+    },
+    {
+      "id": "report-figure-05",
+      "label": "ความเชื่อมั่นต่อระบบ",
+      "title": "ความเชื่อมั่นในระบบสุขภาพในไทยและต่างประเทศ",
+      "caption": "ความมั่นใจทั้งคุณภาพและการจ่ายของไทย 64.4%; การเห็นว่าระบบดีขึ้น 30.1%; ระบบทำงานดีหรือปรับเล็กน้อย 43.8%",
+      "note": "* ไทยเป็นกลุ่มตัวอย่าง 13 จังหวัด ไม่ถ่วงน้ำหนัก; † อาร์เจนตินาศึกษาเฉพาะจังหวัดเมนโดซา การศึกษาแต่ละพื้นที่ต่างกันด้านเวลาและวิธีสำรวจ ค่ารวมใช้ค่าที่ตีพิมพ์ ไม่ใช่ค่าเฉลี่ยที่คำนวณใหม่",
+      "category": "บริบทระหว่างประเทศ",
+      "source": "PVS Thailand; Kruk et al. (2024) / Croke et al. (2024)",
+      "png": "assets/figures/report-figure-05.png",
+      "svg": "assets/figures/report-figure-05.svg",
+      "svg_dark": "assets/figures/report-figure-05-dark.svg",
+      "csv": "assets/data/report-figure-05.csv",
+      "source_tables": [],
+      "source_files": [
+        {
+          "path": "content/international/values.csv",
+          "asset": "assets/data/international_values.csv",
+          "sha256": "91d2fe5ba8bc722b4a20e3c91cdd2c66d342bf524c4232b3293c68f236be79bf"
+        },
+        {
+          "path": "content/national/national_summary.csv",
+          "asset": "assets/data/national_summary.csv",
+          "sha256": "6ff95891acce1a8732efab8bcc8e9ce99b07bbfda10fbd0d9a6fbfe757ee2719"
+        }
+      ],
+      "alt": "ความเชื่อมั่นในระบบสุขภาพในไทยและต่างประเทศ — ความมั่นใจทั้งคุณภาพและการจ่ายของไทย 64.4%; การเห็นว่าระบบดีขึ้น 30.1%; ระบบทำงานดีหรือปรับเล็กน้อย 43.8%",
+      "sha256": "7f7329194c6a1ee48c0963afd92b30fa8998c1f322e9eaf0522046f3c01782ea",
+      "section": "international",
+      "original_palette": [
+        "#C99A2E",
+        "#4E8FCB",
+        "#5F9E5A",
+        "#8D7BB0",
+        "#6E85A6"
+      ],
+      "report_figure": 5
+    },
+    {
+      "id": "report-figure-06",
+      "label": "คุณภาพระบบสุขภาพ",
+      "title": "การประเมินคุณภาพระบบสุขภาพในไทยและต่างประเทศ",
+      "caption": "การประเมินคุณภาพภาครัฐและเอกชน บริการเฉพาะด้าน การรับฟังประชาชน และการจัดการโควิด-19",
+      "note": "* ไทยเป็นกลุ่มตัวอย่าง 13 จังหวัด ไม่ถ่วงน้ำหนัก; † อาร์เจนตินาศึกษาเฉพาะจังหวัดเมนโดซา การศึกษาแต่ละพื้นที่ต่างกันด้านเวลาและวิธีสำรวจ ค่ารวมใช้ค่าที่ตีพิมพ์ ไม่ใช่ค่าเฉลี่ยที่คำนวณใหม่ Q40 ของไทยใช้ผู้ประเมินได้: มารดา 1,650; เด็ก 1,702; โรคเรื้อรัง 1,787; สุขภาพจิต 1,648 คน คะแนนสะท้อนการรับรู้ ไม่ใช่คุณภาพทางคลินิก",
+      "category": "บริบทระหว่างประเทศ",
+      "source": "PVS Thailand; Kruk et al. (2024) / Croke et al. (2024)",
+      "png": "assets/figures/report-figure-06.png",
+      "svg": "assets/figures/report-figure-06.svg",
+      "svg_dark": "assets/figures/report-figure-06-dark.svg",
+      "csv": "assets/data/report-figure-06.csv",
+      "source_tables": [],
+      "source_files": [
+        {
+          "path": "content/international/values.csv",
+          "asset": "assets/data/international_values.csv",
+          "sha256": "91d2fe5ba8bc722b4a20e3c91cdd2c66d342bf524c4232b3293c68f236be79bf"
+        },
+        {
+          "path": "content/national/national_summary.csv",
+          "asset": "assets/data/national_summary.csv",
+          "sha256": "6ff95891acce1a8732efab8bcc8e9ce99b07bbfda10fbd0d9a6fbfe757ee2719"
+        }
+      ],
+      "alt": "การประเมินคุณภาพระบบสุขภาพในไทยและต่างประเทศ — การประเมินคุณภาพภาครัฐและเอกชน บริการเฉพาะด้าน การรับฟังประชาชน และการจัดการโควิด-19",
+      "sha256": "610cdda65aeab3a007366438d475875ec4f10c33dac0031d48cf674db3d2c7bc",
+      "section": "international",
+      "original_palette": [
+        "#2E7D46",
+        "#8CC152",
+        "#2a78d6",
+        "#eb6834",
+        "#1baf7a",
+        "#eda100",
+        "#4a3aa7",
+        "#e34948"
+      ],
+      "report_figure": 6
+    },
+    {
+      "id": "private-routes",
+      "label": "สิทธิและผู้ใช้บริการ",
+      "title": "สองมุมมองของผู้ใช้โรงพยาบาลเอกชนประจำ",
+      "caption": "ซ้าย: ผู้ใช้ประจำ 127 คนมาจากกลุ่มใด; ขวา: ภายในแต่ละกลุ่มสิทธิ มีผู้ใช้ประจำเท่าไร",
+      "note": "แบ่งกลุ่มไม่ซ้ำกัน: ประกันสังคมรวมทั้งผู้มีและไม่มีประกันเอกชน ส่วนกลุ่มสิทธิอื่นจึงค่อยแยกตามประกันเอกชน การมีสิทธิไม่ยืนยันช่องทางจ่ายเงินจริง",
+      "category": "ผู้ใช้บริการ",
+      "source": "PVS Thailand",
+      "png": "assets/figures/private-routes.png",
+      "svg": "assets/figures/private-routes.svg",
+      "svg_dark": "assets/figures/private-routes-dark.svg",
+      "csv": "assets/data/private-routes.csv",
+      "source_tables": [],
+      "source_files": [
+        {
+          "path": "content/national/private_routes.csv",
+          "asset": "assets/data/private_routes.csv",
+          "sha256": "8f1910871ba6a5859f13761c7af8809cda5e9b47871015af7083deec37c31db1"
+        }
+      ],
+      "alt": "สองมุมมองของผู้ใช้โรงพยาบาลเอกชนประจำ — ซ้าย: ผู้ใช้ประจำ 127 คนมาจากกลุ่มใด; ขวา: ภายในแต่ละกลุ่มสิทธิ มีผู้ใช้ประจำเท่าไร",
+      "sha256": "d1e5b7164649dc2998b4ef1667ab345b0c86c31443b030175787888e9280003a",
+      "section": "subgroup"
+    },
+    {
+      "id": "map-thailand",
+      "title": "เสียงจาก 13 จังหวัดที่เก็บตัวอย่าง",
+      "caption": "เลือกหนึ่งจังหวัดต่อเขตสุขภาพ รวม 2,017 คน สีแสดงจำนวนตัวอย่าง ไม่ใช่อัตราสุขภาพระดับจังหวัด",
+      "note": "จังหวัดสีเทาไม่ได้อยู่ในพื้นที่เก็บตัวอย่าง การเลือกจังหวัดไม่ทำให้ผลเป็นตัวแทนทุกจังหวัดในเขตสุขภาพ",
+      "category": "พื้นที่และวิธีศึกษา",
+      "source": "PVS Thailand · T10_planned_vs_achieved_region",
+      "png": "assets/figures/map-thailand.png",
+      "svg": "assets/figures/map-thailand.svg",
+      "svg_dark": "assets/figures/map-thailand-dark.svg",
+      "csv": "assets/data/map-thailand.csv",
+      "alt": "เสียงจาก 13 จังหวัดที่เก็บตัวอย่าง — เลือกหนึ่งจังหวัดต่อเขตสุขภาพ รวม 2,017 คน สีแสดงจำนวนตัวอย่าง ไม่ใช่อัตราสุขภาพระดับจังหวัด",
+      "source_tables": [
+        "T10_planned_vs_achieved_region"
+      ],
+      "sha256": "01959f858c1fa436a74de246bc64ddc41a67b727ee9e4af8ee788111c286642f",
+      "report_figure": 3,
+      "label": "พื้นที่ศึกษา"
+    },
+    {
+      "id": "figure-a1",
+      "title": "จำนวนตัวอย่างตามแผนและที่เก็บได้จริง",
+      "caption": "แผน 2,000 คน เทียบกับข้อมูลที่เก็บได้จริง 2,017 คน แยกตามจังหวัดใน 13 เขตสุขภาพ",
+      "note": "",
+      "category": "พื้นที่และวิธีศึกษา",
+      "source": "PVS Thailand · T10_planned_vs_achieved_region",
+      "png": "assets/figures/figure-a1.png",
+      "svg": "assets/figures/figure-a1.svg",
+      "svg_dark": "assets/figures/figure-a1-dark.svg",
+      "csv": "assets/data/figure-a1.csv",
+      "alt": "จำนวนตัวอย่างตามแผนและที่เก็บได้จริง — แผน 2,000 คน เทียบกับข้อมูลที่เก็บได้จริง 2,017 คน แยกตามจังหวัดใน 13 เขตสุขภาพ",
+      "source_tables": [
+        "T10_planned_vs_achieved_region"
+      ],
+      "sha256": "3a13ef12ac323565e1c6039825c80d04e03bd34fc705febf9b9abd31c96e2b86",
+      "report_figure": 2,
+      "label": "จำนวนผู้ตอบ"
+    },
+    {
+      "id": "figure-1",
+      "title": "ลักษณะของผู้ใช้แหล่งบริการประจำสี่กลุ่ม",
+      "caption": "จุดคือร้อยละในแต่ละกลุ่ม เส้นคือช่วงความเชื่อมั่น 95% แบบ Wilson ใช้ข้อมูลที่ตอบได้ตามเกณฑ์ของแต่ละข้อ",
+      "note": "การมีประกันสุขภาพไม่ได้ยืนยันว่าใช้สิทธินั้นจ่ายค่ารักษาในครั้งที่รายงาน",
+      "category": "ผู้ใช้บริการ",
+      "source": "PVS Thailand · T24_profile_binary",
+      "png": "assets/figures/figure-1.png",
+      "svg": "assets/figures/figure-1.svg",
+      "svg_dark": "assets/figures/figure-1-dark.svg",
+      "csv": "assets/data/figure-1.csv",
+      "alt": "ลักษณะของผู้ใช้แหล่งบริการประจำสี่กลุ่ม — จุดคือร้อยละในแต่ละกลุ่ม เส้นคือช่วงความเชื่อมั่น 95% แบบ Wilson ใช้ข้อมูลที่ตอบได้ตามเกณฑ์ของแต่ละข้อ",
+      "source_tables": [
+        "T24_profile_binary"
+      ],
+      "sha256": "f3a38abc3eacf6e0dc8d38d4ade8c2f0243fea345bf6a3ed9ad65c45345f380b",
+      "report_figure": 7,
+      "label": "ลักษณะผู้ใช้บริการ"
+    },
+    {
+      "id": "figure-2",
+      "title": "เหตุผลในการเลือกแหล่งบริการประจำ",
+      "caption": "เหตุผลหลักที่ผู้ตอบเลือกเพียงหนึ่งข้อ แสดงหกเหตุผลสำคัญโดยใช้ฐานผู้มีแหล่งบริการประจำ",
+      "note": "เหตุผลที่ระบุไม่ใช่ข้อมูลการลงทะเบียนหรือผู้จ่ายค่าบริการ",
+      "category": "ผู้ใช้บริการ",
+      "source": "PVS Thailand · T25_reasons_binary",
+      "png": "assets/figures/figure-2.png",
+      "svg": "assets/figures/figure-2.svg",
+      "svg_dark": "assets/figures/figure-2-dark.svg",
+      "csv": "assets/data/figure-2.csv",
+      "alt": "เหตุผลในการเลือกแหล่งบริการประจำ — เหตุผลหลักที่ผู้ตอบเลือกเพียงหนึ่งข้อ แสดงหกเหตุผลสำคัญโดยใช้ฐานผู้มีแหล่งบริการประจำ",
+      "source_tables": [
+        "T25_reasons_binary"
+      ],
+      "sha256": "6699ab847bb860e49a1801fb7f2a0edb89593eecb5543a62cadf627313dc4faa",
+      "report_figure": 8,
+      "label": "เหตุผลที่เลือก"
+    },
+    {
+      "id": "figure-3",
+      "title": "การเข้าถึงและรูปแบบการใช้บริการ",
+      "caption": "ส่วนบนแสดงการกระจายเวลารอ ณ สถานพยาบาล ส่วนล่างแสดงรูปแบบการใช้บริการตามช่วงเวลาที่ระบุในข้อคำถาม",
+      "note": "ข้อคำถามแต่ละข้อมีช่วงเวลาอ้างอิงต่างกัน จึงไม่ควรตีความทุกแถวเป็นการใช้บริการในรอบปีเดียวกัน รายการใช้สถานพยาบาลแห่งเดียวคัดเฉพาะผู้ที่ใช้บริการมากกว่า 1 ครั้งใน 12 เดือน (1,238 คน) เนื่องจากผู้ไปครั้งเดียวย่อมตอบว่าใช้แห่งเดียวโดยปริยาย ตัวหารจึงต่างจากแถวอื่น",
+      "category": "การเข้าถึงบริการ",
+      "source": "PVS Thailand · T26_utilisation_binary, T22_access_by_group",
+      "png": "assets/figures/figure-3.png",
+      "svg": "assets/figures/figure-3.svg",
+      "svg_dark": "assets/figures/figure-3-dark.svg",
+      "csv": "assets/data/figure-3.csv",
+      "alt": "การเข้าถึงและรูปแบบการใช้บริการ — ส่วนบนแสดงการกระจายเวลารอ ณ สถานพยาบาล ส่วนล่างแสดงรูปแบบการใช้บริการตามช่วงเวลาที่ระบุในข้อคำถาม",
+      "source_tables": [
+        "T26_utilisation_binary",
+        "T22_access_by_group"
+      ],
+      "sha256": "699310f0df9a8fa87a5035d9e3da9e4394b97cd7293b842503b12205f068ed20",
+      "report_figure": 9,
+      "label": "เวลารอและการใช้บริการ"
+    },
+    {
+      "id": "figure-4",
+      "title": "การได้รับบริการป้องกันและคัดกรอง",
+      "caption": "ร้อยละการได้รับบริการตามคำตอบข้อ Q27 พร้อมช่วงความเชื่อมั่น 95%",
+      "note": "การได้รับบริการในช่วง 12 เดือนที่ผ่านมา ไม่ได้บอกว่าได้รับบริการจากสถานพยาบาลประจำ และไม่ใช่ความครอบคลุมตามเกณฑ์อายุหรือความเสี่ยง",
+      "category": "การเข้าถึงบริการ",
+      "source": "PVS Thailand · T30_preventive_descriptive",
+      "png": "assets/figures/figure-4.png",
+      "svg": "assets/figures/figure-4.svg",
+      "svg_dark": "assets/figures/figure-4-dark.svg",
+      "csv": "assets/data/figure-4.csv",
+      "alt": "การได้รับบริการป้องกันและคัดกรอง — ร้อยละการได้รับบริการตามคำตอบข้อ Q27 พร้อมช่วงความเชื่อมั่น 95%",
+      "source_tables": [
+        "T30_preventive_descriptive"
+      ],
+      "sha256": "05eb8004a4143814b313f01d4d61df73179697c10524dd265f1a27acea3f6e16",
+      "report_figure": 10,
+      "label": "บริการป้องกัน"
+    },
+    {
+      "id": "figure-5",
+      "title": "ประสบการณ์ในการรับบริการครั้งล่าสุด",
+      "caption": "ร้อยละที่ประเมินแต่ละด้านว่าดีมากหรือดีเยี่ยม แยกตามแหล่งบริการประจำ",
+      "note": "สถานพยาบาลครั้งล่าสุดอาจไม่ใช่แหล่งบริการประจำ ตัวหารตัดคำตอบที่ไม่เข้าข่ายออกตามข้อคำถาม",
+      "category": "ประสบการณ์",
+      "source": "PVS Thailand · T50_experience_by_usual_group",
+      "png": "assets/figures/figure-5.png",
+      "svg": "assets/figures/figure-5.svg",
+      "svg_dark": "assets/figures/figure-5-dark.svg",
+      "csv": "assets/data/figure-5.csv",
+      "alt": "ประสบการณ์ในการรับบริการครั้งล่าสุด — ร้อยละที่ประเมินแต่ละด้านว่าดีมากหรือดีเยี่ยม แยกตามแหล่งบริการประจำ",
+      "source_tables": [
+        "T50_experience_by_usual_group"
+      ],
+      "sha256": "7250e555405b51f0436a8085186edcde48ced7af9e174a6c86f54b89fef401b8",
+      "report_figure": 12,
+      "label": "ประสบการณ์รับบริการ"
+    },
+    {
+      "id": "figure-6",
+      "title": "ความแตกต่างหลังปรับปัจจัยร่วม",
+      "caption": "อัตราส่วนโอกาสที่ปรับแล้วของกลุ่มโรงพยาบาลเอกชน เทียบกับกลุ่มโรงพยาบาลรัฐ เส้นแสดงช่วงความเชื่อมั่น 95%",
+      "note": "ปรับอายุ เพศ การศึกษา รายได้ เขตที่อยู่อาศัย สิทธิสุขภาพ สุขภาพตนเอง และโรคเรื้อรัง คำนึงถึงการเกาะกลุ่มระดับตำบล สีแดงแสดงนัยสำคัญหลังปรับ BH ภายในกลุ่มผลลัพธ์ เป็นความสัมพันธ์ ไม่ใช่ผลเชิงสาเหตุ",
+      "category": "การวิเคราะห์ปรับปัจจัย",
+      "source": "PVS Thailand · T90_all_adjusted_combined",
+      "png": "assets/figures/figure-6.png",
+      "svg": "assets/figures/figure-6.svg",
+      "svg_dark": "assets/figures/figure-6-dark.svg",
+      "csv": "assets/data/figure-6.csv",
+      "alt": "ความแตกต่างหลังปรับปัจจัยร่วม — อัตราส่วนโอกาสที่ปรับแล้วของกลุ่มโรงพยาบาลเอกชน เทียบกับกลุ่มโรงพยาบาลรัฐ เส้นแสดงช่วงความเชื่อมั่น 95%",
+      "source_tables": [
+        "T90_all_adjusted_combined"
+      ],
+      "sha256": "a5f1d244ae058b4207122b947d878de85065d2979efbadb1aae68bd4569a5e94",
+      "label": "ผลปรับปัจจัยร่วม"
+    },
+    {
+      "id": "figure-a2",
+      "title": "บริการป้องกันหลังปรับปัจจัยร่วม",
+      "caption": "เปรียบเทียบกลุ่มโรงพยาบาลเอกชนกับโรงพยาบาลรัฐ โดยมีช่วงความเชื่อมั่น 95% และการปรับการทดสอบหลายครั้ง",
+      "note": "การตรวจความดันใช้แบบจำลองลดรูป ปรับอายุ เพศ และเขตที่อยู่อาศัย บริการอื่นใช้ปัจจัยร่วมเต็มชุด การคัดกรองเฉพาะหญิงใช้ฐานผู้ตอบหญิงและไม่ปรับเพศ ข้อคำถามบางส่วนยังมีข้อจำกัดด้านการตรวจสอบถ้อยคำ",
+      "category": "การวิเคราะห์ปรับปัจจัย",
+      "source": "PVS Thailand · T31_preventive_adjusted",
+      "png": "assets/figures/figure-a2.png",
+      "svg": "assets/figures/figure-a2.svg",
+      "svg_dark": "assets/figures/figure-a2-dark.svg",
+      "csv": "assets/data/figure-a2.csv",
+      "alt": "บริการป้องกันหลังปรับปัจจัยร่วม — เปรียบเทียบกลุ่มโรงพยาบาลเอกชนกับโรงพยาบาลรัฐ โดยมีช่วงความเชื่อมั่น 95% และการปรับการทดสอบหลายครั้ง",
+      "source_tables": [
+        "T31_preventive_adjusted"
+      ],
+      "sha256": "f6b1533bfe7050d7219aeacd1bf1fa888c873c16c164d348fe3bc75b59d96546",
+      "report_figure": 11,
+      "label": "บริการป้องกันเมื่อปรับปัจจัย"
+    },
+    {
+      "id": "security-states",
+      "title": "ความมั่นใจด้านคุณภาพและด้านการจ่ายไม่ใช่สิ่งเดียวกัน",
+      "caption": "แจกแจงความมั่นใจเป็นสี่สถานะ เพื่อแยกช่องว่างด้านคุณภาพออกจากด้านความสามารถในการจ่าย",
+      "note": "เป็นการรับรู้เมื่อสมมติว่าป่วยหนัก ไม่ใช่ข้อมูลรายจ่ายจริงหรือการประเมินภาวะล้มละลายจากค่ารักษา",
+      "category": "ความเชื่อมั่น",
+      "source": "PVS Thailand · T55_security_decomposition",
+      "png": "assets/figures/security-states.png",
+      "svg": "assets/figures/security-states.svg",
+      "svg_dark": "assets/figures/security-states-dark.svg",
+      "csv": "assets/data/security-states.csv",
+      "alt": "ความมั่นใจด้านคุณภาพและด้านการจ่ายไม่ใช่สิ่งเดียวกัน — แจกแจงความมั่นใจเป็นสี่สถานะ เพื่อแยกช่องว่างด้านคุณภาพออกจากด้านความสามารถในการจ่าย",
+      "source_tables": [
+        "T55_security_decomposition"
+      ],
+      "sha256": "9a5038007c869c20c0e19c3a0e95605ca9828d42da1cbcaf86db8cc9d8bee2a5",
+      "report_figure": 13,
+      "label": "มั่นใจคุณภาพและจ่ายไหว"
+    }
+  ],
+  "title": "เสียงประชาชนต่อระบบสุขภาพไทย",
+  "subtitle": "เมื่อจำเป็นต้องรักษา\nประชาชนเข้าถึงบริการและเชื่อมั่นในระบบเพียงใด",
+  "description": "ผลสำรวจการเข้าถึงบริการ ประสบการณ์รักษา และความเชื่อมั่น\nพร้อมผลศึกษาเฉพาะผู้ใช้โรงพยาบาลเอกชนประจำ",
+  "credit": "© 2569 บริษัท วันโอวัน พับลิโก้ จำกัด และคณะแพทยศาสตร์โรงพยาบาลรามาธิบดี มหาวิทยาลัยมหิดล",
+  "highlights": [
+    {
+      "value": "2,017",
+      "label": "ผู้ตอบแบบสำรวจ",
+      "note": "13 จังหวัดใน 13 เขตสุขภาพ · ผลไม่ถ่วงน้ำหนัก"
+    },
+    {
+      "value": "17.6%",
+      "label": "มีความจำเป็นแต่ไม่ได้รับบริการ",
+      "note": "354 คน · ในช่วง 12 เดือนที่ผ่านมา"
+    },
+    {
+      "value": "24.2%",
+      "label": "ไม่มีหน่วยบริการประจำ",
+      "note": "488 คนจากผู้ตอบทั้งหมด"
+    },
+    {
+      "value": "64.4%",
+      "label": "มั่นใจทั้งคุณภาพและความสามารถจ่าย",
+      "note": "เมื่อสมมติว่าเจ็บป่วยรุนแรง"
+    }
+  ],
+  "opening": {
+    "N": 2017,
+    "source": "assets/sources/national/national_summary.csv",
+    "items": [
+      {
+        "id": "unmet",
+        "tab": "การเข้าถึง",
+        "n": 354,
+        "percent": "17.6%",
+        "label": "จำเป็นต้องรับบริการ แต่ไม่ได้รับ",
+        "context": "ในช่วง 12 เดือนที่ผ่านมา"
+      },
+      {
+        "id": "no_usual",
+        "tab": "หน่วยบริการประจำ",
+        "n": 488,
+        "percent": "24.2%",
+        "label": "ไม่มีหน่วยบริการที่ใช้เป็นประจำ",
+        "context": "ผู้ตอบทั้งหมด"
+      },
+      {
+        "id": "security",
+        "tab": "ความมั่นใจ",
+        "n": 1298,
+        "percent": "64.4%",
+        "label": "มั่นใจทั้งคุณภาพและความสามารถจ่าย",
+        "context": "หากเจ็บป่วยรุนแรง"
+      }
+    ]
+  },
+  "parts": [
+    {
+      "id": "overview",
+      "number": "01",
+      "title": "ภาพรวมระบบสุขภาพไทย",
+      "description": "การเข้าถึง บริการป้องกัน หน่วยบริการประจำ และความเชื่อมั่น ในบริบทของไทยและต่างประเทศ"
+    },
+    {
+      "id": "private",
+      "number": "02",
+      "title": "ผู้ใช้โรงพยาบาลเอกชน",
+      "description": "บทบาทของสิทธิการรักษา ประสบการณ์รับบริการ และสิ่งที่ผลการศึกษาบอกต่อการกำกับดูแล"
+    }
+  ],
+  "chapters": [
+    {
+      "id": "people",
+      "part": "overview",
+      "nav_title": "ผู้ตอบและสุขภาพ",
+      "kicker": "ภาค 1 / ภาพรวมระบบสุขภาพไทย",
+      "title": "ผู้ตอบ 2,017 คนจาก 13 จังหวัด",
+      "paragraphs": [
+        "People’s Voice Survey สำรวจการเข้าถึงบริการ ประสบการณ์ และความเชื่อมั่นในระบบสุขภาพของผู้ตอบ 2,017 คน จาก 13 จังหวัดใน 13 เขตสุขภาพ เป็นผู้ที่อยู่ในเขตเทศบาล 697 คน และนอกเขตเทศบาล 1,320 คน",
+        "ผู้ตอบ 78.8% ประเมินสุขภาพกายว่าดีขึ้นไป แต่ 32.3% มีโรคหรือภาวะเจ็บป่วยเรื้อรังตั้งแต่หกเดือน ความต้องการสุขภาพจึงครอบคลุมทั้งการรักษา การป้องกัน และการดูแลต่อเนื่อง"
+      ],
+      "takeaway": "ผลการศึกษาสะท้อนผู้ตอบในพื้นที่ที่เก็บตัวอย่าง ไม่ใช่ค่าประมาณที่ถ่วงน้ำหนักแทนประชากรไทยทั้งประเทศ",
+      "chart_ids": [
+        "national-health",
+        "national-profile",
+        "map-thailand",
+        "figure-a1"
+      ]
+    },
+    {
+      "id": "access",
+      "part": "overview",
+      "nav_title": "ความต้องการที่ยังไม่ได้รับ",
+      "kicker": "ภาค 1 / การเข้าถึงบริการ",
+      "title": "17.6% มีความจำเป็นด้านสุขภาพ แต่ไม่ได้รับบริการ",
+      "paragraphs": [
+        "ผู้ตอบ 354 คนรายงานความจำเป็นด้านสุขภาพที่ไม่ได้รับการตอบสนอง ขณะเดียวกัน 16.9% เคยนอนโรงพยาบาลใน 12 เดือน และ 5.6% กู้ยืมหรือขายทรัพย์สินเพื่อรักษาใน 12 เดือนที่ผ่านมา การมีสิทธิสุขภาพจึงยังไม่บอกว่าความต้องการได้รับการตอบสนองครบถ้วน",
+        "หลักฐาน PVS จาก 14 ประเทศพบ unmet need ตั้งแต่ 6.0% ในเกาหลีใต้ถึง 25.7% ในเปรู และมีค่ารวม 14.2% ตัวเลขช่วยให้เห็นปัญหาร่วมกัน ทั้งไทยและต่างประเทศถามย้อนหลัง 12 เดือน แต่ต่างกันด้านการสุ่มตัวอย่าง การถ่วงน้ำหนัก และช่วงเก็บข้อมูล จึงไม่ควรอ่านเป็นการจัดอันดับประเทศ"
+      ],
+      "takeaway": "อ่านขนาดของปัญหาควบคู่กับนิยาม ช่วงเวลา และบริบทของแต่ละการสำรวจ",
+      "chart_ids": [
+        "report-figure-04",
+        "national-use",
+        "map-unmet"
+      ]
+    },
+    {
+      "id": "prevention",
+      "part": "overview",
+      "nav_title": "บริการป้องกัน",
+      "kicker": "ภาค 1 / การป้องกันและคัดกรอง",
+      "title": "การได้รับบริการป้องกันแตกต่างกันมากตามชนิดบริการ",
+      "paragraphs": [
+        "ผู้ตอบ 89.5% เคยได้รับการวัดความดันโลหิต เทียบกับ 61.3% ที่ตรวจน้ำตาล 57.4% ที่ตรวจไขมัน 47.2% ที่ตรวจสุขภาพช่องปาก และ 22.1% ที่รับบริการสุขภาพจิต",
+        "ในผู้ตอบหญิง 1,091 คน มี 40.9% ที่รายงานการตรวจเต้านมหรือแมมโมแกรม และ 42.4% ที่รายงานการตรวจคัดกรองมะเร็งปากมดลูก เป็นการรายงานการได้รับบริการในช่วง 12 เดือนที่ผ่านมา ยังไม่ใช่ความครอบคลุมการคัดกรองตามเกณฑ์อายุและความเสี่ยง"
+      ],
+      "takeaway": "การเข้าถึงการรักษาควรพิจารณาควบคู่กับโอกาสได้รับบริการป้องกันที่เหมาะสม",
+      "chart_ids": [
+        "national-prevention"
+      ]
+    },
+    {
+      "id": "continuity",
+      "part": "overview",
+      "nav_title": "หน่วยบริการประจำ",
+      "kicker": "ภาค 1 / ความต่อเนื่องของการดูแล",
+      "title": "24.2% ไม่มีหน่วยบริการที่ใช้เป็นประจำ",
+      "paragraphs": [
+        "ผู้ตอบ 1,529 คน หรือ 75.8% มีหน่วยบริการประจำ ส่วนอีก 488 คน หรือ 24.2% ไม่มีหน่วยบริการที่ใช้เป็นประจำ ภาครัฐเป็นแหล่งดูแลหลักทั้งในรูปหน่วยปฐมภูมิและโรงพยาบาล",
+        "ผู้มีหน่วยบริการประจำรายงานการได้รับบริการป้องกันมากกว่าผู้ไม่มีในทุกบริการที่สำรวจ เช่น ตรวจน้ำตาล 67.0% เทียบกับ 43.6% และตรวจช่องปาก 51.4% เทียบกับ 34.0% ความต่างเชิงพรรณนานี้ยังอาจเกี่ยวข้องกับอายุ ภาวะเจ็บป่วย และลักษณะของผู้ใช้บริการ"
+      ],
+      "takeaway": "หน่วยบริการที่ประชาชนใช้จริงเป็นมิติสำคัญของความต่อเนื่อง และอาจต่างจากหน่วยบริการที่ขึ้นทะเบียนตามสิทธิ",
+      "chart_ids": [
+        "usual-source",
+        "usual-prevention",
+        "usual-confidence"
+      ]
+    },
+    {
+      "id": "confidence",
+      "part": "overview",
+      "nav_title": "ความเชื่อมั่น",
+      "kicker": "ภาค 1 / ความมั่นคงทางสุขภาพ",
+      "title": "มั่นใจว่าจะได้รับการรักษา มากกว่ามั่นใจว่าจะจ่ายไหว",
+      "paragraphs": [
+        "หากเจ็บป่วยรุนแรง ผู้ตอบ 78.9% มั่นใจว่าจะได้รับบริการที่มีคุณภาพ แต่มี 66.5% ที่มั่นใจว่าจะสามารถจ่ายค่ารักษาได้ และ 64.4% ที่มั่นใจทั้งสองด้าน ช่องว่างระหว่างคุณภาพกับการจ่ายเท่ากับ 12.4 จุดร้อยละ",
+        "ความมั่นใจทั้งสองด้านของกลุ่มตัวอย่างไทยสูงกว่าค่ารวม 15 ประเทศที่ 48.8% ขณะที่ผู้ตอบไทย 30.1% เห็นว่าระบบดีขึ้นในสองปี และ 43.8% เห็นว่าระบบทำงานดีหรือต้องปรับเพียงเล็กน้อย ความมั่นใจและการยอมรับระบบจึงเป็นคนละมิติ"
+      ],
+      "takeaway": "ความวางใจในระบบต้องครอบคลุมทั้งคุณภาพบริการและความสามารถในการจ่าย",
+      "chart_ids": [
+        "national-confidence",
+        "report-figure-05",
+        "map-confidence",
+        "international-system"
+      ]
+    },
+    {
+      "id": "system",
+      "part": "overview",
+      "nav_title": "คุณภาพในสายตาประชาชน",
+      "kicker": "ภาค 1 / การประเมินระบบสุขภาพ",
+      "title": "18.0% ให้คะแนนคุณภาพระบบรัฐสูง เทียบกับ 45.4% สำหรับเอกชน",
+      "paragraphs": [
+        "สัดส่วนที่ประเมินระบบภาครัฐว่าดีมากหรือดีเยี่ยมอยู่ที่ 18.0% ส่วนระบบเอกชนอยู่ที่ 45.4% คะแนนนี้สะท้อนการรับรู้ต่อระบบโดยรวม และยังใช้ตัดสินคุณภาพทางคลินิกของสถานพยาบาลไม่ได้",
+        "สำหรับบริการมารดา เด็ก โรคเรื้อรัง และสุขภาพจิต สัดส่วนที่ประเมินว่าดีมากหรือดีเยี่ยมอยู่ระหว่าง 21.2–28.9% โดยคำนวณเฉพาะผู้ที่ประเมินแต่ละบริการได้ การเปรียบเทียบต่างประเทศทำให้เห็นความหลากหลายของมุมมอง แต่ไม่ใช่อันดับคุณภาพระบบสุขภาพ"
+      ],
+      "takeaway": "แยกการประเมินคุณภาพ ความเชื่อมั่นว่าจะได้รับความช่วยเหลือ และมุมมองต่อทิศทางระบบออกจากกัน",
+      "chart_ids": [
+        "report-figure-06",
+        "national-system-ratings",
+        "map-system-quality"
+      ]
+    },
+    {
+      "id": "private-users",
+      "part": "private",
+      "nav_title": "ผู้ใช้โรงพยาบาลเอกชน",
+      "kicker": "ภาค 2 / ผู้ใช้โรงพยาบาลเอกชน",
+      "title": "ผู้ใช้โรงพยาบาลเอกชนประจำ 69.3% มีสิทธิประกันสังคม",
+      "paragraphs": [
+        "การศึกษายึดผู้ตอบ 127 คนที่ระบุโรงพยาบาลเอกชนเป็นหน่วยบริการประจำ หรือ 6.3% ของผู้ตอบทั้งหมด ผู้ใช้ประจำต่างจากผู้ไปโรงพยาบาลเอกชนในครั้งล่าสุด และตัวเลขนี้ไม่ใช่ส่วนแบ่งตลาด",
+        "ในผู้ใช้ประจำ 127 คน มีสิทธิประกันสังคม 88 คน หรือ 69.3% ขณะที่ผู้มีรายได้ครัวเรือนตั้งแต่ 60,000 บาทต่อเดือนมีเพียง 4.7% จึงควรตีความข้อค้นพบในบริบทระบบสิทธิ ไม่ถือว่าเป็นตัวแทนของผู้ใช้โรงพยาบาลเอกชนทุกประเภทหรือผู้จ่ายค่ารักษาเองทั้งหมด"
+      ],
+      "takeaway": "การกำกับโรงพยาบาลเอกชนสัมพันธ์กับสิทธิของประชาชนและบทบาทผู้ซื้อบริการด้วย",
+      "chart_ids": [
+        "private-routes",
+        "figure-1"
+      ]
+    },
+    {
+      "id": "private-choice",
+      "part": "private",
+      "nav_title": "สิทธิและเหตุผลที่เลือก",
+      "kicker": "ภาค 2 / สิทธิ รายได้ และการเลือกบริการ",
+      "title": "การใช้โรงพยาบาลเอกชนแตกต่างกันตามสิทธิการรักษา",
+      "paragraphs": [
+        "ในผู้มีสิทธิประกันสังคม 474 คน มี 18.6% ใช้โรงพยาบาลเอกชนประจำ เทียบกับ 9.0% ในผู้มีสิทธิอื่นร่วมกับประกันเอกชน 200 คน และ 1.6% ในผู้มีสิทธิอื่นที่ไม่มีประกันเอกชน 1,343 คน รายได้ยังช่วยอธิบายความต่างภายในกลุ่มสิทธิเดียวกัน",
+        "ผู้ใช้โรงพยาบาลเอกชนที่มีสิทธิประกันสังคมระบุเหตุผลเรื่องความครอบคลุมของสิทธิมากที่สุด 40.9% รองลงมาคือใกล้บ้าน 25.0% ส่วนผู้มีสิทธิอื่นที่มีและไม่มีประกันเอกชนระบุเรื่องระยะเวลารอคอยมากที่สุด 50.0% และ 47.6% ตามลำดับ"
+      ],
+      "takeaway": "การถือครองสิทธิและเหตุผลที่เลือกบริการยังไม่ยืนยันว่าสถานพยาบาลใดขึ้นทะเบียน หรือใครจ่ายค่ารักษาจริง",
+      "chart_ids": [
+        "private-routes",
+        "figure-2"
+      ]
+    },
+    {
+      "id": "private-access",
+      "part": "private",
+      "nav_title": "เวลารอและการนอนโรงพยาบาล",
+      "kicker": "ภาค 2 / การเข้าถึงและการใช้บริการ",
+      "title": "รอรับบริการสั้นกว่า แต่มีประวัตินอนโรงพยาบาลมากกว่า",
+      "paragraphs": [
+        "ผู้ใช้โรงพยาบาลเอกชนประจำรายงานการรอ ณ สถานพยาบาลตั้งแต่หนึ่งชั่วโมงขึ้นไป 25.2% เทียบกับ 44.1% ในกลุ่มโรงพยาบาลรัฐ ความสัมพันธ์ยังปรากฏหลังปรับปัจจัยร่วม (aOR 0.52; 95% CI 0.32–0.84)",
+        "ประวัตินอนโรงพยาบาลใน 12 เดือนพบ 29.1% เทียบกับ 22.1% และยังสัมพันธ์หลังปรับปัจจัยร่วม (aOR 2.42; 95% CI 1.35–4.31) แบบสำรวจไม่ได้ระบุว่านอนโรงพยาบาลแห่งใด จึงยังตัดสินความเหมาะสมของการรับไว้รักษาหรือผลงานของโรงพยาบาลเอกชนไม่ได้"
+      ],
+      "takeaway": "ประสบการณ์ด้านความสะดวกและรูปแบบการรักษาควรอ่านแยกกัน พร้อมพิจารณาความจำเป็นทางคลินิก",
+      "chart_ids": [
+        "figure-3",
+        "figure-6"
+      ]
+    },
+    {
+      "id": "private-prevention",
+      "part": "private",
+      "nav_title": "การป้องกันและความต่อเนื่อง",
+      "kicker": "ภาค 2 / บริการป้องกัน",
+      "title": "หลังปรับปัจจัยร่วม ยังไม่พบความต่างในบริการป้องกันทั้งแปดรายการ",
+      "paragraphs": [
+        "เมื่อเปรียบเทียบกลุ่มโรงพยาบาลเอกชนกับโรงพยาบาลรัฐ และปรับลักษณะผู้ตอบรวมถึงการทดสอบหลายครั้ง ยังไม่พบความแตกต่างอย่างมีนัยสำคัญในบริการป้องกันทั้งแปดรายการ",
+        "การตรวจความดันใช้แบบจำลองลดรูป ส่วนการคัดกรองเต้านมและปากมดลูกจำกัดเฉพาะผู้หญิง คำถามครอบคลุม 12 เดือนที่ผ่านมา แต่ไม่ได้ระบุสถานพยาบาลที่ให้บริการ จึงไม่ใช่คะแนนผลงานด้านการป้องกันของหน่วยบริการประจำโดยตรง"
+      ],
+      "takeaway": "การไม่พบความแตกต่างทางสถิติ ไม่ยืนยันว่าทั้งสองกลุ่มมีผลเท่ากัน",
+      "chart_ids": [
+        "figure-4",
+        "figure-a2"
+      ]
+    },
+    {
+      "id": "private-experience",
+      "part": "private",
+      "nav_title": "ประสบการณ์ผู้รับบริการ",
+      "kicker": "ภาค 2 / ประสบการณ์ครั้งล่าสุด",
+      "title": "คะแนนประสบการณ์ต่างกัน 9 จาก 11 ด้าน",
+      "paragraphs": [
+        "ผู้ใช้โรงพยาบาลเอกชนประจำให้คะแนนประสบการณ์โดยรวมว่าดีมากหรือดีเยี่ยม 56.7% เทียบกับ 30.4% ในกลุ่มโรงพยาบาลรัฐ หลังปรับปัจจัยร่วมและการทดสอบหลายครั้ง ยังพบความแตกต่าง 9 จาก 11 รายการ",
+        "ประเด็นเด่นคือความพึงพอใจต่อเวลารอ การทราบประวัติการรักษา เวลาปรึกษาที่เพียงพอ และความสะดวกในการนัดหมาย โดยผลต่างความน่าจะเป็นจากแบบจำลองเท่ากับ 26.9, 26.6, 24.0 และ 23.8 จุดร้อยละ ส่วนทักษะผู้ให้บริการและความพร้อมอุปกรณ์ยังไม่พบความต่างชัดเจน"
+      ],
+      "takeaway": "กระบวนการบริการและปฏิสัมพันธ์กับผู้ป่วยเป็นส่วนสำคัญของคุณภาพ แต่คะแนนประสบการณ์ไม่ใช่ผลลัพธ์ทางคลินิก",
+      "chart_ids": [
+        "figure-5",
+        "figure-6"
+      ]
+    },
+    {
+      "id": "private-confidence",
+      "part": "private",
+      "nav_title": "ความมั่นใจและความปลอดภัย",
+      "kicker": "ภาค 2 / ความเชื่อมั่นและปัญหาที่รับรู้",
+      "title": "ความมั่นใจทั้งคุณภาพและค่าใช้จ่ายยังไม่ต่างกันชัดเจน",
+      "paragraphs": [
+        "ผู้ใช้โรงพยาบาลเอกชนประจำ 71.7% มั่นใจทั้งคุณภาพและความสามารถจ่าย เทียบกับ 63.1% ในกลุ่มโรงพยาบาลรัฐ แต่ความแตกต่างหลังปรับปัจจัยร่วมยังไม่ชัดเจน (aOR 1.27; 95% CI 0.80–2.01)",
+        "เช่นเดียวกับความจำเป็นที่ไม่ได้รับบริการ การรับรู้ความผิดพลาดทางการแพทย์ และความรู้สึกถูกเลือกปฏิบัติ ซึ่งยังไม่พบความต่างอย่างมีนัยสำคัญหลังปรับปัจจัยร่วมและการทดสอบหลายครั้ง การรับรู้เหล่านี้ไม่ใช่เหตุการณ์ที่ยืนยันจากเวชระเบียน"
+      ],
+      "takeaway": "ความสะดวก ความเชื่อมั่น และความปลอดภัยเป็นคนละคำถามที่ต้องใช้หลักฐานประกอบกัน",
+      "chart_ids": [
+        "security-states",
+        "figure-6"
+      ]
+    },
+    {
+      "id": "implications",
+      "part": "private",
+      "nav_title": "ประเด็นสู่การกำกับดูแล",
+      "kicker": "ภาค 2 / ข้อค้นพบสู่การพัฒนาระบบ",
+      "title": "สิทธิ ผู้จ่าย และผลการรักษา: ข้อมูลที่ต้องอ่านร่วมกัน",
+      "paragraphs": [
+        "ข้อค้นพบสนับสนุนให้พิจารณาหน่วยบริการที่ประชาชนใช้จริงควบคู่กับหน่วยบริการตามสิทธิ ส่งเสริมการเข้าถึงบริการป้องกัน ปรับปรุงประสบการณ์ และสร้างความมั่นใจด้านค่าใช้จ่ายไปพร้อมกัน",
+        "สำหรับโรงพยาบาลเอกชน ควรเชื่อมข้อมูลการขึ้นทะเบียน ผู้จ่ายค่ารักษาจริง ค่าใช้จ่าย และความจำเป็นทางคลินิก เพื่อให้การกำกับคุณภาพและความเป็นธรรมอาศัยหลักฐานที่ครอบคลุมกว่าคะแนนประสบการณ์เพียงด้านเดียว"
+      ],
+      "takeaway": "ใช้สิ่งที่ประชาชนพบจริงเป็นจุดเริ่มต้น แล้วเติมข้อมูลที่จำเป็นต่อการตัดสินใจเชิงนโยบาย",
+      "chart_ids": [
+        "private-routes",
+        "national-confidence"
+      ]
+    }
+  ],
+  "methodology": [
+    "ผู้ตอบอายุอย่างน้อย 18 ปี จากจังหวัดที่เลือกหนึ่งแห่งต่อเขตสุขภาพ รวม 13 จังหวัด การเลือกผู้ตอบขั้นสุดท้ายใช้โควตา ผลพรรณนาไม่ถ่วงน้ำหนัก จึงไม่ใช่ค่าประมาณประชากรทุกจังหวัดหรือทั้งประเทศโดยอัตโนมัติ",
+    "ตัวหารแตกต่างตามคำถาม การประเมินได้ และเกณฑ์เฉพาะ เช่น การคัดกรองเฉพาะหญิง ช่วงความเชื่อมั่นของร้อยละใช้ Wilson และไม่ได้รวมความซับซ้อนของแผนสำรวจทั้งหมด",
+    "การเปรียบเทียบผู้มีและไม่มีหน่วยบริการประจำเป็นพรรณนา ส่วนแบบจำลองเปรียบเทียบกลุ่มผู้ใช้บริการเอกชนปรับปัจจัยร่วม คำนึงถึงการเกาะกลุ่มระดับตำบล และใช้ Benjamini–Hochberg ภายในกลุ่มผลลัพธ์ ความสัมพันธ์ที่พบไม่ใช่ผลเชิงสาเหตุ",
+    "ค่าต่างประเทศคงตามตารางหรือรูปที่ตีพิมพ์ โดยผลความเชื่อมั่นและคุณภาพจาก Kruk และคณะผ่านการถ่วงน้ำหนัก ค่าของอาร์เจนตินาครอบคลุมจังหวัดเมนโดซาเท่านั้น ค่ารวม 14 หรือ 15 ประเทศคงตามงานต้นทาง ไม่รวมประเทศไทย และไม่ใช่ค่าเฉลี่ยที่คำนวณใหม่",
+    "บริการป้องกัน Q27 ความจำเป็นที่ไม่ได้รับบริการ Q29 และการกู้ยืมหรือขายทรัพย์สินเพื่อรักษา Q31 อ้างอิง 12 เดือนที่ผ่านมา การได้รับบริการไม่ระบุสถานพยาบาลที่ให้บริการ และไม่ใช่ความครอบคลุมตามเกณฑ์การคัดกรอง"
+  ],
+  "references": [
+    {
+      "title": "Kruk et al. (2024) · ความเชื่อมั่นและคุณภาพระบบใน 15 ประเทศ",
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC10716625/"
+    },
+    {
+      "title": "Croke et al. (2024) · บริการปฐมภูมิและความต้องการบริการใน 14 ประเทศ",
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC10716626/"
+    },
+    {
+      "title": "Lewis et al. (2023) · การพัฒนา People’s Voice Survey",
+      "url": "https://doi.org/10.1371/journal.pmed.1004294"
+    },
+    {
+      "title": "ข้อมูลระหว่างประเทศและคำอธิบายตัวชี้วัด",
+      "url": "assets/sources/international/README.md"
+    },
+    {
+      "title": "นิยามและตัวหารของข้อมูลไทย",
+      "url": "assets/sources/national/metadata.json"
+    },
+    {
+      "title": "ช่วงเวลาย้อนหลังในแบบสอบถามไทย",
+      "url": "assets/sources/questionnaire/recall-confirmation.json"
+    },
+    {
+      "title": "ขอบเขตจังหวัด: geoBoundaries / OpenStreetMap · ODbL 1.0",
+      "url": "https://www.geoboundaries.org/api/current/gbOpen/THA/ADM1/"
+    },
+    {
+      "title": "ดาวน์โหลดขอบเขตจังหวัด GeoJSON",
+      "url": "assets/geography/thailand-provinces.geojson"
+    },
+    {
+      "title": "ขอบเขตประเทศ: Natural Earth · public domain",
+      "url": "https://www.naturalearthdata.com/about/terms-of-use/"
+    }
+  ],
+  "report": {
+    "title": "รายงานผลการศึกษา People’s Voice Survey ประเทศไทย",
+    "description": "ติดต่อผู้วิเคราะห์ทางอีเมลเพื่อขอรับรายงานผลการศึกษาฉบับเต็ม",
+    "status": "verified",
+    "delivery": "email_request",
+    "email": "peerasit.sit@mahidol.ac.th",
+    "request_url": "mailto:peerasit.sit@mahidol.ac.th?subject=%E0%B8%82%E0%B8%AD%E0%B8%A3%E0%B8%B1%E0%B8%9A%E0%B8%A3%E0%B8%B2%E0%B8%A2%E0%B8%87%E0%B8%B2%E0%B8%99%E0%B8%9C%E0%B8%A5%E0%B8%81%E0%B8%B2%E0%B8%A3%E0%B8%A8%E0%B8%B6%E0%B8%81%E0%B8%A9%E0%B8%B2%20People%E2%80%99s%20Voice%20Survey%20%E0%B8%9B%E0%B8%A3%E0%B8%B0%E0%B9%80%E0%B8%97%E0%B8%A8%E0%B9%84%E0%B8%97%E0%B8%A2&body=%E0%B9%80%E0%B8%A3%E0%B8%B5%E0%B8%A2%E0%B8%99%20%E0%B8%84%E0%B8%B8%E0%B8%93%E0%B8%9E%E0%B8%B5%E0%B8%A3%E0%B8%AA%E0%B8%B4%E0%B8%8A%E0%B8%8C%E0%B9%8C%20%E0%B8%AA%E0%B8%B4%E0%B8%97%E0%B8%98%E0%B8%B4%E0%B8%A3%E0%B8%B1%E0%B8%95%E0%B8%99%E0%B9%8C%0D%0A%0D%0A%E0%B8%82%E0%B8%AD%E0%B8%A3%E0%B8%B1%E0%B8%9A%E0%B8%A3%E0%B8%B2%E0%B8%A2%E0%B8%87%E0%B8%B2%E0%B8%99%E0%B8%9C%E0%B8%A5%E0%B8%81%E0%B8%B2%E0%B8%A3%E0%B8%A8%E0%B8%B6%E0%B8%81%E0%B8%A9%E0%B8%B2%20People%E2%80%99s%20Voice%20Survey%20%E0%B8%9B%E0%B8%A3%E0%B8%B0%E0%B9%80%E0%B8%97%E0%B8%A8%E0%B9%84%E0%B8%97%E0%B8%A2%E0%B8%89%E0%B8%9A%E0%B8%B1%E0%B8%9A%E0%B9%80%E0%B8%95%E0%B9%87%E0%B8%A1%0D%0A%0D%0A%E0%B8%8A%E0%B8%B7%E0%B9%88%E0%B8%AD%E0%B8%9C%E0%B8%B9%E0%B9%89%E0%B8%95%E0%B8%B4%E0%B8%94%E0%B8%95%E0%B9%88%E0%B8%AD%3A%0D%0A%E0%B8%AB%E0%B8%99%E0%B9%88%E0%B8%A7%E0%B8%A2%E0%B8%87%E0%B8%B2%E0%B8%99%20%28%E0%B8%96%E0%B9%89%E0%B8%B2%E0%B8%A1%E0%B8%B5%29%3A%0D%0A%E0%B8%A7%E0%B8%B1%E0%B8%95%E0%B8%96%E0%B8%B8%E0%B8%9B%E0%B8%A3%E0%B8%B0%E0%B8%AA%E0%B8%87%E0%B8%84%E0%B9%8C%E0%B9%83%E0%B8%99%E0%B8%81%E0%B8%B2%E0%B8%A3%E0%B9%83%E0%B8%8A%E0%B9%89%E0%B8%A3%E0%B8%B2%E0%B8%A2%E0%B8%87%E0%B8%B2%E0%B8%99%3A%0D%0A%0D%0A%E0%B8%82%E0%B8%AD%E0%B8%9A%E0%B8%84%E0%B8%B8%E0%B8%93%E0%B8%84%E0%B8%A3%E0%B8%B1%E0%B8%9A%2F%E0%B8%84%E0%B9%88%E0%B8%B0",
+    "sha256": "a64ab8f1f51007c0a09866c04935667f59a15ebfb588407d1c18af7369a03727"
+  },
+  "chart_bundle": "assets/pvs-thai-charts.zip",
+  "analyst": {
+    "name": "พีรสิชฌ์ สิทธิรัตน์ (Peerasit Sitthirat)",
+    "affiliation": "คณะแพทยศาสตร์โรงพยาบาลรามาธิบดี มหาวิทยาลัยมหิดล",
+    "email": "peerasit.sit@mahidol.ac.th"
+  },
+  "project": "การสังเคราะห์การแนวทางกำกับดูแลโรงพยาบาลเอกชนเพื่อสร้างระบบสุขภาพของประเทศไทยที่เป็นธรรม",
+  "organizations": [
+    "บริษัท วันโอวัน พับลิโก้ จำกัด",
+    "คณะแพทยศาสตร์โรงพยาบาลรามาธิบดี มหาวิทยาลัยมหิดล"
+  ],
+  "funding": "สถาบันวิจัยระบบสาธารณสุข ปีงบประมาณ 2569 ตามข้อตกลงเลขที่ สวรส. 69-003"
+}

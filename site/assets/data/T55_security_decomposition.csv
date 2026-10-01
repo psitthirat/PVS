@@ -1,0 +1,6 @@
+﻿Measure,public primary care,public hospital OPD/ER,private clinic/pharmacy,private hospital OPD/ER,p,Denominator
+Health-security state,,,,,0.134,see rows below
+    can get & afford,430/634 (67.8),388/615 (63.1),88/142 (62.0),91/127 (71.7),,
+"    can get, cannot afford",104/634 (16.4),92/615 (15.0),20/142 (14.1),14/127 (11.0),,
+"    cannot get, can afford",13/634 (2.1),12/615 (2.0),4/142 (2.8),3/127 (2.4),,
+    neither,87/634 (13.7),123/615 (20.0),30/142 (21.1),19/127 (15.0),,

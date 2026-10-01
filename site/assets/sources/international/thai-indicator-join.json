@@ -1,0 +1,29 @@
+{
+  "source": "content/national/national_summary.csv",
+  "filter": {
+    "group_id": "all"
+  },
+  "join": {
+    "unmet_need": "unmet",
+    "quality_confidence": "good_care",
+    "affordability_confidence": "afford",
+    "health_security": "security",
+    "system_improved": "improved",
+    "system_works": "works_well",
+    "public_quality": "public_quality",
+    "private_quality": "private_quality",
+    "government_listens": "listens",
+    "covid_management": "covid",
+    "maternal_quality": "maternal",
+    "child_quality": "child",
+    "chronic_quality": "chronic_care",
+    "mental_quality": "mental_care"
+  },
+  "value_column": "pct",
+  "denominator_columns": [
+    "n",
+    "N",
+    "excluded"
+  ],
+  "note": "Use newly audited Thai aggregates, not the stale Thai series in the legacy notebook. Preserve the metric-specific valid-answer denominator, especially Q40."
+}

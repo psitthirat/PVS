@@ -1,0 +1,18 @@
+{
+  "status": "verified",
+  "delivery": "email_request",
+  "email": "peerasit.sit@mahidol.ac.th",
+  "source_report": "output/reports/ผลการสำรวจ_20261001.docx",
+  "sha256": "a64ab8f1f51007c0a09866c04935667f59a15ebfb588407d1c18af7369a03727",
+  "remaining_required_edits": 0,
+  "wording_suggestions": 0,
+  "audit_sha256": "d9330f9e66f728c4275eb38fded8f921d28560116d2c58f9dfa0fcb6707b3360",
+  "table_checks": 471,
+  "descriptive_p_tests": 43,
+  "prose_summary_checks": 84,
+  "embedded_figures": 13,
+  "overall_models": "Four overall model tables re-estimated and matched.",
+  "subgroup_models": "Compared against approved September coefficients; nine segmentation tables recalculated.",
+  "scope": "Outcome counts, percentages, table p-values, printed overall models, approved September contrasts, result prose, summaries and chart provenance. Background/reference years and external census figures are not independently recertified.",
+  "questionnaire_recall_confirmation": "content/questionnaire/recall-confirmation.json"
+}

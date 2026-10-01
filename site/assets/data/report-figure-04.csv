@@ -1,0 +1,17 @@
+﻿ตัวชี้วัด,รหัสพื้นที่,country_en,ประเทศ,ร้อยละ,แหล่งข้อมูล,source_locator,ขอบเขตพื้นที่,verification,origin_local
+unmet_need,ETH,Ethiopia,เอธิโอเปีย,11.0,croke_2024,Table 1,country,verified_primary_table,archive/legacy/main.ipynb cell 17 unmet_pvs
+unmet_need,KEN,Kenya,เคนยา,21.3,croke_2024,Table 1,country,verified_primary_table,archive/legacy/main.ipynb cell 17 unmet_pvs
+unmet_need,ZAF,South Africa,แอฟริกาใต้,9.5,croke_2024,Table 1,country,verified_primary_table,archive/legacy/main.ipynb cell 17 unmet_pvs
+unmet_need,PER,Peru,เปรู,25.7,croke_2024,Table 1,country,verified_primary_table,archive/legacy/main.ipynb cell 17 unmet_pvs
+unmet_need,COL,Colombia,โคลอมเบีย,20.0,croke_2024,Table 1,country,verified_primary_table,archive/legacy/main.ipynb cell 17 unmet_pvs
+unmet_need,MEX,Mexico,เม็กซิโก,6.7,croke_2024,Table 1,country,verified_primary_table,archive/legacy/main.ipynb cell 17 unmet_pvs
+unmet_need,URY,Uruguay,อุรุกวัย,12.1,croke_2024,Table 1,country,verified_primary_table,archive/legacy/main.ipynb cell 17 unmet_pvs
+unmet_need,ARG,Argentina,อาร์เจนตินา (เมนโดซา),19.7,croke_2024,Table 1,province_Mendoza_only,verified_primary_table,archive/legacy/main.ipynb cell 17 unmet_pvs
+unmet_need,LAO,Laos,ลาว,16.6,croke_2024,Table 1,country,verified_primary_table,archive/legacy/main.ipynb cell 17 unmet_pvs
+unmet_need,IND,India,อินเดีย,6.1,croke_2024,Table 1,country,verified_primary_table,archive/legacy/main.ipynb cell 17 unmet_pvs
+unmet_need,KOR,South Korea,เกาหลีใต้,6.0,croke_2024,Table 1,country,verified_primary_table,archive/legacy/main.ipynb cell 17 unmet_pvs
+unmet_need,ITA,Italy,อิตาลี,6.2,croke_2024,Table 1,country,verified_primary_table,archive/legacy/main.ipynb cell 17 unmet_pvs
+unmet_need,GBR,UK,สหราชอาณาจักร,22.0,croke_2024,Table 1,country,verified_primary_table,archive/legacy/main.ipynb cell 17 unmet_pvs
+unmet_need,USA,USA,สหรัฐอเมริกา,18.7,croke_2024,Table 1,country,verified_primary_table,archive/legacy/main.ipynb cell 17 unmet_pvs
+unmet_need,TOTAL,Total,รวมตามรายงานต้นทาง,14.2,croke_2024,Table 1,pooled_reported_total,verified_primary_table,archive/legacy/main.ipynb cell 17 unmet_pvs
+unmet_need,THA,Thailand,ไทย*,17.6,pvs_thailand,unmet,unweighted_13_province_sample,canonical_aggregate,content/national/national_summary.csv

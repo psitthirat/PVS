@@ -1,0 +1,40 @@
+# Private inputs and working outputs. Reviewed releases live in results/ and site/.
+/data/*
+!/data/README.md
+/output/
+
+# The full Thai report is supplied by email; charts remain public downloads.
+/site/assets/reports/
+
+# Historical code, saved notebook outputs, and superseded reports stay local.
+/archive/
+
+# Python packaging artifacts.
+/build/
+/dist/
+*.egg-info/
+
+# Local environments, credentials, caches, and editor files.
+.venv/
+venv/
+.env
+.env.*
+!.env.example
+__pycache__/
+*.py[cod]
+*.pkl
+*.pickle
+.ipynb_checkpoints/
+.pytest_cache/
+.ruff_cache/
+.DS_Store
+~$*
+*.tmp
+*.log
+.idea/
+.vscode/
+
+# Only explicitly selected release artifacts belong in results/.
+/results/*
+!/results/README.md
+!/results/2026-09/

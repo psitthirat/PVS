@@ -1,0 +1,37 @@
+﻿Variable,Item,Cohort n,Observed (valid) n,Structural not-applicable n,Other missing n,Recall period,Note
+has_usual,Has a usual source of care,1518,1518,0,0,most recent visit,
+usual_reason,Main reason for choosing usual source,1518,1518,0,0,most recent visit,Q13 = yes
+usual_qual_top2,Rates usual facility very good/excellent,1518,1518,0,0,most recent visit,Q13 = yes
+visits_cat,Outpatient visits (Q18),1518,1518,0,0,most recent visit,
+one_facility,Used only one facility,1518,1399,0,119,most recent visit,Q18 > 1 or Q19 in 2-4 (structural skip)
+admit,"Admitted overnight, 12 months",1518,1518,0,0,past 12 months,
+unmet,Unmet health-care need,1518,1518,0,0,most recent visit,
+med_error_ever,Perceived medical error (ever),1518,1518,0,0,most recent visit,
+discrim_ever,Felt discriminated against (ever),1518,1518,0,0,most recent visit,
+appoint,Made an appointment,1518,1518,0,0,most recent visit,
+queue_cat,Waiting time at facility,1518,1518,0,0,most recent visit,
+wait_cat,Booking-to-appointment wait,1518,646,0,872,most recent visit,Q35 = appointment (structural skip)
+health_security,Health security (Q41a & Q41b),1518,1518,0,0,most recent visit,
+bp_r,Q27 bp,1518,1518,0,0,"NONE STATED (""ที่ผ่านมา"" = ""in the past"")",
+sugar_r,Q27 sugar,1518,1518,0,0,NONE STATED,
+lipid_r,Q27 lipid,1518,1518,0,0,NONE STATED,
+mental_r,Q27 mental,1518,1518,0,0,NONE STATED,
+dental_r,Q27 dental,1518,1518,0,0,NONE STATED,
+vision_r,Q27 vision,1518,1518,0,0,NONE STATED,
+mammogram_r,Q27 mammogram,1518,1518,0,0,NONE STATED,
+ca_cervix_r,Q27 ca_cervix,1518,1518,0,0,NONE STATED,
+lastest_qual_ord,Q38 Overall experience,1518,1518,0,0,most recent visit,
+lastest_knowledge_ord,Q38 Provider knowledge and skill,1518,1518,0,0,most recent visit,
+lastest_readiness_ord,Q38 Equipment and supplies ready,1518,1518,0,0,most recent visit,
+lastest_respect_ord,Q38 Treated with respect,1518,1518,0,0,most recent visit,
+lastest_data_pre_ord,Q38 Provider knew my history,1518,1325,193,0,most recent visit,excludes structural not-applicable
+lastest_inform_ord,Q38 Explained things clearly,1518,1518,0,0,most recent visit,
+lastest_engage_ord,Q38 Involved me in decisions,1518,1518,0,0,most recent visit,
+lastest_duration_ord,Q38 Enough time in the consultation,1518,1518,0,0,most recent visit,
+lastest_sat-queue_ord,Q38 Satisfaction with waiting time,1518,1518,0,0,most recent visit,
+lastest_polite_ord,Q38 Courtesy of staff,1518,1366,152,0,most recent visit,excludes structural not-applicable
+lastest_queue-appoint_ord,Q38 Ease of getting an appointment,1518,1518,0,0,most recent visit,
+q_maternal_ord,Q40 maternal,1518,0,260,1258,most recent visit,"excludes ""cannot evaluate"""
+q_child_ord,Q40 child,1518,0,219,1299,most recent visit,"excludes ""cannot evaluate"""
+q_chronic_ord,Q40 chronic,1518,0,148,1370,most recent visit,"excludes ""cannot evaluate"""
+q_mentalhealth_ord,Q40 mental health,1518,0,261,1257,most recent visit,"excludes ""cannot evaluate"""

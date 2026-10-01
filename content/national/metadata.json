@@ -1,0 +1,503 @@
+{
+  "title": "ผลการศึกษาระดับกลุ่มตัวอย่างทั้งหมดและจำแนกพื้นที่",
+  "source": "Canonical prepared PVS analysis frame; individual data are not published",
+  "definition_code": "src/pvs/national.py:aggregate",
+  "source_rows": 2017,
+  "unweighted": true,
+  "interval": "Wilson95%; not design-based national inference",
+  "groups": {
+    "all": "ผู้ตอบทั้งหมด",
+    "municipal": "ในเขตเทศบาล",
+    "non_municipal": "นอกเขตเทศบาล",
+    "has_usual": "มีหน่วยบริการประจำ",
+    "no_usual": "ไม่มีหน่วยบริการประจำ",
+    "public": "หน่วยบริการประจำภาครัฐ",
+    "private": "หน่วยบริการประจำภาคเอกชน"
+  },
+  "definitions": {
+    "sex_male": {
+      "domain": "profile_sex",
+      "label": "ชาย",
+      "positive": "male",
+      "note": "ใช้ผู้ตอบทั้งหมดในพื้นที่เป็นตัวหารและแสดงผู้ไม่ระบุเพศแยก"
+    },
+    "sex_female": {
+      "domain": "profile_sex",
+      "label": "หญิง",
+      "positive": "female",
+      "note": "ใช้ผู้ตอบทั้งหมดในพื้นที่เป็นตัวหารและแสดงผู้ไม่ระบุเพศแยก"
+    },
+    "sex_other": {
+      "domain": "profile_sex",
+      "label": "เพศอื่น",
+      "positive": "other",
+      "note": "ใช้ผู้ตอบทั้งหมดในพื้นที่เป็นตัวหารและแสดงผู้ไม่ระบุเพศแยก"
+    },
+    "sex_refused": {
+      "domain": "profile_sex",
+      "label": "ไม่ประสงค์ระบุเพศ",
+      "positive": "refused",
+      "note": "ใช้ผู้ตอบทั้งหมดในพื้นที่เป็นตัวหารและแสดงผู้ไม่ระบุเพศแยก"
+    },
+    "age_18-29": {
+      "domain": "profile_age",
+      "label": "18–29 ปี",
+      "positive": "18-29",
+      "note": "ใช้กลุ่มอายุ Q4 ที่มีข้อมูลครบ ไม่ใช้ exact age ที่ขาดข้อมูล"
+    },
+    "age_30-39": {
+      "domain": "profile_age",
+      "label": "30–39 ปี",
+      "positive": "30-39",
+      "note": "ใช้กลุ่มอายุ Q4 ที่มีข้อมูลครบ ไม่ใช้ exact age ที่ขาดข้อมูล"
+    },
+    "age_40-49": {
+      "domain": "profile_age",
+      "label": "40–49 ปี",
+      "positive": "40-49",
+      "note": "ใช้กลุ่มอายุ Q4 ที่มีข้อมูลครบ ไม่ใช้ exact age ที่ขาดข้อมูล"
+    },
+    "age_50-59": {
+      "domain": "profile_age",
+      "label": "50–59 ปี",
+      "positive": "50-59",
+      "note": "ใช้กลุ่มอายุ Q4 ที่มีข้อมูลครบ ไม่ใช้ exact age ที่ขาดข้อมูล"
+    },
+    "age_60-69": {
+      "domain": "profile_age",
+      "label": "60–69 ปี",
+      "positive": "60-69",
+      "note": "ใช้กลุ่มอายุ Q4 ที่มีข้อมูลครบ ไม่ใช้ exact age ที่ขาดข้อมูล"
+    },
+    "age_70-79": {
+      "domain": "profile_age",
+      "label": "70–79 ปี",
+      "positive": "70-79",
+      "note": "ใช้กลุ่มอายุ Q4 ที่มีข้อมูลครบ ไม่ใช้ exact age ที่ขาดข้อมูล"
+    },
+    "age_80+": {
+      "domain": "profile_age",
+      "label": "80 ปีขึ้นไป",
+      "positive": "80+",
+      "note": "ใช้กลุ่มอายุ Q4 ที่มีข้อมูลครบ ไม่ใช้ exact age ที่ขาดข้อมูล"
+    },
+    "education_0": {
+      "domain": "profile_education",
+      "label": "ต่ำกว่าประถมศึกษา",
+      "positive": "below primary",
+      "note": ""
+    },
+    "education_1": {
+      "domain": "profile_education",
+      "label": "ประถมศึกษา",
+      "positive": "primary",
+      "note": ""
+    },
+    "education_2": {
+      "domain": "profile_education",
+      "label": "มัธยมศึกษาตอนต้น",
+      "positive": "lower secondary",
+      "note": ""
+    },
+    "education_3": {
+      "domain": "profile_education",
+      "label": "มัธยมศึกษาตอนปลาย/ปวช.",
+      "positive": "upper secondary/voc",
+      "note": ""
+    },
+    "education_4": {
+      "domain": "profile_education",
+      "label": "อนุปริญญา/ปวส.",
+      "positive": "diploma/high voc",
+      "note": ""
+    },
+    "education_5": {
+      "domain": "profile_education",
+      "label": "ปริญญาตรีขึ้นไป",
+      "positive": "bachelor or above",
+      "note": ""
+    },
+    "income_under30": {
+      "domain": "profile_income",
+      "label": "ต่ำกว่า 30,000 บาท/เดือน",
+      "positive": "under30",
+      "note": ""
+    },
+    "income_30to60": {
+      "domain": "profile_income",
+      "label": "30,000–59,999 บาท/เดือน",
+      "positive": "30to60",
+      "note": ""
+    },
+    "income_60plus": {
+      "domain": "profile_income",
+      "label": "60,000 บาท/เดือนขึ้นไป",
+      "positive": "60plus",
+      "note": ""
+    },
+    "scheme_UCS": {
+      "domain": "profile_scheme",
+      "label": "หลักประกันสุขภาพแห่งชาติ",
+      "positive": "UCS",
+      "note": "ตัวหารรวมผู้ไม่ทราบสิทธิและแสดงเป็นแถวแยก; การถือครองสิทธิไม่ระบุผู้จ่ายจริง"
+    },
+    "scheme_SSS": {
+      "domain": "profile_scheme",
+      "label": "ประกันสังคม",
+      "positive": "SSS",
+      "note": "ตัวหารรวมผู้ไม่ทราบสิทธิและแสดงเป็นแถวแยก; การถือครองสิทธิไม่ระบุผู้จ่ายจริง"
+    },
+    "scheme_CSMBS": {
+      "domain": "profile_scheme",
+      "label": "สวัสดิการข้าราชการ",
+      "positive": "CSMBS",
+      "note": "ตัวหารรวมผู้ไม่ทราบสิทธิและแสดงเป็นแถวแยก; การถือครองสิทธิไม่ระบุผู้จ่ายจริง"
+    },
+    "scheme_other_public": {
+      "domain": "profile_scheme",
+      "label": "สิทธิรัฐอื่น",
+      "positive": "other public",
+      "note": "ตัวหารรวมผู้ไม่ทราบสิทธิและแสดงเป็นแถวแยก; การถือครองสิทธิไม่ระบุผู้จ่ายจริง"
+    },
+    "scheme_unknown": {
+      "domain": "profile_scheme",
+      "label": "ไม่ทราบสิทธิหลัก",
+      "positive": "unknown",
+      "note": "ตัวหารรวมผู้ไม่ทราบสิทธิและแสดงเป็นแถวแยก; การถือครองสิทธิไม่ระบุผู้จ่ายจริง"
+    },
+    "private_insurance": {
+      "domain": "profile_scheme",
+      "label": "มีประกันสุขภาพเอกชน",
+      "positive": "yes",
+      "note": "สิทธิเสริมอาจซ้อนกับสิทธิหลัก จึงไม่รวมกับสัดส่วนสิทธิหลักเป็น100%"
+    },
+    "health_good": {
+      "domain": "health",
+      "label": "สุขภาพร่างกายดีขึ้นไป",
+      "positive": "good or better",
+      "note": "",
+      "variable": "health_good3"
+    },
+    "health_top2": {
+      "domain": "health",
+      "label": "สุขภาพร่างกายดีมาก/ดีเยี่ยม",
+      "positive": "very good/excellent",
+      "note": "",
+      "variable": "health_top2"
+    },
+    "mental_good": {
+      "domain": "health",
+      "label": "สุขภาพจิตดีขึ้นไป",
+      "positive": "good or better",
+      "note": "",
+      "variable": "mental_good3"
+    },
+    "chronic": {
+      "domain": "health",
+      "label": "ภาวะเจ็บป่วยเรื้อรังตั้งแต่หกเดือน",
+      "positive": "yes",
+      "note": "",
+      "variable": "chronic"
+    },
+    "activation": {
+      "domain": "health",
+      "label": "มั่นใจดูแลสุขภาพเชิงรุกทั้งสองข้อ",
+      "positive": "high",
+      "note": "",
+      "variable": "activation"
+    },
+    "activation_strict": {
+      "domain": "health",
+      "label": "มั่นใจมากทั้งสองข้อ",
+      "positive": "high",
+      "note": "",
+      "variable": "activation_strict"
+    },
+    "admission": {
+      "domain": "use",
+      "label": "นอนโรงพยาบาลใน 12 เดือน",
+      "positive": "yes",
+      "note": "",
+      "variable": "admit"
+    },
+    "unmet": {
+      "domain": "use",
+      "label": "มีความจำเป็นแต่ไม่ได้รับบริการ",
+      "positive": "yes",
+      "note": "ในช่วง 12 เดือนที่ผ่านมา",
+      "variable": "unmet"
+    },
+    "homevisit": {
+      "domain": "use",
+      "label": "ได้รับการเยี่ยมบ้านใน 12 เดือน",
+      "positive": "yes",
+      "note": "",
+      "variable": "homevisit_any"
+    },
+    "telemedicine": {
+      "domain": "use",
+      "label": "ใช้บริการทางไกลใน 12 เดือน",
+      "positive": "yes",
+      "note": "",
+      "variable": "telemed_any"
+    },
+    "borrowed": {
+      "domain": "use",
+      "label": "เคยกู้ยืม/ขายทรัพย์สินเพื่อรักษา",
+      "positive": "yes",
+      "note": "ในช่วง 12 เดือนที่ผ่านมา",
+      "variable": "borrowed_ever"
+    },
+    "good_care": {
+      "domain": "confidence",
+      "label": "มั่นใจว่าจะได้รับบริการคุณภาพ",
+      "positive": "confident",
+      "note": "ความมั่นใจหากเจ็บป่วยรุนแรง ไม่ใช่ผลลัพธ์บริการหรือการจ่ายจริง",
+      "variable": "conf_get"
+    },
+    "afford": {
+      "domain": "confidence",
+      "label": "มั่นใจว่าจะจ่ายไหว",
+      "positive": "confident",
+      "note": "ความมั่นใจหากเจ็บป่วยรุนแรง ไม่ใช่ผลลัพธ์บริการหรือการจ่ายจริง",
+      "variable": "conf_afford"
+    },
+    "security": {
+      "domain": "confidence",
+      "label": "มั่นใจทั้งคุณภาพและจ่ายไหว",
+      "positive": "confident",
+      "note": "ความมั่นใจหากเจ็บป่วยรุนแรง ไม่ใช่ผลลัพธ์บริการหรือการจ่ายจริง",
+      "variable": "health_security"
+    },
+    "improved": {
+      "domain": "system_ratings",
+      "label": "ระบบดีขึ้นในสองปี",
+      "positive": "improved",
+      "note": "",
+      "variable": "sys_improved_bin"
+    },
+    "works_well": {
+      "domain": "system_ratings",
+      "label": "ระบบทำงานดี/ปรับเพียงเล็กน้อย",
+      "positive": "works well",
+      "note": "",
+      "variable": "sys_endorse_bin"
+    },
+    "public_quality": {
+      "domain": "system_ratings",
+      "label": "คุณภาพระบบรัฐดีมาก/ดีเยี่ยม",
+      "positive": "very good/excellent",
+      "note": "",
+      "variable": "q_public_top2"
+    },
+    "private_quality": {
+      "domain": "system_ratings",
+      "label": "คุณภาพระบบเอกชนดีมาก/ดีเยี่ยม",
+      "positive": "very good/excellent",
+      "note": "",
+      "variable": "q_private_top2"
+    },
+    "listens": {
+      "domain": "system_ratings",
+      "label": "มั่นใจว่ารัฐบาลรับฟังประชาชน",
+      "positive": "confident",
+      "note": "",
+      "variable": "conf_voice"
+    },
+    "covid": {
+      "domain": "system_ratings",
+      "label": "การจัดการโควิด-19 ดีมาก/ดีเยี่ยม",
+      "positive": "very good/excellent",
+      "note": "",
+      "variable": "q_covid_top2"
+    },
+    "own_quality": {
+      "domain": "own_provider",
+      "label": "หน่วยบริการประจำดีมาก/ดีเยี่ยม",
+      "positive": "very good/excellent",
+      "note": "",
+      "variable": "usual_qual_top2"
+    },
+    "bp": {
+      "domain": "prevention",
+      "label": "วัดความดันโลหิต",
+      "positive": "yes",
+      "note": "รายงานว่าได้รับในช่วง 12 เดือนที่ผ่านมา ไม่ระบุสถานพยาบาล; breast/cervicalจำกัดเพศหญิง ไม่ใช่coverageตามเกณฑ์คัดกรอง",
+      "variable": "bp_r"
+    },
+    "sugar": {
+      "domain": "prevention",
+      "label": "ตรวจน้ำตาลในเลือด",
+      "positive": "yes",
+      "note": "รายงานว่าได้รับในช่วง 12 เดือนที่ผ่านมา ไม่ระบุสถานพยาบาล; breast/cervicalจำกัดเพศหญิง ไม่ใช่coverageตามเกณฑ์คัดกรอง",
+      "variable": "sugar_r"
+    },
+    "lipid": {
+      "domain": "prevention",
+      "label": "ตรวจไขมันในเลือด",
+      "positive": "yes",
+      "note": "รายงานว่าได้รับในช่วง 12 เดือนที่ผ่านมา ไม่ระบุสถานพยาบาล; breast/cervicalจำกัดเพศหญิง ไม่ใช่coverageตามเกณฑ์คัดกรอง",
+      "variable": "lipid_r"
+    },
+    "dental": {
+      "domain": "prevention",
+      "label": "ตรวจสุขภาพช่องปาก",
+      "positive": "yes",
+      "note": "รายงานว่าได้รับในช่วง 12 เดือนที่ผ่านมา ไม่ระบุสถานพยาบาล; breast/cervicalจำกัดเพศหญิง ไม่ใช่coverageตามเกณฑ์คัดกรอง",
+      "variable": "dental_r"
+    },
+    "vision": {
+      "domain": "prevention",
+      "label": "ตรวจการมองเห็น",
+      "positive": "yes",
+      "note": "รายงานว่าได้รับในช่วง 12 เดือนที่ผ่านมา ไม่ระบุสถานพยาบาล; breast/cervicalจำกัดเพศหญิง ไม่ใช่coverageตามเกณฑ์คัดกรอง",
+      "variable": "vision_r"
+    },
+    "mental_service": {
+      "domain": "prevention",
+      "label": "รับบริการสุขภาพจิต",
+      "positive": "yes",
+      "note": "รายงานว่าได้รับในช่วง 12 เดือนที่ผ่านมา ไม่ระบุสถานพยาบาล; breast/cervicalจำกัดเพศหญิง ไม่ใช่coverageตามเกณฑ์คัดกรอง",
+      "variable": "mental_r"
+    },
+    "breast": {
+      "domain": "prevention",
+      "label": "ตรวจเต้านม/แมมโมแกรม (เพศหญิง)",
+      "positive": "yes",
+      "note": "รายงานว่าได้รับในช่วง 12 เดือนที่ผ่านมา ไม่ระบุสถานพยาบาล; breast/cervicalจำกัดเพศหญิง ไม่ใช่coverageตามเกณฑ์คัดกรอง",
+      "variable": "mammogram_r"
+    },
+    "cervical": {
+      "domain": "prevention",
+      "label": "ตรวจมะเร็งปากมดลูก (เพศหญิง)",
+      "positive": "yes",
+      "note": "รายงานว่าได้รับในช่วง 12 เดือนที่ผ่านมา ไม่ระบุสถานพยาบาล; breast/cervicalจำกัดเพศหญิง ไม่ใช่coverageตามเกณฑ์คัดกรอง",
+      "variable": "ca_cervix_r"
+    },
+    "maternal": {
+      "domain": "system_ratings",
+      "label": "บริการมารดา/หญิงตั้งครรภ์ดีมาก/ดีเยี่ยม",
+      "positive": "True",
+      "note": "Q40: map exact Thai labels0–4; ดีมาก/ดีเยี่ยม>=3; excludeไม่สามารถประเมินได้ from denominator. Corrects numeric-prefix mapping mismatch in frozen September exports.",
+      "variable": "eval_maternal",
+      "rating_map": {
+        "แย่": 0,
+        "พอใช้": 1,
+        "ดี": 2,
+        "ดีมาก": 3,
+        "ดีเยี่ยม": 4
+      }
+    },
+    "child": {
+      "domain": "system_ratings",
+      "label": "บริการเด็กดีมาก/ดีเยี่ยม",
+      "positive": "True",
+      "note": "Q40: map exact Thai labels0–4; ดีมาก/ดีเยี่ยม>=3; excludeไม่สามารถประเมินได้ from denominator. Corrects numeric-prefix mapping mismatch in frozen September exports.",
+      "variable": "eval_ped",
+      "rating_map": {
+        "แย่": 0,
+        "พอใช้": 1,
+        "ดี": 2,
+        "ดีมาก": 3,
+        "ดีเยี่ยม": 4
+      }
+    },
+    "chronic_care": {
+      "domain": "system_ratings",
+      "label": "บริการโรคเรื้อรังดีมาก/ดีเยี่ยม",
+      "positive": "True",
+      "note": "Q40: map exact Thai labels0–4; ดีมาก/ดีเยี่ยม>=3; excludeไม่สามารถประเมินได้ from denominator. Corrects numeric-prefix mapping mismatch in frozen September exports.",
+      "variable": "eval_chronic",
+      "rating_map": {
+        "แย่": 0,
+        "พอใช้": 1,
+        "ดี": 2,
+        "ดีมาก": 3,
+        "ดีเยี่ยม": 4
+      }
+    },
+    "mental_care": {
+      "domain": "system_ratings",
+      "label": "บริการสุขภาพจิตดีมาก/ดีเยี่ยม",
+      "positive": "True",
+      "note": "Q40: map exact Thai labels0–4; ดีมาก/ดีเยี่ยม>=3; excludeไม่สามารถประเมินได้ from denominator. Corrects numeric-prefix mapping mismatch in frozen September exports.",
+      "variable": "eval_mental",
+      "rating_map": {
+        "แย่": 0,
+        "พอใช้": 1,
+        "ดี": 2,
+        "ดีมาก": 3,
+        "ดีเยี่ยม": 4
+      }
+    },
+    "usual_public_primary": {
+      "domain": "usual_source",
+      "label": "ปฐมภูมิภาครัฐ",
+      "positive": "public primary care",
+      "note": "ตัวหารผู้ตอบทั้งหมด; หกกลุ่มไม่ซ้ำกันและรวมครบ2,017คน"
+    },
+    "usual_public_hospital": {
+      "domain": "usual_source",
+      "label": "โรงพยาบาลรัฐ",
+      "positive": "public hospital OPD/ER",
+      "note": "ตัวหารผู้ตอบทั้งหมด; หกกลุ่มไม่ซ้ำกันและรวมครบ2,017คน"
+    },
+    "usual_private_clinic": {
+      "domain": "usual_source",
+      "label": "คลินิกหรือร้านยาเอกชน",
+      "positive": "private clinic/pharmacy",
+      "note": "ตัวหารผู้ตอบทั้งหมด; หกกลุ่มไม่ซ้ำกันและรวมครบ2,017คน"
+    },
+    "usual_private_hospital": {
+      "domain": "usual_source",
+      "label": "โรงพยาบาลเอกชน",
+      "positive": "private hospital OPD/ER",
+      "note": "ตัวหารผู้ตอบทั้งหมด; หกกลุ่มไม่ซ้ำกันและรวมครบ2,017คน"
+    },
+    "usual_none": {
+      "domain": "usual_source",
+      "label": "ไม่มีหน่วยบริการประจำ",
+      "positive": "none",
+      "note": "ตัวหารผู้ตอบทั้งหมด; หกกลุ่มไม่ซ้ำกันและรวมครบ2,017คน"
+    },
+    "usual_other": {
+      "domain": "usual_source",
+      "label": "ประเภทอื่น/จำแนกสี่กลุ่มไม่ได้",
+      "positive": "other",
+      "note": "ตัวหารผู้ตอบทั้งหมด; หกกลุ่มไม่ซ้ำกันและรวมครบ2,017คน"
+    },
+    "has_usual": {
+      "domain": "usual_coverage",
+      "label": "มีหน่วยบริการประจำ",
+      "positive": "yes",
+      "note": ""
+    },
+    "sector_public": {
+      "domain": "usual_sector",
+      "label": "ภาครัฐ",
+      "positive": "True",
+      "note": "ตัวหารผู้ตอบทั้งหมด; publicรวมผู้ระบุสถานที่อื่น3คน จึงต่างจากผลรวมสองกลุ่มรัฐที่จำแนกสถานที่ได้"
+    },
+    "sector_private": {
+      "domain": "usual_sector",
+      "label": "ภาคเอกชน",
+      "positive": "True",
+      "note": "ตัวหารผู้ตอบทั้งหมด; publicรวมผู้ระบุสถานที่อื่น3คน จึงต่างจากผลรวมสองกลุ่มรัฐที่จำแนกสถานที่ได้"
+    },
+    "setting_nonhospital": {
+      "domain": "usual_setting",
+      "label": "หน่วยบริการนอกโรงพยาบาล",
+      "positive": "True",
+      "note": "ตัวหารผู้ตอบทั้งหมด; แบบสอบถามไม่ยืนยันระดับทุติยภูมิ/ตติยภูมิ จึงใช้ประเภทสถานที่"
+    },
+    "setting_hospital": {
+      "domain": "usual_setting",
+      "label": "ผู้ป่วยนอก/ฉุกเฉินโรงพยาบาล",
+      "positive": "True",
+      "note": "ตัวหารผู้ตอบทั้งหมด; แบบสอบถามไม่ยืนยันระดับทุติยภูมิ/ตติยภูมิ จึงใช้ประเภทสถานที่"
+    }
+  },
+  "recall_confirmation": "content/questionnaire/recall-confirmation.json; Q27/Q29/Q31: past 12 months, researcher confirmed original questionnaire on 2026-10-01",
+  "q40_correction": "Frozen September Q40 columns expected numeric prefixes although cleaned response labels are Thai text. New summaries map five exact labels and exclude cannot-evaluate. Frozen source tables remain unchanged.",
+  "no_new_models": "Restored national association questions use current descriptive comparisons. Superseded adjusted estimates are not recycled; existing September four-group models remain separate."
+}

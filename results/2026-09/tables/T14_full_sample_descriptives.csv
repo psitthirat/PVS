@@ -1,0 +1,42 @@
+﻿Measure,municipal,non-municipal,p,Denominator
+Female,372/690 (53.9; 50.2-57.6),719/1312 (54.8; 52.1-57.5),0.698,all in group
+Sex: other,14/690 (2.0; 1.2-3.4),33/1312 (2.5; 1.8-3.5),0.698,all in group
+"Age band (Q4, complete)",,,0.002,see rows below
+    18-29,142/697 (20.4),217/1320 (16.4),,
+    30-39,125/697 (17.9),247/1320 (18.7),,
+    40-49,126/697 (18.1),252/1320 (19.1),,
+    50-59,124/697 (17.8),260/1320 (19.7),,
+    60-69,132/697 (18.9),192/1320 (14.5),,
+    70-79,36/697 (5.2),115/1320 (8.7),,
+    80+,12/697 (1.7),37/1320 (2.8),,
+"Type of area (Q2, 4 categories)",,,<0.001,see rows below
+    city municipality / Bangkok / Pattaya,206/697 (29.6),0/1320 (0.0),,
+    outside municipality,0/697 (0.0),1320/1320 (100.0),,
+    subdistrict municipality,268/697 (38.5),0/1320 (0.0),,
+    town municipality,223/697 (32.0),0/1320 (0.0),,
+"Education (Q8, 6 levels)",,,<0.001,see rows below
+    below primary,28/697 (4.0),81/1320 (6.1),,
+    primary,92/697 (13.2),250/1320 (18.9),,
+    lower secondary,67/697 (9.6),183/1320 (13.9),,
+    upper secondary/voc,155/697 (22.2),315/1320 (23.9),,
+    diploma/high voc,99/697 (14.2),189/1320 (14.3),,
+    bachelor or above,256/697 (36.7),302/1320 (22.9),,
+Household income (Q51),,,0.008,see rows below
+    <10k,119/697 (17.1),225/1320 (17.0),,
+    10-30k,355/697 (50.9),766/1320 (58.0),,
+    30-60k,178/697 (25.5),271/1320 (20.5),,
+    60-100k,35/697 (5.0),49/1320 (3.7),,
+    100k+,10/697 (1.4),9/1320 (0.7),,
+Main public scheme (Q6),,,0.112,see rows below
+    CSMBS,68/690 (9.9),137/1307 (10.5),,
+    SSS,185/690 (26.8),289/1307 (22.1),,
+    UCS,437/690 (63.3),880/1307 (67.3),,
+    other public,0/690 (0.0),1/1307 (0.1),,
+Owns private health insurance (Q7.1),139/697 (19.9; 17.1-23.1),165/1320 (12.5; 10.8-14.4),<0.001,all in group
+Self-rated health good or better (CORRECTED),523/697 (75.0; 71.7-78.1),1066/1320 (80.8; 78.5-82.8),0.003,all in group
+Self-rated health very good/excellent,238/697 (34.1; 30.7-37.7),409/1320 (31.0; 28.5-33.5),0.163,all in group
+Self-rated mental health good or better,604/697 (86.7; 83.9-89.0),1184/1320 (89.7; 87.9-91.2),0.049,all in group
+Chronic condition >= 6 months,247/697 (35.4; 32.0-39.1),405/1320 (30.7; 28.3-33.2),0.034,all in group
+High patient activation (both Q12 items),516/697 (74.0; 70.7-77.1),1047/1320 (79.3; 77.0-81.4),0.008,all in group
+"Activation, strict rule (very confident on both)",137/697 (19.7; 16.9-22.8),246/1320 (18.6; 16.6-20.8),0.620,all in group
+Has a usual source of care,544/697 (78.0; 74.8-81.0),985/1320 (74.6; 72.2-76.9),0.098,all in group

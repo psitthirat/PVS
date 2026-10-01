@@ -1,0 +1,9 @@
+﻿Quota dimension,Category,Planned %,Achieved n,Achieved %,Deviation (pp)
+Sex (planned 1:1),Male,50.0,864,42.8,-7.2
+Sex (planned 1:1),Female,50.0,1091,54.1,4.1
+Sex (planned 1:1),Other sex,,47,2.3,
+Sex (planned 1:1),Refused to state sex,,15,0.7,
+Age (planned 3:1),18-59 (plan says 15-59),75.0,1493,74.0,-1.0
+Age (planned 3:1),60+,25.0,524,26.0,1.0
+"Municipality (planned 686:1,314)",Municipal,34.3,697,34.6,0.3
+"Municipality (planned 686:1,314)",Non-municipal,65.7,1320,65.4,-0.3

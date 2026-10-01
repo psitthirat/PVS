@@ -1,0 +1,20 @@
+Natural Earth: public-domain map data
+
+Applies to: world-countries.geojson
+Source: Natural Earth 1:110m administrative country boundaries
+https://github.com/nvkelso/natural-earth-vector/blob/master/geojson/ne_110m_admin_0_countries.geojson
+
+Natural Earth's published terms place its raster and vector map datasets in
+the public domain and permit modification, electronic distribution, and print
+use. Attribution is not required; this project voluntarily credits the source
+on exported map graphics. This note describes the status of the source data,
+not ownership of the report or graphic design.
+
+Canonical terms, checked 2026-09-30:
+https://www.naturalearthdata.com/about/terms-of-use/
+
+Voluntary credit: Made with Natural Earth.
+
+The geometry has been rounded and two invalid polygons repaired; details and
+checksums are recorded in metadata.json. Country boundaries are illustrative
+and do not express a legal position on sovereignty.

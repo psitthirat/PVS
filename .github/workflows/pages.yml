@@ -1,0 +1,41 @@
+name: Publish PVS dashboard
+
+# Publication is deliberate: preparing or committing files does not deploy.
+on:
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+concurrency:
+  group: github-pages
+  cancel-in-progress: false
+
+jobs:
+  package:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v6
+      - name: Verify prepared public files
+        run: |
+          python3 tools/verify_release.py
+          python3 tools/verify_comparisons.py
+          python3 tools/verify_story.py
+          python3 tools/verify_public_files.py
+      - uses: actions/configure-pages@v5
+      - uses: actions/upload-pages-artifact@v4
+        with:
+          path: site
+  deploy:
+    needs: package
+    runs-on: ubuntu-latest
+    permissions:
+      pages: write
+      id-token: write
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    steps:
+      - name: Deploy prepared dashboard
+        id: deployment
+        uses: actions/deploy-pages@v4

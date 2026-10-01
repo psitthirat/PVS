@@ -1,0 +1,10 @@
+﻿Characteristic,Compared with,Adjusted odds ratio,95% CI low,95% CI high,p,Predicted rate if yes %,Predicted rate if reference %,Difference (pp),p (BH)
+Under 50,vs 50 and over,0.73,0.43,1.25,0.2523,6.0,7.7,-1.7,0.3784
+Municipal (urban),vs non-municipal,1.69,0.93,3.07,0.0877,8.2,5.3,2.9,0.16
+Civil servant,vs Universal Coverage,0.6,0.21,1.73,0.347,1.8,2.9,-1.1,0.3903
+Social Security,vs Universal Coverage,6.95,3.86,12.51,0.0,16.2,2.9,13.3,0.0
+Income 10k-30k,vs under 10k,2.97,0.85,10.44,0.0889,5.5,2.0,3.4,0.16
+Income 30k and over,vs under 10k,5.54,1.53,20.14,0.0093,9.2,2.0,7.1,0.0279
+Upper secondary +,vs lower secondary or less,1.51,0.67,3.45,0.3228,6.8,4.8,2.0,0.3903
+Female,vs male,0.83,0.53,1.31,0.4212,6.0,7.0,-1.0,0.4212
+Owns private insurance,vs none,1.94,1.19,3.16,0.0075,9.7,5.6,4.0,0.0279

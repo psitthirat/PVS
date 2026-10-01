@@ -1,0 +1,13 @@
+﻿Step,n
+Respondents in the cleaned export,2017
+  consented,2017
+No usual source of care (Q13 = no),488
+Has a usual source of care (Q13 = yes),1529
+  excluded: non-profit provider,6
+"  excluded: sector ""other""",2
+"  excluded: setting ""other""",3
+Four-group analysis cohort,1518
+  public primary care,634
+  public hospital OPD/ER,615
+  private clinic/pharmacy,142
+  private hospital OPD/ER,127

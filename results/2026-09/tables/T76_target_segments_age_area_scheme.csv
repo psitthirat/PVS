@@ -1,0 +1,17 @@
+﻿Rank,Segment,Age,Area,Scheme,People (N),Private-hospital users (n),Rate %,Rate 95% CI low,Rate 95% CI high,Share of all users %,Index (100 = average),Small cell (N < 30),Cumulative share of users %,Cumulative share of population %
+1,50 and over + Municipal (urban) + Social Security,50 and over,Municipal (urban),Social Security,52,16,30.8,19.9,44.3,12.6,489,,12.6,2.6
+2,50 and over + Non-municipal (rural) + Other / don't know,50 and over,Non-municipal (rural),Other / don't know,4,1,25.0,4.6,69.9,0.8,397,yes,13.4,2.8
+3,50 and over + Non-municipal (rural) + Social Security,50 and over,Non-municipal (rural),Social Security,47,9,19.1,10.4,32.5,7.1,304,,20.5,5.1
+4,Under 50 + Municipal (urban) + Social Security,Under 50,Municipal (urban),Social Security,133,25,18.8,13.1,26.3,19.7,299,,40.2,11.7
+5,Under 50 + Non-municipal (rural) + Social Security,Under 50,Non-municipal (rural),Social Security,242,38,15.7,11.7,20.8,29.9,249,,70.1,23.7
+6,Under 50 + Municipal (urban) + Civil servant,Under 50,Municipal (urban),Civil servant,33,4,12.1,4.8,27.3,3.1,193,,73.2,25.3
+7,50 and over + Municipal (urban) + Universal Coverage,50 and over,Municipal (urban),Universal Coverage,214,9,4.2,2.2,7.8,7.1,67,,80.3,35.9
+8,Under 50 + Municipal (urban) + Universal Coverage,Under 50,Municipal (urban),Universal Coverage,223,8,3.6,1.8,6.9,6.3,57,,86.6,47.0
+9,50 and over + Municipal (urban) + Civil servant,50 and over,Municipal (urban),Civil servant,35,1,2.9,0.5,14.5,0.8,45,,87.4,48.7
+10,50 and over + Non-municipal (rural) + Universal Coverage,50 and over,Non-municipal (rural),Universal Coverage,482,9,1.9,1.0,3.5,7.1,30,,94.5,72.6
+11,Under 50 + Non-municipal (rural) + Universal Coverage,Under 50,Non-municipal (rural),Universal Coverage,398,7,1.8,0.9,3.6,5.5,28,,100.0,92.4
+12,Under 50 + Non-municipal (rural) + Civil servant,Under 50,Non-municipal (rural),Civil servant,66,0,0.0,0.0,5.5,0.0,0,,100.0,95.6
+13,50 and over + Non-municipal (rural) + Civil servant,50 and over,Non-municipal (rural),Civil servant,71,0,0.0,0.0,5.1,0.0,0,,100.0,99.2
+14,Under 50 + Non-municipal (rural) + Other / don't know,Under 50,Non-municipal (rural),Other / don't know,10,0,0.0,0.0,27.8,0.0,0,yes,100.0,99.7
+15,Under 50 + Municipal (urban) + Other / don't know,Under 50,Municipal (urban),Other / don't know,4,0,0.0,0.0,49.0,0.0,0,yes,100.0,99.9
+16,50 and over + Municipal (urban) + Other / don't know,50 and over,Municipal (urban),Other / don't know,3,0,0.0,0.0,56.1,0.0,0,yes,100.0,100.0

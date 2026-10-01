@@ -1,0 +1,80 @@
+<!doctype html>
+<html lang="th" data-theme="dark">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#101116">
+  <meta name="description" content="ผลการศึกษา People’s Voice Survey ประเทศไทย: การใช้บริการ ประสบการณ์ ความเชื่อมั่น และมุมมองต่อระบบสุขภาพ ในบริบทระหว่างประเทศ">
+  <title>เสียงประชาชนต่อระบบสุขภาพไทย — People’s Voice Survey</title>
+  <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Crect width='64' height='64' rx='16' fill='%23b43d4c'/%3E%3Cpath d='M19 46V18h12a10 10 0 010 20H19' fill='none' stroke='%23fff' stroke-width='6'/%3E%3C/svg%3E">
+  <script>try{document.documentElement.dataset.theme=localStorage.getItem('pvs-theme')||(matchMedia('(prefers-color-scheme: dark)').matches?'dark':'light')}catch(e){document.documentElement.dataset.theme=matchMedia('(prefers-color-scheme: dark)').matches?'dark':'light'}</script>
+  <link rel="preload" href="assets/fonts/Prompt-Regular.ttf" as="font" type="font/ttf" crossorigin>
+  <link rel="preload" href="assets/fonts/Prompt-Medium.ttf" as="font" type="font/ttf" crossorigin>
+  <link rel="stylesheet" href="styles.css?v=2e04a96e0a7a1f78">
+  <script defer src="assets/story-data.js?v=c312d2612628f681"></script>
+  <script defer src="app.js?v=b1078cda5598b327"></script>
+</head>
+<body data-mode="story">
+  <a class="skip-link" href="#main">ข้ามไปยังเนื้อหา</a>
+  <div class="reading-progress" aria-hidden="true"><span id="reading-progress"></span></div>
+  <header class="topbar">
+    <a class="brand" href="#top" aria-label="PVS เสียงประชาชน กลับสู่หน้าแรก">PVS<span class="brand-dot" aria-hidden="true"></span></a>
+    <div class="topbar-location"><span id="current-chapter">ระบบสุขภาพไทย</span><span id="chapter-position"></span></div>
+    <nav class="view-switch" aria-label="รูปแบบการอ่าน">
+      <button type="button" data-mode="story" aria-pressed="true">อ่านเนื้อหา</button>
+      <button type="button" data-mode="present" aria-pressed="false">นำเสนอ</button>
+      <button type="button" data-mode="explore" aria-pressed="false">สำรวจข้อมูล</button>
+    </nav>
+    <div class="topbar-tools"><button class="theme-button" id="theme-toggle" type="button" aria-label="เปลี่ยนเป็นโหมดสว่าง"><span class="theme-symbol" aria-hidden="true">☀</span><span class="theme-label">โหมดสว่าง</span></button><button class="contents-button" id="open-contents" type="button" aria-label="สารบัญและวิธีอ่าน" title="สารบัญและวิธีอ่าน"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M5 6h14M5 12h14M5 18h14"/></svg></button></div>
+  </header>
+  <main id="main" tabindex="-1">
+    <div id="story-view">
+      <section class="hero content-width" id="top" aria-labelledby="story-title">
+        <div class="hero-copy">
+        <p class="eyebrow">PEOPLE’S VOICE SURVEY / ประเทศไทย</p>
+        <h1 id="story-title">เสียงประชาชน<br>ต่อระบบสุขภาพไทย</h1>
+        <p class="hero-subtitle" id="story-subtitle">การเข้าถึง ประสบการณ์ และความเชื่อมั่น ผ่านมุมมองของประชาชน</p>
+        <p class="hero-description" id="story-description">ผลการศึกษาภาพรวมของกลุ่มตัวอย่างไทย บริบทจากนานาประเทศ และความแตกต่างระหว่างผู้ใช้บริการ</p>
+        <div class="hero-actions"><a class="text-button story-start" href="#chapters">อ่านผลการศึกษา <span aria-hidden="true">↓</span></a><a class="text-button report-link" href="#report-download">ขอรับรายงาน <span aria-hidden="true">↗</span></a></div>
+        <p class="hero-footnote">ผู้ตอบ 2,017 คน · 13 จังหวัด · ผลการศึกษาไม่ถ่วงน้ำหนัก</p>
+        </div>
+        <figure class="voice-graphic" aria-labelledby="voice-caption">
+          <div class="voice-topline"><span>2,017 เสียงจากการสำรวจ</span><span aria-hidden="true">TH / PVS</span></div>
+          <div id="opening-controls" class="opening-controls" role="group" aria-label="เลือกประเด็นในกลุ่มตัวอย่าง"></div>
+          <svg id="voice-field" viewBox="0 0 450 450" role="img" aria-labelledby="voice-svg-title"><title id="voice-svg-title">สัดส่วนผู้ตอบแบบสำรวจ</title></svg>
+          <figcaption id="voice-caption"><div class="voice-stat" aria-live="polite" aria-atomic="true"><span id="voice-value"></span><div><p id="voice-label"></p><p id="voice-count"></p></div></div><p class="voice-key"><span aria-hidden="true"></span>หนึ่งจุดแทนผู้ตอบหนึ่งคน จัดวางเพื่อแสดงสัดส่วน</p></figcaption>
+        </figure>
+      </section>
+      <nav id="part-links" class="part-links content-width" aria-label="ผลการศึกษาสองภาค"></nav>
+      <div class="story-overview content-width"><p>ผลการศึกษา</p><span id="story-chapter-count"></span><button class="text-button" type="button" data-contents>เลือกประเด็นที่สนใจ <span aria-hidden="true">↗</span></button></div>
+      <nav class="chapter-nav" id="chapter-nav" aria-label="บทของเรื่องเล่า"></nav>
+      <div id="chapters" class="chapters"></div>
+      <section class="story-end content-width" aria-labelledby="continue-title"><div><p class="eyebrow">อ่านรายละเอียดต่อ</p><h2 id="continue-title">จากข้อค้นพบ<br>กลับไปดูหลักฐาน</h2></div><div><p>เปิดดูกราฟพร้อมข้อมูลสรุป หรือขอรับรายงานผลการศึกษาทางอีเมล</p><div class="action-row"><button class="button button-primary" type="button" data-mode="explore">สำรวจข้อมูล <span aria-hidden="true">↗</span></button><a class="text-button report-link" href="#report-download">ขอรับรายงานฉบับเต็ม <span aria-hidden="true">↗</span></a></div></div></section>
+    </div>
+    <section id="present-view" class="presentation" aria-label="นำเสนอผลการศึกษา" hidden>
+      <div class="presentation-top"><span class="eyebrow">ผลการศึกษา / PEOPLE’S VOICE SURVEY</span><span id="presentation-count"></span><button class="text-button" id="fullscreen-button" type="button">แสดงเต็มจอ <span aria-hidden="true">⤢</span></button></div>
+      <nav id="presentation-parts" class="presentation-parts" aria-label="เลือกภาคนำเสนอ"></nav>
+      <div id="presentation-content"></div>
+      <nav class="presentation-controls" aria-label="เปลี่ยนบทนำเสนอ"><p id="presentation-label"></p><button class="circle-button" id="previous-slide" type="button" aria-label="บทก่อนหน้า">‹</button><button class="circle-button" id="next-slide" type="button" aria-label="บทถัดไป">›</button></nav>
+      <p class="presentation-tip">← → เปลี่ยนประเด็น · Esc ออกจากเต็มจอ</p>
+    </section>
+    <section id="explore-view" class="explore" aria-labelledby="explore-title" hidden>
+      <div class="explore-intro"><div class="content-width"><div><p class="eyebrow">สำรวจผลการศึกษา</p><h1 id="explore-title" tabindex="-1">ข้อมูลเบื้องหลังเรื่องเล่า</h1><p>เลือกตัวชี้วัด อ่านคำอธิบาย และดาวน์โหลดภาพหรือข้อมูลสรุป</p></div><div id="bundle-action"></div></div></div>
+      <div class="content-width explore-workspace"><div class="explore-selector"><label for="explore-chart-select">เลือกกราฟหรือแผนที่</label><select id="explore-chart-select"></select><button class="text-button" id="explore-story-link" type="button">อ่านเรื่องที่เกี่ยวข้อง <span aria-hidden="true">↗</span></button></div><div id="explore-focus"></div></div>
+      <div class="content-width gallery-section"><div class="gallery-section-title"><div><p class="eyebrow">ภาพทั้งหมด</p><h2>เลือกประเด็นที่ต้องการสำรวจ</h2></div><p class="file-guide"><span><b>PNG</b> สไลด์ / เอกสาร</span><span><b>SVG</b> ภาพคมชัด</span><span><b>CSV</b> ข้อมูลสรุป</span></p></div>
+        <div class="gallery-toolbar"><div class="chart-filters" role="group" aria-label="เลือกประเภทภาพ"><button type="button" data-filter="all" aria-pressed="true">ทั้งหมด</button><button type="button" data-filter="national" aria-pressed="false">ภาพรวมไทย</button><button type="button" data-filter="international" aria-pressed="false">นานาประเทศ</button><button type="button" data-filter="subgroup" aria-pressed="false">กลุ่มผู้ใช้บริการ</button><button type="button" data-filter="map" aria-pressed="false">แผนที่</button></div><label class="search-field"><span class="visually-hidden">ค้นหากราฟ</span><svg viewBox="0 0 24 24" aria-hidden="true"><circle cx="10.5" cy="10.5" r="6.5"/><path d="m16 16 4.5 4.5"/></svg><input id="chart-search" type="search" placeholder="ค้นหาตัวชี้วัดหรือประเด็น" autocomplete="off"></label></div>
+        <p id="gallery-count" class="gallery-count" role="status" aria-live="polite"></p><div id="chart-gallery" class="chart-gallery"></div><p id="gallery-empty" class="empty-message" hidden>ไม่พบภาพที่ตรงกับการค้นหา ลองใช้คำอื่นหรือเลือก “ทั้งหมด”</p>
+        <aside class="reuse-note"><span class="note-symbol" aria-hidden="true">i</span><div><h2>การนำภาพไปใช้</h2><p>ไฟล์ภาพสำหรับดาวน์โหลดใช้พื้นหลังสว่าง ไม่มีหัวเรื่องและคำบรรยาย และคงข้อความลิขสิทธิ์ โปรดระบุที่มา ตัวหาร และข้อจำกัดกำกับภาพเมื่อนำไปใช้</p></div></aside>
+      </div>
+    </section>
+    <section id="methodology" class="methodology" aria-labelledby="methodology-title"><div class="content-width methodology-grid"><div><p class="eyebrow">วิธีอ่านผลการศึกษา</p><h2 id="methodology-title">เข้าใจตัวเลข<br>เข้าใจขอบเขต</h2><p class="methodology-lead">วิธีเก็บข้อมูลและนิยามตัวชี้วัดเป็นส่วนหนึ่งของการตีความผลที่พบ</p></div><div id="methodology-content"><p>ความสัมพันธ์ที่พบในกลุ่มตัวอย่างไม่ใช่ข้อสรุปเชิงเหตุและผล</p></div></div></section>
+    <section id="report-download" class="report-section content-width" aria-labelledby="report-title"><div class="report-cover" aria-hidden="true"><span>PEOPLE’S<br>VOICE SURVEY</span><div>เสียงประชาชน<br>ต่อระบบสุขภาพไทย</div><span>THAILAND · ผลการศึกษา</span></div><div class="report-copy"><p class="eyebrow">รายงานผลการศึกษา</p><h2 id="report-title">ขอรับรายงานฉบับเต็ม</h2><p id="report-description">ติดต่อผู้วิเคราะห์ทางอีเมลเพื่อขอรับรายงานผลการศึกษา</p><div id="report-actions"></div></div></section>
+    <section class="references content-width" aria-labelledby="references-title"><details><summary id="references-title">เอกสารอ้างอิงและแหล่งข้อมูล <span aria-hidden="true">+</span></summary><ol id="references-list"></ol></details></section>
+  </main>
+  <footer class="site-footer"><div class="content-width"><div class="footer-top"><a class="brand" href="#top">เสียงประชาชน<span class="brand-dot" aria-hidden="true"></span></a><a class="back-to-top" href="#top">กลับขึ้นด้านบน ↑</a></div><div id="project-credit" class="project-credit"></div><div class="footer-bottom"><p>© 2569 บริษัท วันโอวัน พับลิโก้ จำกัด และคณะแพทยศาสตร์โรงพยาบาลรามาธิบดี มหาวิทยาลัยมหิดล</p><a href="mailto:peerasit.sit@mahidol.ac.th">ติดต่อผู้วิเคราะห์ข้อมูล ↗</a></div></div></footer>
+  <dialog id="contents-dialog" class="contents-dialog" aria-labelledby="contents-title"><div class="dialog-header"><div><p class="eyebrow">PEOPLE’S VOICE SURVEY</p><h2 id="contents-title">ประเด็นในผลการศึกษา</h2></div><button class="circle-button" id="close-contents" type="button" aria-label="ปิดสารบัญ">×</button></div><div id="contents-list"></div><div class="contents-extra"><a class="header-link" href="#methodology">วิธีอ่านและข้อจำกัด ↗</a><a href="#report-download">รายงานฉบับเต็ม ↗</a></div><p class="contents-shortcuts">โหมดนำเสนอ: ← → เปลี่ยนประเด็น · Esc ปิดหน้าต่าง</p></dialog>
+  <dialog id="figure-dialog" class="figure-dialog" aria-labelledby="dialog-title"><div class="dialog-header"><div><p class="eyebrow" id="dialog-label">ผลการศึกษา</p><h2 id="dialog-title"></h2></div><button class="circle-button" id="close-dialog" type="button" aria-label="ปิดภาพขยาย">×</button></div><div id="dialog-content"></div></dialog>
+  <div class="toast" id="toast" role="status" aria-live="polite"></div>
+  <noscript><p class="noscript-note">กรุณาเปิด JavaScript เพื่ออ่านผลการศึกษาและสำรวจข้อมูล หรือ<a href="assets/pvs-thai-charts.zip">ดาวน์โหลดกราฟ</a></p></noscript>
+</body>
+</html>

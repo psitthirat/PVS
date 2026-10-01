@@ -1,0 +1,19 @@
+{
+  "confirmed_on": "2026-10-01",
+  "confirmed_by": "Peerasit Sitthirat (researcher)",
+  "basis": "Researcher inspected the original questionnaire and confirmed the period in conversation.",
+  "items": {
+    "Q27": "past 12 months",
+    "Q29": "past 12 months",
+    "Q31": "past 12 months"
+  },
+  "scope": "All Q27 preventive-service receipt items; Q29 unmet health-care need; Q31 borrowing or sale of assets for care.",
+  "supersedes": "Earlier inference of no stated recall from abbreviated data-export headers. The original questionnaire itself was not independently inspected by the assistant in this check.",
+  "does_not_change": [
+    "counts",
+    "denominators",
+    "model coefficients",
+    "Q28 ever-experienced items"
+  ],
+  "frozen_release": "September artifacts are preserved as a historical release. Their old Q27/Q29/Q31 recall notes are superseded by this clarification."
+}
